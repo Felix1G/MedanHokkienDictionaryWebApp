@@ -68,7 +68,7 @@ class _LoadingPageState extends State<LoadingPage> {
       kEntries.add(parseEntry(bufferString));
     }
 
-    await Future.delayed(const Duration(seconds: 750));
+    await Future.delayed(const Duration(milliseconds: 750));
 
     if (!mounted) return;
 
@@ -96,14 +96,14 @@ class _LoadingPageState extends State<LoadingPage> {
                 value: progress,
                 minHeight: 50.0,
                 borderRadius: BorderRadius.all(Radius.circular(20)),
-                color: null,
-                backgroundColor: null,
+                color: Colors.red,
+                backgroundColor: const Color.fromARGB(255, 76, 18, 14),
               ),
             ),
             SizedBox(height: 50),
             Text(
               'Loading Dictionary: ${(progress * 100).toStringAsFixed(1)}%',
-              style: kUITextStyle.copyWith(color: null, fontWeight: FontWeight.bold)
+              style: kUITextStyle.copyWith(color: Colors.white, fontWeight: FontWeight.bold)
             ),
           ],
         ),
