@@ -184,5 +184,5 @@ Entry? parseEntry(List<String> textLines) {
 }
 
 Future<String> loadDictionary() async {
-  return await rootBundle.loadString('entries/dictionary.txt');
+  return await rootBundle.loadString('assets/entries/dictionary.txt');
 }
