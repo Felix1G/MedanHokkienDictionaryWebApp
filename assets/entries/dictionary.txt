@@ -37,23 +37,19 @@ $noun wheelchair
 =䆀:bái
 $adj (of a person) Ugly, bad
 =一:cēʳ
-$number one (1) (bef. noun/classifier)
+$num one (1) (bef. noun/classifier)
 =一:chi̍t/it
-$number one (1)
+$num one (1)
 =一下:cēʳ-èⁿ
 $advb (to do an action) for a while, quickly
 =一日風兩日雨:cēʳ-ji̍t hong nō͘-ji̍t hō͘
 $idiom (idiom) Today and tomorrow can be different
-=一步擺:cēʳ-pō͘-pái
-$time for once, rarely
-$explain
-伊一步擺来  He rarely comes/For once, he comes
 =一羅匱兩盎:cēʳ-lô kiám nō͘-ón
 $idiom (idiom) (of a person, euphemistically) Insane, stupid, absurd
 =七:chhit
-$number seven (7)
+$num seven (7)
 =七十:chhiap
-$number seventy (70)
+$num seventy (70)
 =七月半:chhit-goe̍h-pòaⁿ
 $time [Event] Hungry Ghost Festival (7th month in the lunar calendar)
 =丈人公:tiò͘-lâng-kong
@@ -69,7 +65,7 @@ $family mother-in-law (wife's mother)
 =丈公:tiò͘-kong
 $family grandparents' sister's husband
 =三:saⁿ
-$number three (3)
+$num three (3)
 =三十暝:saⁿ-cha̍p-mê
 $noun new Year's Eve
 =三層:sam-chân
@@ -128,7 +124,7 @@ $adj obedient, well-behaved (of a child)
 =乖龜:koai-ku
 $adj (of a child) Naughty, mischievous, cheeky
 =九:káu
-$number nine (9)
+$num nine (9)
 =九層粿:káu-teng-koe
 $food kuih lapis, thousand layer cakes
 =也:ià
@@ -167,11 +163,11 @@ $verb to have been bitten by a mosquito(es), to let the mosquito(es) bite one
 =事:sū
 $noun matter, thing, affair
 =二:jī
-$number two (2)
+$num two (2)
 =二十:jiāp
-$number twenty (20)
+$num twenty (20)
 =五:gō
-$number five (5)
+$num five (5)
 =交代:kau-tài
 $verb to ask (someone to do something), to order
 $verb to explain, to brief, to make clear, to tell about
@@ -323,7 +319,7 @@ $adj gentle
 =兄弟:hiaⁿ-tī
 $family brothers
 =兆:tiâu
-$number million
+$num million
 $explain
 三兆 saⁿ tiâo 3000000
 =先:seng
@@ -344,9 +340,9 @@ $noun bra
 =內面:lā-bīn
 $noun inside, interior
 =兩:nō͘
-$number two (2) (bef. noun/classifier)
+$num two (2) (bef. noun/classifier)
 =八:peh
-$number eight (8)
+$num eight (8)
 =八月半:peh-goe̍h-pòaⁿ
 $time [Event] Mooncake Festival (15th day of the 8th month in the lunar calendar)
 =公司:kong-si
@@ -355,7 +351,7 @@ $noun firm
 =公媽:kong-má
 $family ancestors, forefathers, forebears
 =六:la̍k
-$number six (6)
+$num six (6)
 =共:kah
 $conj and
 $conj [indicate relationship]
@@ -498,7 +494,7 @@ $noun headscarf, veil, hijab
 $verb to lack, to be deficient
 $verb to reduce, to decrease, to become less
 =十:cha̍p
-$number ten (10)
+$num ten (10)
 =十一十二:cha̍p-it cha̍p-jī
 $phrase to be equal, to be the exact same
 =十三個月出生:cha̍p-saⁿ ko goe̍h chhut-sî
@@ -506,16 +502,16 @@ $idiom (idiom) (sarcastic) To never want to be defeated, to never want to lose
 =十五暝:cha̍p-gō͘-mêⁿ
 $time [Event] Lantern Festival, cap Go Meh (A festival marking the end of the Chinese New Year period, celebrated on the 15th date of the 1st month in the lunar calendar)
 =十億:eⁿm
-$number billion
+$num billion
 $etyIDN miliar
 $explain
 三十億 saⁿ e͘m 3.000.000.000
 =千:chheng
-$number thousand
+$num thousand
 $explain
 三千 saⁿ chheng 3000
 =半:pòaⁿ
-$number half
+$num half
 =半死:poaⁿ-sí
 $adj extremely difficult, challenging
 $adj brutal
@@ -705,9 +701,9 @@ $adj strict, fierce
 $verb to shout
 $verb to yell
 =四:sì
-$number four (4)
+$num four (4)
 =四十:siap
-$number forty (40)
+$num forty (40)
 =四四角角:sì-sì-kak-kak
 $adj squarish, like a box
 =四散:sì-sòaⁿ
@@ -1072,7 +1068,7 @@ $time year
 =幻夢:hoak-bāng
 $verb to dream
 =幾:kúi
-$number how many
+$num how many
 =幾個月:kúi-ko-goe̍h
 $time how many months?
 =幾日:kúi-ji̍t
@@ -1085,7 +1081,7 @@ $pron how much (is the price)?
 $time which date?
 =幾鐳:kúi-lui
 $pron how much (is the price)?
-$See 幾濟
+$see 幾濟
 $explain
 Primarily used in Penang, rarely in Medan.
 =幾點:kúi-tiám
@@ -2334,11 +2330,11 @@ $food soybean
 =白飯:pe̍ⁿh-pūiⁿ/pe̍ⁿh-pn̄g
 $food white rice
 =百:pah
-$number hundred
+$num hundred
 $explain
 一百 cēr pah
 =百千:pah-chheng
-$number hundred thousand
+$num hundred thousand
 =的:ê
 $conj [indicates possession]
 =皮:phôe
@@ -2486,7 +2482,7 @@ $verb to laugh
 =笑面:chhiò-bīn
 $adj (of a person) Often smiles, likes to smile
 =第:tē
-$number [Affix before numerals to form ordinal numbers]
+$num [Affix before numerals to form ordinal numbers]
 $explain
 第一 first
 第二 second
@@ -2881,7 +2877,7 @@ $food japanese spinach, horenso
 =華語:hôa-ì
 $lang Mandarin Chinese
 =萬:bān
-$number ten thousand
+$num ten thousand
 $explain
 三萬 saⁿ bān 30000
 =落:lak
@@ -3787,7 +3783,7 @@ $colour yellow
 =黑胡椒:o͘-hô͘-chio
 $food blackpepper
 =點:tiám
-$number decimal point (.)
+$num decimal point (.)
 $class a little, a bit
 $class a dot
 =點心:tiàm-sim
@@ -3841,8 +3837,7 @@ $verb to not be allowed to
 =𣍐是恬:bē-sī-tiām
 $verb to be boisterous, to be busybody
 =𣍐曉:bē-hiáu
-$verb cannot do
-$verb to not know how to do
+$verb cannot do, to not know how to do
 =𣍐記:bē-kì
 $verb to forget
 =𣍐認:bē-jìn
@@ -3872,3 +3867,7 @@ $verb to go down/climb down (stairs, ladders, mountains, etc)
 $verb to go up/climb up (stairs, ladders, mountains, etc)
 =𬦰起𬦰落:pêⁿh-khí pêⁿh-lo̍h
 $phrase to climb up and down (especially stairs)
+=一步擺:cēʳ-pō͘-pái
+$time for once, rarely
+$explain
+伊一步擺来 He rarely comes/For once, he comes

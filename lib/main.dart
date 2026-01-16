@@ -1,5 +1,7 @@
+import 'dart:math';
+
+import 'package:flutter/foundation.dart' hide Category;
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/page.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
@@ -42,13 +44,14 @@ class _LoadingPageState extends State<LoadingPage> {
     final dictionarySections = dictionaryText.split("\n");
     final sections = dictionarySections.length;
 
-    StringBuffer buffer = StringBuffer();
+    List<String> buffer = List.empty(growable: true);
 
     var index = 0;
     while (index < sections) {
       final section = dictionarySections[index];
       if (section.isNotEmpty && charAtUni(section, 0) == '=') {
-        kEntries.add(parseEntry(buffer.toString().trimRight()));
+        Entry? entry = parseEntry(buffer);
+        if (entry != null) kEntries.add(entry);
 
         setState(() {
           progress += 1.0 / 1689.0;
@@ -57,15 +60,31 @@ class _LoadingPageState extends State<LoadingPage> {
         buffer.clear();
       }
 
-      buffer.write(section);
-      buffer.write("\n");
+      buffer.add(section);
       
       index++;
     }
     
-    final bufferString = buffer.toString().trimRight();
-    if (bufferString.isNotEmpty) {
-      kEntries.add(parseEntry(bufferString));
+    Entry? entry = parseEntry(buffer);
+    if (entry != null) kEntries.add(entry);
+
+    if (kDebugMode) {
+      // final explainEntries = List<Entry>.empty(growable: true);
+      // for (final entry in kEntries) {
+      //   var ok = false;
+      //   topLoop: for (final def in entry.definitions) {
+      //     for (final cat in def.categories) {
+      //       if (cat == Category.explanation) {
+      //         ok = true;
+      //         break topLoop;
+      //       }
+      //     }
+      //   }
+
+      //   if (ok) explainEntries.add(entry);
+      // }
+      // print(explainEntries.join("\n"));
+      // print(kEntries.join('\n'));
     }
 
     await Future.delayed(const Duration(milliseconds: 750));
@@ -81,6 +100,7 @@ class _LoadingPageState extends State<LoadingPage> {
   void initState() {
     super.initState();
     
+    initDictionary();
     getAllEntries();
   }
 
