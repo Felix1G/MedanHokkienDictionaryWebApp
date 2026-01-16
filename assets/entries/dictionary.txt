@@ -40,7 +40,7 @@ $adj (of a person) ugly, bad
 $num one (1) (bef. noun/classifier)
 =一:chi̍t/it
 $num one (1)
-=一下:cēʳ-èⁿ
+=一下:chēʳ-èⁿ
 $advb (to do an action) for a while, quickly
 =一日風兩日雨:cēʳ-ji̍t hong nō͘-ji̍t hō͘
 $idiom today and tomorrow can be different
@@ -816,14 +816,11 @@ $noun supreme Deity, lord of Heaven, ruler of Heaven, jade Emperor (according to
 =天公爐:thi-kong-lô/thi-kong-lô͘
 $noun altar (used to pray for 天公)
 =太:thái
-$advb too
-$advb excessively
-$advb over
+$advb too, excessively, over
 =夾:ngeⁿh
 $verb to clamp, to pinch (using chopsticks, tongs, clips, pegs, etc.)
 =好:hó
-$adj good
-$adj oK
+$adj good, OK
 =好了:hó-liau
 $verb to have finished, to have completed, to be done
 =好了:hó-liáu
