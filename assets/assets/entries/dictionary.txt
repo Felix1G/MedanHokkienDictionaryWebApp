@@ -1,0 +1,3873 @@
+=:chhèⁿ-tiâu
+$verb to be able to withstand, to be able to handle
+$verb to be capable of, to be competent of
+=:chiá
+$adj (of taste) Plain, bland
+=:mông-mông
+$adj drowsy, dizzy, confused
+=:la̍p
+$verb to kick
+=:kàu-kùn
+$adj fragrant, flower-smelling
+=:siap
+$adj (of meat) tasteless, bland, flavourless
+=:chhau
+$noun tips, suggestions
+=:thà-má
+$time just now
+=:te-tiàm
+$time (of an action) Always, often
+=:pau-chhô
+$verb (To eat) Whatever, anything
+=:khiⁿ-khá
+$advb (To eat) Simply, of what is available
+=:tò͘-mat
+$food tomato
+$etyIDN tomat
+=:pu-ki-mak
+$vulgar female genitalia
+$etyMSA puki
+=:kēʳ-tia̍h
+$body armpit
+$etyIMA ketiak
+=㧣:tu
+$verb to push
+=㧣㧣車:tu-tu-chhia
+$noun wheelchair
+=䆀:bái
+$adj (of a person) Ugly, bad
+=一:cēʳ
+$num one (1) (bef. noun/classifier)
+=一:chi̍t/it
+$num one (1)
+=一下:cēʳ-èⁿ
+$advb (to do an action) for a while, quickly
+=一日風兩日雨:cēʳ-ji̍t hong nō͘-ji̍t hō͘
+$idiom (idiom) Today and tomorrow can be different
+=一羅匱兩盎:cēʳ-lô kiám nō͘-ón
+$idiom (idiom) (of a person, euphemistically) Insane, stupid, absurd
+=七:chhit
+$num seven (7)
+=七十:chhiap
+$num seventy (70)
+=七月半:chhit-goe̍h-pòaⁿ
+$time [Event] Hungry Ghost Festival (7th month in the lunar calendar)
+=丈人公:tiò͘-lâng-kong
+$family grandfather-in-law (wife's grandfather)
+=丈人婆:tiò͘-lâng-pô
+$family mother-in-law (wife's mother)
+=丈人怕:tiò͘-lâng-peh
+$family father-in-law (wife's father)
+=丈人怕丈人母:tiò͘-lâng-peh-tiò͘-lâng-bù
+$family in-laws
+=丈人母:tiò͘-lâng-bù
+$family mother-in-law (wife's mother)
+=丈公:tiò͘-kong
+$family grandparents' sister's husband
+=三:saⁿ
+$num three (3)
+=三十暝:saⁿ-cha̍p-mê
+$noun new Year's Eve
+=三層:sam-chân
+$food pork belly
+=三角六角:saⁿ-kak la̍k-kak
+$idiom (idiom) Style of an arrogant person, behave arrogantly
+=上:téng
+$adj up, above
+=上個月:téng-ko-goe̍h
+$time last month
+=上年:téng-nî
+$time last year
+=上擺:téng-pái
+$time that time, last time
+=上日:téng-ji̍t
+$time yesterday
+=下:hèⁿ
+$verb to put down (something)
+=下午:ēⁿ-po͘
+$time afternoon
+=下跤:ē-kha
+$noun below
+$noun under
+$noun underneath
+=下面:ē-té
+$noun below
+$noun under
+$noun underneath
+=不要緊:biàu-kín
+$phrase not a problem
+$phrase it's fine
+$phrase never mind about that
+=世界:sì-kài
+$adj trending, getting popular, getting famous
+=世界:sè-kài
+$noun world
+$noun earth
+=中:tiong
+$adj middle, mid
+=中午:tiong-tàu
+$time noon, midday
+=中國:tiong-kok
+$loc China
+=中央:tiong-ng
+$noun centre, in the middle
+=中文:tiong-bûn
+$lang Mandarin Chinese
+=中秋餅:tiong-chhiu-piáⁿ
+$food mooncake
+=久:kú
+$adj for a long time
+$adj long time
+$adj (of a period of time) long
+=乖:koai
+$adj obedient, well-behaved (of a child)
+=乖龜:koai-ku
+$adj (of a child) Naughty, mischievous, cheeky
+=九:káu
+$num nine (9)
+=九層粿:káu-teng-koe
+$food kuih lapis, thousand layer cakes
+=也:ià
+$advb also, too, as well
+$advb [also used for emphasis before a negative expression]
+=乳:leng
+$body breast
+=乾:ta
+$adj dry
+=乾淨:chhng-khih
+$adj clean
+=乾餅:ta-piáⁿ
+$food cookies, biscuits
+$food dry cakes (Traditional Indonesian cakes)
+=亂:lòan
+$adj noisy, making a fuss
+=亂鐘:loan-cheng
+$noun alarm clock
+=亂青踖:lòan-chhiⁿ-chhà
+$verb to be in a panic, to overreact
+$verb to complain, to protest
+=了:le
+$auxi [At the end of the sentence to express uncertainty, slight questioning]
+=了:liáu
+$adj finished, emptied
+$auxi [At the end of the sentence to indicate completion of action]
+=了水:liáu-chúi
+$verb to waste water
+=予:hō͘
+$verb to give, to offer
+$verb to let someone or something do something to one
+=予蚊叮:hō͘-báng-teng
+$verb to have been bitten by a mosquito(es), to let the mosquito(es) bite one
+=予蚊咬:hō͘-báng-kā
+$verb to have been bitten by a mosquito(es), to let the mosquito(es) bite one
+=事:sū
+$noun matter, thing, affair
+=二:jī
+$num two (2)
+=二十:jiāp
+$num twenty (20)
+=五:gō
+$num five (5)
+=交代:kau-tài
+$verb to ask (someone to do something), to order
+$verb to explain, to brief, to make clear, to tell about
+=交插:ka-chó
+$verb to jumble up, to mix up (something inside a container like a bowl)
+=交椅:kau-í
+$noun chair
+=人:lâng
+$noun man, person
+=人不爽:lâng-bô-sóng
+$verb to not feel well, to be sick
+=人客:lâng-kheⁿh
+$noun customer, patron
+=人客:lâng-kheh
+$noun guest, visitor
+=仇人:chháu-lâng
+$noun enemy, foe
+=今仔日:kin-na-ji̍t
+$time today
+=今年:kin-nî
+$time this year
+=今日:kin-ji̍t
+$time today
+=介紹:kài-siāu
+$verb to recommend
+=付:hêng
+$verb to pay
+=代誌:tāi-chì
+$noun matter, affair
+=伊:i
+$pron he, she, it
+=伊人:i-lâng
+$pron they
+=位:ūi
+$noun space, area
+$noun position, location, spot
+=低:kēⁿ
+$adj low
+=何:hô
+$surname ho (surname)
+=何物:haⁿ-mih/haⁿ-meh
+$pron what
+=何物事:haⁿ-mih-sū/haⁿ-meh-sū
+$pron what is the problem, what's up, what is the matter
+$pron why
+=何物人:haⁿ-m-ang
+$pron who
+=併併:pê-pê
+$advb together, in company
+=侄子/侄女:sun-á
+$family nephew, niece
+=來:lâi
+$verb to come
+=來過來:lâi-kōe-lâi
+$verb to come here
+=信用:sìn-iōng
+$noun trustworthiness, creditworthiness, honesty
+=修理:siù-lí
+$verb to fix, to repair
+=倉狂:chhèⁿ-kong
+$verb to rush, to act frantically, to be hurried
+=個:kâi
+$class [general classifier]
+=個字:kâi-jī
+$time 5 minutes
+$explain
+Derived from the numbers on an analog clock which are 5 minutes apart.
+
+一個字 5 minutes
+兩個字 10 minutes
+三個字 15 minutes
+=個月:ko-goe̍h
+$time month
+$explain
+一月 January
+二月 February
+三月 March
+
+一個月 1 month
+两個月 2 months
+三個月 3 months
+=倒:tò
+$verb to pour (liquids)
+=倒:tó
+$verb to fall
+$verb to collapse
+=倒手:tó͘-chhiú
+$body left hand
+$noun left hand side
+=倚:óa
+$verb to depend on, to rely on, to lean on
+=借:chioh
+$verb to borrow
+=借路:chioh-lō͘
+$verb (polite) To get out of the way
+$see 閃 (same definition, but ruder)
+=假:kéⁿ
+$adj fake
+$adj false
+=做:chò
+$verb to do, to execute (an action)
+$verb to work as (a job)
+$verb to throw (a party), to start (an event)
+=做乾淨:chò-chhng-khih
+$verb to clean, to tidy up
+=做人:chò-lâng
+$verb to become a person
+$verb to build a personality
+=做壞:chò-pháiⁿ
+$verb to break, to be damaged
+=做好事:chò-hó-sū
+$verb to do good deeds
+=做家婆，無薪水:chò ke-pô
+$phrase bô sin-lô
+$phrase (idiom) It's not good to be kaypoh (overly curious on someone else's matter)
+=做工:chò-kang
+$verb to work (a job)
+=做斷:chò-tùi
+$verb to snap
+$verb to break with a quick force
+=做焼:chò-sio
+$verb to warm (something) up, to make (something) hotter, (of food) To warm up
+=做生意:chò-seng-lí
+$verb to do business, to run the business
+=做生日:chò-seⁿ-ji̍t
+$verb to throw a birthday party
+=做破:chò-phòa
+$verb to break, to puncture, to tear
+=做著:chò-to̍h
+$verb to turn on, to light, to activate
+=做骯髒:chò-lah-sam
+$verb to dirty, to make something filthy
+=停喘:têng-chhoán
+$verb to rest
+$verb to have a break
+=偷掠:thâu-lia̍h
+$verb to kidnap
+=偷攑:thâu-giâⁿ
+$verb to steal, to pilfer
+=像:siâng
+$adj same, equal
+=價錢:kè-chîⁿ
+$noun price
+=優秀:iû-siù
+$adj elegant
+$adj soft
+$adj demeanour
+$adj gentle
+=兄弟:hiaⁿ-tī
+$family brothers
+=兆:tiâu
+$num million
+$explain
+三兆 saⁿ tiâo 3000000
+=先:seng
+$advb first, before, beginning
+=先生:sin-seⁿ
+$noun doctor
+=光:kn̄g
+$adj bright
+=免:mián
+$advb do not need to
+$advb [used as negation]
+=兔:thò͘
+$animal rabbit, hare, bunny
+=入/進:ji̍p
+$verb to enter, to get in
+=內衣:néh-i
+$noun bra
+=內面:lā-bīn
+$noun inside, interior
+=兩:nō͘
+$num two (2) (bef. noun/classifier)
+=八:peh
+$num eight (8)
+=八月半:peh-goe̍h-pòaⁿ
+$time [Event] Mooncake Festival (15th day of the 8th month in the lunar calendar)
+=公司:kong-si
+$noun company
+$noun firm
+=公媽:kong-má
+$family ancestors, forefathers, forebears
+=六:la̍k
+$num six (6)
+=共:kah
+$conj and
+$conj [indicate relationship]
+$conj [express comparison] as, from
+=共...講:kah-...-kóng
+$verb to tell, to inform (someone)
+$explain
+Fill the blanks (...) with a pronoun
+=内孫:lài-sun
+$family grandson in the direct line
+=冊:chheⁿh
+$noun book
+=冊包:chheⁿh-pau
+$noun schoolbag
+=冊店:chheⁿh-tiàm
+$noun bookstore
+=冬粉:tang-hún
+$food glass noodles
+$food mung bean noodles
+=冷:léng
+$adj cool, cold
+$see 涼
+$explain
+Colder than 涼
+=冷厲到凉:léng-lì káu liâng
+$idiom (idiom) Air-conditioned, cooled air
+=冷氣:lèng-khì
+$noun cold (or cool) air
+$noun air conditioning
+=凊彩:chhìn-chhái
+$verb to let the decision be made by someone else, up to (someone), anything, whatever
+=凊彩啦:chhìn-chhái la
+$phrase whatever
+=出:chhut
+$verb to exit
+$verb to get out
+=出入出入:chhut-ji̍p chhut-ji̍p
+$phrase to repeatedly get in and get out
+=出去:chhut-khì
+$verb to go out
+=出名:chhut-miâ
+$adj famous
+=出國:chhut-kok
+$verb to go abroad
+=出煙:chhut-hun
+$verb to smoke
+=出生:chhut-sî
+$verb to be born, to be given birth
+=出門:chhut-mûiⁿ/chhut-mn̂g
+$verb to do activities (in the outdoors, outside the house)
+=刀:to
+$noun knife
+=分:pun
+$verb to distribute, to allot
+=分:hun
+$noun mark, point, score
+$noun percent
+=分數:hun-sò͘
+$noun grade
+$noun mark, point, score
+=分鐘:hun-cheng
+$time minute
+$explain
+一個分鐘 1 minute
+四十個分鐘 40 minutes
+五十九個分鐘 59 minutes
+=切:chhiat
+$verb to slice, to chap
+=则:tòe
+$verb to follow
+$verb to imitate
+$verb to join
+=初:chhe
+$time day, date (in the lunar calendar)
+$explain
+初一 1st date of any month in the lunar calendar
+=刣:thâi
+$verb to slaughter (an animal)
+=利:lāi
+$adj sharp
+=别:pa̍k
+$adj [Used to indicate the other or the rest]
+=别人:pa̍k-lâng
+$noun another person, the other person, the rests
+=别位:pa̍k-ūi
+$noun another place, the other place
+=别個:pa̍k-kâi
+$adj other, another, the rest
+=别日:pa̍k-ji̍t
+$time the other day, another day
+=刮:koa̍h
+$verb to scratch, to scrape
+=到:káu
+$prepo [preposition indicating from .. to] up until, up to (place, time, etc)
+=刺:chhì
+$noun thorn, prick
+=剝:pek
+$verb to peel
+$verb to skin
+=剩:chhun
+$verb to be left, to remain (a certain amount of something)
+=剪:ka
+$verb to cut
+=剪刀:ka-to
+$noun scissors
+=割:koah
+$verb to overtake (a car)
+=割車:koah-chhia
+$verb to overtake a car
+$etyIMA potong jalan
+=創治:chhòng-tī
+$verb to make fun of, to tease, to play tricks on (someone)
+=剾:khau
+$verb to scrape (back and forth)
+$verb to shave
+=力:la̍t
+$noun power
+=加:keⁿ
+$verb to add, to increase
+$verb to put in (in context of adding more objects)
+=加水加豆腐:keⁿ chúi keⁿ ta-hù
+$idiom (idiom) Conversation is going too long that it is becoming pointless.
+=加油:chia-iôu
+$verb to cheer somebody on
+$etyCMN jiā yóu
+=動:tōng
+$verb to touch
+=包:pau
+$noun bag, sack
+$verb to wrap (something including food)
+=包沙包海:pau soa pau hái
+$idiom (idiom) To do everything, to do all the work
+=包甲了:pau-ka-liáu
+$verb to be comprehensive, complete, all-round
+=包裝:pau-chng
+$noun packaging, wrapping
+=包頭:pau-thâu
+$noun headscarf, veil, hijab
+=匱:kiám
+$verb to lack, to be deficient
+$verb to reduce, to decrease, to become less
+=十:cha̍p
+$num ten (10)
+=十一十二:cha̍p-it cha̍p-jī
+$phrase to be equal, to be the exact same
+=十三個月出生:cha̍p-saⁿ ko goe̍h chhut-sî
+$idiom (idiom) (sarcastic) To never want to be defeated, to never want to lose
+=十五暝:cha̍p-gō͘-mêⁿ
+$time [Event] Lantern Festival, cap Go Meh (A festival marking the end of the Chinese New Year period, celebrated on the 15th date of the 1st month in the lunar calendar)
+=十億:eⁿm
+$num billion
+$etyIDN miliar
+$explain
+三十億 saⁿ e͘m 3.000.000.000
+=千:chheng
+$num thousand
+$explain
+三千 saⁿ chheng 3000
+=半:pòaⁿ
+$num half
+=半死:poaⁿ-sí
+$adj extremely difficult, challenging
+$adj brutal
+$adj pushed to the limit
+=半點鐘:pòaⁿ-tiám-cheng
+$time 30 minutes, half an hour
+=卍字:bān-jī
+$noun swastika pattern
+=印尼:in-nī
+$loc Indonesia
+=印度:ìn-tō͘
+$loc India
+=危險:gûi-hiám
+$adj dangerous, precarious
+=卵:nn̄g
+$food egg
+=厚:kāu
+$adj thick
+=厝:chhù
+$noun house
+=厝頂:chhù-téng
+$noun roof, housetop
+=厲害:lī-hāi
+$adj (of a person) shrewd, sharp
+=去:khì
+$verb to go
+=反:pèng
+$verb to turn over, to flip over
+=叔公:chek-kong
+$family grandfather's little brother
+=叔叔:su-su
+$family father's brother
+=受氣:siū-khì
+$verb to sulk, to be sulky
+=古早:kū-cha
+$time long time ago, old times
+=古早古早:kū-cha-kū-cha
+$time very long ago, ancient times
+=另外:lēng-gōa
+$advb separately
+$advb additionally, another
+$adj separate, apart, not together with the others
+=叩門:khok-mûiⁿ/khok-mn̂g
+$verb to knock the door
+=只:chiah
+$class [classifier for animals]
+=叫:kiō
+$verb to greet, to call
+$verb to ask someone to do something
+$verb to order (food, etc)
+=叫菜:kiō-chhài
+$verb to order a meal (e.g. at a restaurant)
+=叮:teng
+$verb (of insects) To sting, to bite
+=合艾:hap-chái
+$loc Hat Yai (A major city in Thailand)
+=吉靈子:kè-lêng-á
+$noun (Extremely derogatory) Indians
+$etyMSA keling
+$etySAN kalinga (an Ancient kingdom in India)
+=吊車:tiáu-chhia
+$noun cable car, gondola, ropeway
+=名:miâ
+$noun name
+=名牌:ming-pâi
+$adj (of products) Having a good brand name
+$etyYUE ming4 paai4
+=向:hiáng
+$verb to face, to look (in a direction), to turn towards
+=吞:thun
+$verb to swallow, to ingest
+=吞涎:thun-nōa
+$verb to swallow one's saliva
+=吠:pūi
+$verb (of a dog) To bark
+=吳:gô͘
+$surname go, goh, ng (surname)
+=吸:súk
+$verb to suck in
+=吸煙機:súk-hun-ki
+$verb to smoke (a cigarette)
+=吸風:sùk-hong
+$noun cupping Therapy
+=吹:choi
+$noun (slang) [Friendly term of address for a male] Bro, dude
+$etyHAK chhôi
+$etyIDN coy
+=吼:háu
+$verb to cry
+=呆佬:tai-lô
+$adj stupid, foolish
+=呬:sî
+$auxi [At the end of sentence to express slight doubt or annoyance]
+$etyIDN sih
+=味:bī
+$verb to smell
+=味精:bī-cheng
+$food mSG, monosodium glutamate
+=味精粉:bī-cheng-hún
+$food mSG powder
+=味素:bī-sò͘
+$noun smell, aroma, odour
+=呻:chhan
+$verb to groan, to moan
+=呼吸:chhoán-khùi
+$verb to breathe
+=命水:miaⁿ-chúi
+$noun fate, destiny
+$adj lucky, having good fortune
+=咖啡:ko-pi
+$noun coffee
+=咖啡店:ko-pi-tiàm
+$noun café
+=咖啡色:ko-pi-sek
+$colour brown
+=咩:me
+$auxi [At the end of the sentence to express disbelief]
+=咬:kā
+$verb to bite, to snap at, to gnaw
+=咯:lo
+$auxi [At the end of the sentence to indicate obviousness]
+=哋:tēʳ
+$auxi [Placed before the verb to emphasise action with obviousness, similar to "of course", "definitely", or "surely"]
+=哥哥:ko-ko
+$family elder brother
+=哪裡:tá-lo̍h
+$pron where
+=唐儂:tê-nâng
+$noun a person from Chinese origin or ethnicity
+=唐儂人:tê-nâng-lâng
+$noun a person from Chinese origin or ethnicity
+=唐儂字:tê-nâng-jī
+$noun hanzi, chinese characters
+=唐儂節:tê-nâng-chia
+$time [Event] Chinese New Year (A 15-dsy festival starting on the 1st day of the 1st month in the Lunar Calendar)
+=唱:chhiòⁿ
+$verb to sing
+=唱歌:chhiòⁿ-koa
+$verb to sing a song
+=啊:ah
+$auxi [at the end of the sentence to express enthusiasm, impatience, what is obvious, or questioning]
+$auxi [at the end of an order, warning, etc.]
+$auxi [sometimes when enumerating items]
+=問:mūiⁿ/mn̄g
+$verb to ask
+=啦:la
+$auxi [At the end of the sentence to indicate exclamation]
+=喂:óe
+$auxi [Used as interjection] Hi, hello
+$auxi [At the end of the sentence to express annoyance at a person]
+=喘:chhoán
+$adj tired
+$adj exhausted
+=喙:chhùi
+$class [classifier for food, a mouthful size]
+$body mouth
+=喙焦:chhùi-ta
+$adj thirsty
+=喙破:chhùi-phòa
+$body canker sore
+=喙適:chhùi-chit
+$adj palatable, suitable taste
+=嗎:bô
+$auxi [At the end of a "yes-no" question]
+=嘔:áu
+$verb to vomit
+=嘛:mā
+$conj [used to indicate an action is done after another action]
+$conj [also used to indicate cause and effect]
+$auxi [at the end of the sentence to express obviousness]
+$explain
+As conjunction,
+(before/cause action) 嘛 (after/effect action)
+=噴:phùn
+$verb to spurt, to gush, to jet out
+$explain
+油噴在手 iû phùn khí chhiúⁿ Oil had spurted at my hand (e.g. from cooking)
+=嚨喉:nâ-âu/nâ-ôa/nâ-ô͘
+$body throat
+=嚨喉乾:nâ-âu-ta/nâ-ôa-ta
+$body dry throat
+=嚨喉痛:nâ-âu-thiàⁿ/nâ-ôa-thiàⁿ/nâ-ô͘-thiàⁿ
+$body sore throat
+=嚴:giâm
+$adj strict, fierce
+=嚷:jáng
+$verb to shout
+$verb to yell
+=四:sì
+$num four (4)
+=四十:siap
+$num forty (40)
+=四四角角:sì-sì-kak-kak
+$adj squarish, like a box
+=四散:sì-sòaⁿ
+$advb carelessly, casually, at random, anyhow
+=四散來:sì-sòaⁿ-lâi
+$advb carelessly, casually, at random, anyhow
+=囝:kiáⁿ
+$family child
+$family son
+=囝婿:kiáⁿ-sài
+$family son-in-law
+=囡仔:gín-á
+$noun child
+=囡仔房:gín-ná-pāng
+$noun children's bedroom
+=困:khùn/khòn
+$verb to sleep, to lie down
+=困旅館:khùn-lí-koán
+$noun hotel
+=困衫:khùn-saⁿ
+$noun pajamas, the shirt for sleeping
+=困醒:khùn-chhéⁿ/khòn-chhéⁿ
+$verb to wake up, to get up
+=國家:kok-ke
+$noun country
+=圓:îⁿ
+$adj circular, round
+=圓圓:îⁿ-îⁿ
+$adj circular, round
+=土:thô͘
+$noun soil
+$noun dirt
+=土塵:thô͘-hún
+$noun dust (in general)
+=土跤:thô͘-kha
+$noun floor
+=在:khí
+$prepo [Preposition to indicate position] at (a place)
+=地:tē
+$noun land, field
+=地址:tē-chí
+$noun address (such as a home or business), location
+=坐:chē
+$verb to sit
+=坐車:chē-chhia
+$verb to go by car
+=坨:tè
+$class [Classifier for smaller portions or slices of food]
+=墓:bōng
+$noun grave, tomb
+=壁:piah
+$noun wall
+=壞:pháiⁿ
+$adj damaged, broken
+=外口:bōa-kháu
+$noun outside, exterior
+=夠:kàu
+$adj enough
+=夠額:káu-gia̍k
+$adj extraordinary, exceptional, remarkable, awesome
+=大:tōa
+$adj big, large
+=大件:tōa-ki
+$adj (of certain countable objects) Big, large
+=大個:tōa-kâi
+$adj big, large
+=大只:tōa-chiah
+$adj (of animals) Big, large
+=大囝:tōa-kiáⁿ
+$family eldest son
+=大坨:tōa-tè
+$adj (of portion) Big portion, large portion
+=大孫:tōa-sun
+$family eldest son of eldest son
+$family eldest grandchild
+=大學:tōa-o̍h
+$noun university, college
+=大尾:tōa-bóe
+$adj (of fish) Big, large
+=大概:ta-kèⁿ
+$adj around, approximate, roughly (number)
+=大海:tōa-hái
+$noun ocean, large sea
+=大炮:tōa-phàu
+$verb to make things up, to be dramatic, to be a bit over the top
+=大班:tōa-pan
+$adj (Of a class in education) Large, big, many students
+$adj (of something) Luxurious, fancy, expensive
+$adj (of someone) Affluent, rich, lavish
+=大盤:tōa-pôaⁿ
+$adj (of a dish) Many, plenty, large
+=大粒:tōa-lúi
+$adj (of eyes, ears, etc) Big, large
+=大粒:tōa-lia̍p
+$adj (of granules, grain, or pellets) Big
+=大聲:tōa-sia
+$adj loud, in a loud voice
+=大開:tōa-khai
+$verb to spend a lot of money
+=大開大躉:tōa-khai tōa-bú
+$phrase going on a shopping spree, large-scale purchasing, extensive shopping
+=大間:tōa-keng
+$adj (of a building) Big, large
+=大食:tōa-chia̍h
+$verb to eat a lot
+$verb mukbang
+=天:thi
+$noun sky
+=天低低:thi kēⁿ-kēⁿ
+$idiom (idiom) God knows (Used to tell someone lying that their words or the truth is also known by God)
+=天公:thi-kong
+$noun supreme Deity, lord of Heaven, ruler of Heaven, jade Emperor (according to Chinese folk religion and Taoism)
+=天公爐:thi-kong-lô/thi-kong-lô͘
+$noun altar (used to pray for 天公)
+=太:thái
+$advb too
+$advb excessively
+$advb over
+=夾:ngeⁿh
+$verb to clamp, to pinch (using chopsticks, tongs, clips, pegs, etc.)
+=好:hó
+$adj good
+$adj oK
+=好了:hó-liau
+$verb to have finished, to have completed, to be done
+=好了:hó-liáu
+$advb [succeeds a verb to indicate completion]
+$explain
+做好了 Finished doing something
+=好勢:hó-sè
+$verb to have finished, to have completed, to be done
+$adj perfect, excellent
+$adj (of a person's life) Successful
+=好命:hó-miâ
+$verb have a lucky fate, blessed with good fortune
+$verb (of life) Good, great
+=好媠:hàu-súi
+$verb (of a girl or woman) To make an effort to look pretty
+=好寶:hó-pôa
+$adj good value for money, good quality or product relative to the high price
+=好心無好保:hó-sim bô hó-pó
+$idiom (idiom) Being kind but unappreciated, kindness unrewarded
+=好料:hó-liāu
+$adj (of food) Delicious, yummy
+=好朋:hó-pêng
+$noun good friend
+$noun best friend
+=好看:hó-khòaⁿ
+$adj good looking
+$adj handsome
+$adj beautiful
+$adj pretty
+=好笑:hó-chhiò
+$adj funny, hilarious
+=好行:hàu-kiâⁿ
+$adj fond of travelling
+=好額:hó-gia̍k
+$adj rich, wealthy
+=好額人:hó-gia̍k-lâng
+$noun rich person, wealthy person
+=好食:hó-chia̍h
+$adj (of food) Delicious
+$adj yummy
+=好飲:hó-lim
+$adj (of drinks) Delicious
+$adj yummy
+=好麗:hàu-lián
+$adj extravagant
+$adj arrogant
+$adj flashy
+=妗婆:kīm-pô
+$family grandmother's brother's wife
+=姆婆:ḿ-pô
+$family grandfather's elder brother's wife
+=姊:chí
+$family elder sister
+=姊姊:chí-chí
+$family elder sister
+=姑婆:ko͘-pô
+$family grandfather's sister
+=姨姨:î-î
+$pron [Used to call someone the same age or slightly older] Miss, mrs
+=姨婆:î-pô
+$family grandmother's sister
+=婆婆:pô͘-pô͘
+$family grandmother (maternal), mother's mother
+=媠:súi
+$adj beautiful, good-looking, pretty
+$adj (coll.) cool!, sweet!, great!
+=媽:má/mah
+$family mother, mum
+=媽媽:má-má
+$family mother, mum (colloquial)
+=嬸婆:chím-pô
+$family grandfather's little brother's wife
+=孔:khang
+$noun hole
+=字:jī
+$noun word
+$noun character
+$noun writing
+=孫:sun
+$family grandchild
+=學:o̍h
+$verb to learn
+=學堂:o̍h-tn̂g
+$noun school
+=學生:ha̍p-seng
+$noun student
+=孽:gia̍t
+$adj (usually of a child) Naughty, mischievous, playful
+=宜:gam
+$adj suitable
+$adj fitting
+$adj appropriate
+=客人:kheh-lâng
+$noun guests
+=害死:hài-sí
+$verb to harm
+$verb to threaten
+=家:ke
+$noun neighbourhood
+=家婆:ke-pô
+$verb to be overly curious, to be nosy, to be overly interested in other people's matters, kaypoh, kepo
+=家己:ka-kī
+$advb self
+$advb oneself
+=密司:mi-si
+$noun nurse
+$etyENG miss
+=寫:siá
+$verb to write
+=寫字:siá-jī
+$verb to write (by hand)
+=寬:koa̍h
+$adj wide, spacious
+=寶貝:pàu-péi
+$noun baby child, baby
+$noun favourite child, darling, honey
+$etyCMN bǎo bèi
+=射:sēⁿ
+$verb to shoot
+=對:tio̍h
+$adj correct
+=對面:túi-bīn
+$noun opposite side, across
+=對𣍐起:tòe-bē-khí
+$verb (honourific) To be sorry, to apologise
+=導郎:tō-long
+$verb to help, to assist
+$advb please
+$etyIMA tolong
+=小:sè
+$adj small, tiny
+=小件:sè-ki
+$adj (of certain countable objects) Small, tiny
+=小個:sè-kâi
+$adj small, tiny
+=小只:sè-chiah
+$adj (of animals) Small, tiny
+=小坨:sè-tè
+$adj (of meat) Small portion, tiny portion
+=小妹:sió-mōe
+$family little sister
+=小尾:sè-bóe
+$adj (of fish) Small, tiny
+=小弟:sió-tī
+$family little brother
+=小影:siáu-éng/sió͘-éng
+$noun photo, photograph
+=小心:sio-sim
+$verb to be careful
+=小班:sè-pan
+$adj (Of a class in education) Small, little students
+=小盤:sè-pôaⁿ
+$adj (of a dish) Small, little, few
+=小粒:sè-lia̍p
+$adj (of grains, granules, pellets) Small
+=小聲:sè-sia
+$adj in a low voice, quietly
+$adj (Speak) in whispers
+=小間:sè-keng
+$adj (of a building) Small, tiny
+=少:chio
+$adj few
+$adj little
+=尖:chiam
+$adj pointy (of a needle), sharp
+=尻川:khà-chhng
+$body buttocks
+=尻川孔:khà-chhng-khang
+$body anus
+=尾:bóe
+$body tail
+=尿:jō
+$noun urine
+=尿酸:ngiau-soân
+$body gout, hyperuricemia
+$etyCMN niào suān
+=屁:phùi
+$noun fart
+=屎:sái
+$noun poop
+$noun faeces
+$noun shit
+=層:chàn
+$noun storey, floor
+$noun layer, stratum
+=屬/相/肖:sioⁿ
+$verb zodiac, to be born in the year of one of the twelve animals
+$explain
+屬馬 horse zodiac
+=山:soaⁿ
+$noun mountain
+$noun hill
+=山車:soaⁿ-chhia
+$noun public minivan, share taxi, angkot (Indonesian)
+=山頂:soaⁿ-téng
+$noun hilltop, highlands
+=峇仔:bôa-iá
+$animal crocodile
+$etyIMA buaya
+=峇厘:bâ-lî
+$loc Bali (An island in Indonesia)
+=峇厘柚:bâ-lî-iū
+$fruit pomelo, grapefruit
+=峇搭:ba-tah
+$noun batak (A major ethnic group in North Sumatra)
+=峇搭山:ba-tah-soaⁿ
+$loc Berastagi (City south of Medan, on the mountain range Bukit Barisan)
+=峇搭話:ba-tah-ōa
+$lang Batak language (spoken by Batak people)
+=工:kang
+$noun work
+$noun labour
+=工人:kang-lâng
+$noun employee
+$noun worker
+=工廠:kang-chhióng
+$noun factory
+=巴刹:pa-sat
+$noun market
+$noun wet market
+$etyIMA pasar
+=巴城:pa-siâⁿ
+$loc Jakarta (capital of Indonesia)
+=巴脊:pa-chiah
+$body back (body of a human being)
+=布:pò͘
+$noun napkin
+$noun cloth
+$noun cloth-like sheet
+=希望:hi-bāng
+$verb to wish
+$verb to hope
+=師父:su-hū
+$noun master, teacher, shifu
+=常常:siông-siông
+$advb often, frequently (in general)
+=年:nî
+$time year
+=幻夢:hoak-bāng
+$verb to dream
+=幾:kúi
+$num how many
+=幾個月:kúi-ko-goe̍h
+$time how many months?
+=幾日:kúi-ji̍t
+$time how many days?
+=幾月:kúi-goe̍h
+$time which month?
+=幾濟:kúi-chè
+$pron how much (is the price)?
+=幾號:kúi-hò
+$time which date?
+=幾鐳:kúi-lui
+$pron how much (is the price)?
+$see 幾濟
+$explain
+Primarily used in Penang, rarely in Medan.
+=幾點:kúi-tiám
+$time what time?
+=底時:ti-sî
+$time when (pronoun)
+=店:tiàm
+$noun shop, store
+=度:tō͘
+$noun degree (Celcius)
+=庵:am
+$noun temple
+=張:tio͘
+$surname teo, tio, zhang (surname)
+=張:tioⁿ
+$class sheet of
+=强:ióng
+$adj strong
+$adj powerful
+=彎:oai
+$adj curved
+$adj arched
+$adj bent
+$adj crooked
+=彎:oan
+$adj to turn (left or right)
+=彎彎:oai-oai
+$adj curved
+$adj arched
+$adj bent
+$adj crooked
+=彼爿:hit-peng/hie-peng/ie-peng
+$pron over there
+=律師:le̍k-sù
+$noun prosecutor
+=後個:āu-kâi
+$adj the next one, the one after, the latter
+=後個月:āu-ko-goe̍h
+$time next month
+=後尾:āu-bóe
+$noun behind
+$noun back
+=後擺:āu-pái
+$advb next time, in another time
+=後日:āu-ji̍t
+$time the day after tomorrow
+=後生:hāu-seⁿ
+$adj young
+=得:thān
+$verb to receive, to obtain, to acquire, to get
+=德國:tek-kok
+$loc Germany
+=心:sim
+$noun heart, mind, intention, feeling
+=心不爽:sim-bô-sóng
+$verb to feel guilty
+$verb to feel something is wrong
+=心花花:sim-hoa-hoa
+$phrase to be happy, to be glad, cheerful
+=快:khoài
+$adj quick, fast
+=怎麼:chóa-mih/chóa-meh
+$pron what is one doing
+$pron what are you doing
+=怎麼事:chóa-mih-sū/chóa-meh-sū
+$pron why (and how)
+=怕公:peⁿh-kong
+$family grandfather's elder brother
+=怪𡳞:koai-lān
+$vulgar (strange dick) Arrogant
+$vulgar naughty
+=恬:tiām
+$verb to be quiet, to be silent
+=恬恬:tiām-tiām
+$advb silently, quietly
+=恭喜發財:kiong-hí hoat-châi
+$phrase phrase used during Chinese New Year to wish one to be prosperous and rich.
+$explain
+People usually only say 恭喜 to others. This shorter form is also used generally to congratulate someone.
+=悶:hip
+$adj stifling, airtight, stuffy
+=惜:sèng
+$verb to care tenderly (for a child)
+=想:siò
+$verb to think
+=想法:siò-hoat
+$noun way of thinking
+$noun thinking process
+$noun mindset
+=愈:jú
+$advb more and more, increasingly
+$explain
+愈 .. 愈 .. the more .. and more ..
+=意思:ì-sù
+$noun definition
+$noun meaning
+=愛:ái
+$verb to want
+=愛笑:ái-chhiò
+$adj (of a person) Unable to hold back a smile and burst into laughter
+=感謝:kám-siā
+$verb thank
+=慘:chhám
+$adj cruel, miserable, wretched
+=慢:bān
+$adj slow
+=慢慢:bān-bān
+$advb slowly
+=慣勢:koàn-sì
+$verb to be accustomed to, to be in the habit of
+=應:ìn
+$verb to reply, to respond, to answer
+=應話:ìn-ōa
+$verb to refute, to talk back (to someone who is angry at one)
+=戇:gōng
+$adj stupid
+$adj foolish
+=戇呆:gōng-tai
+$noun idiot, fool, stupid person
+=我:góa
+$pron i, me
+=我人:góa-lâng
+$pron we
+$pron us
+=我老(唉):wa-lâu-(e)
+$phrase exclamation of shock, walao
+=戲:hì
+$noun movie
+$noun film
+=戲台:hì-tài
+$noun cinema
+$noun theatre
+=房:pāng
+$noun room
+=房間:pāng-keng
+$noun room
+=所在:so͘-chài
+$noun place
+=扁:píⁿ
+$verb to flatten
+$verb to compress
+$adj flat, flattened, thin
+$adj compressed
+=扁食:pán-si̍t
+$food wonton
+$explain
+Usually either Indonesian pangsit is used more often or see 雲吞
+=扃:khian
+$verb to lock up, to lock (by sliding), to bolt (a door)
+=手:chhiú
+$body hand
+=手指:chhiú-chí
+$noun finger ring
+=手痛:chhiú-thiàⁿ
+$body hand pain
+=手粗落:chhiú-chho͘-lò͘k
+$adj agile, nimble, quick
+=手錶:chhiú-pió
+$noun watch
+=才:chài
+$adj talented, capable
+=扛:kng
+$verb to carry (something)
+=扣:khàu
+$verb (of money, points, etc) To subtract, to decrease, to reduce, to deduct
+=扣分:khàu-hun
+$verb to deduct points
+=扣起:khàu-khí
+$verb to subtract, to minus
+=扲:gīm
+$verb to hold, to grasp, to take in the hand
+=找:chhōe
+$verb to find
+=找工:chhōe-kang
+$verb to find a job
+=找面:chhōe-bīn
+$verb to brown-nose, to butter someone up, to ingratiate oneself with superiors or those with power for personal gain
+$verb like a promotion or attention
+=抱:phō
+$verb to carry (someone)
+=抹:boa̍h
+$verb to smear
+$verb to put on (a liquid)
+=抹面:boa̍h-bīn
+$verb to smear (cream/medicine) on the face
+=抿:bín
+$noun brush
+$verb to brush
+=拄:tú
+$verb to meet, to encounter
+=拄著:tú-tio̍h
+$verb to have met, to meet (someone)
+=拆:thia̍h
+$verb to peel off
+$verb to tear away
+$verb to pluck, to pick
+=拍:phah
+$verb to hit
+$verb to play (a sport)
+$explain
+拍毛球 play badminton
+=拍人:phah-lâng
+$verb to hit someone
+=拍呃:phah-eʳh
+$verb to burp
+=拍日:phah-ji̍t
+$verb to sunbathe, to sun oneself, to dry off in the sun
+=拍死:phah-sí
+$verb to kill
+$verb to murder
+=拍球:phah-kiû
+$verb to play ball
+=拍針:phah-chiam
+$verb to give or receive an injection
+=拍開開:phah-khui-khui
+$verb (of a door, etc) To open widely
+=拖:thû
+$verb to procrastinate, to delay
+$verb to drag on
+=拖:thoa
+$verb to pull
+$verb to drag, to tow, to haul
+=拖:jû
+$verb to mop (the floor)
+=拖死:tū-sí
+$verb to wear someone out, to exhaust someone through continual trouble or strain
+=拗蠻:áu-bân
+$adj stubborn and unreasonable, obstinate
+=拜:pài
+$verb to pray
+$time [Indicates day of the week]
+$explain
+拜一 Monday
+拜二 Tuesday
+拜六 Saturday
+=拜拜:pài-pài
+$verb to pray
+=拜神:pài-sîn
+$verb to pray to a god/deity
+=括定:koa̍h-tiā
+$verb to arrange (an event, a schedule, a plan)
+=拭:chhit
+$verb to wipe
+=拾:khioh
+$verb to pack up, to gather, to collect, to tidy up
+=指甲:chéng-kah
+$body nails
+=挈:chhōa
+$verb to bring/take along (someone) to somewhere
+=挈:cha̍h
+$verb to have brought along
+$verb to bring along (something)
+=挈轉:chhōa-túi
+$verb to bring (someone) home
+$explain
+挈伊回 To bring him/her home
+=按呢:an-neⁿ
+$advb very, rather, quite
+$advb extremely
+$pron like this
+$pron this way
+=按呢款:an-neⁿ khoán
+$phrase like this way/type/pattern (usually while showing or pointing to an example)
+=按怎:án-chóa
+$pron how
+=挑電:thiáu-tiān
+$verb (of electricity) to trip
+=挕:hìⁿ
+$verb to shake off (something wet)
+=挲:so
+$verb to rub the surface, to wipe over the surface (with the hands)
+=挵:lòng
+$verb to collide, to crash into
+=挵著:lòng-tio̍h
+$verb to be crashed into, to be collided with
+=捀茶:phâng-tê
+$noun tea Ceremony (Tea Pai)
+$explain
+A practice of offering tea to elders as a show of respect during marriage, etc.
+=捏:tēⁿ
+$verb to press with force
+$verb to squeeze
+$verb to massage
+=捏跤:tēⁿ-kha
+$verb to massage (the legs)
+=捏骨:tēⁿ-kut
+$verb to massage (the body)
+=捒:sak
+$verb to push with force
+=捒進:sak-ji̍p
+$verb to push with force (into something)
+=捽:sut
+$verb to whip
+=捽人:sut-lâng
+$verb to whip someone
+=掃:sàu
+$verb to clean with a broom, to sweep clean
+=掃土跤:sàu-thô͘-kha
+$verb to sweep the floor
+=掠:lia̍h
+$verb to catch, to capture, to arrest
+=接:chiap
+$verb to fetch
+=揉:jô
+$verb to apply by rubbing in a circle (commonly ointment, medicine, etc)
+=揍:bok
+$verb to smash, to punch
+=揍人:bok-lâng
+$verb to punch someone
+=插:chhap
+$verb to care (about something)
+=揕:tìm
+$verb to throw, to toss, to hurl, to fling
+=換:ōa
+$verb to change, to switch
+=換衫:ōa-saⁿ
+$verb to change clothes
+=換鐳:ōa-lui
+$verb to exchange currency
+=搖:iô
+$verb to shake
+$verb to sway, to rock
+$verb to swing, to wag
+=搬:poa
+$verb to move, to relocate, to shift
+=搶:chhió͘ⁿ
+$verb to snatch
+$verb to confiscate
+$verb to grab
+=摧:chhùi
+$adj destroyed, wrecked, damaged
+=摩哆必:mô͘-tó͘-pit
+$noun motorcycle, motorbike
+=摺:chih
+$verb to fold
+=摺紙:chih-chóa
+$verb to fold the paper
+=摻:chham-chéng
+$adj (of a person) To be bred with another race
+$adj (of plants) To be cross-bred with another plant, hybrid
+=摻:chham
+$verb to mix
+$verb to mix in and be with (a group)
+$verb to combine
+=撥:bôa
+$verb to withdraw (from the ATM or bank)
+=撥鐳:bôa-lui
+$verb to withdraw money from the ATM or bank
+=撨:chhiâu
+$verb to adjust, to align, to arrange by shifting things around
+=擠:chi
+$verb to squeeze into, to force fit (in a storage)
+$verb to crowd together tightly
+$verb to squeeze one's way in, to cram in
+=擦:chhat
+$verb to erase
+=擦拭:chhat-chhit
+$verb to wipe, to clean, to wipe clean
+=擺:pái
+$time time (frequency)
+$explain
+一擺 1 time
+兩擺 2 times
+三擺 3 times
+=攑:giâⁿ
+$verb to take, to bring (something)
+$verb to grab
+$verb to carry (by hand)
+=攑來:giâⁿ-lâi/gē
+$prepo [Preposition to indicate an action is done on an object, object 攑來 verb]
+$explain
+gē is the short form from fast speech.
+=攕仔:-chhiám-á
+$noun fork
+=攬:lám
+$verb to hug
+=收:siu
+$verb to store
+$verb to keep
+=收起來:siu-khí-lâi
+$verb to put away
+$verb to keep away
+=放:pàng
+$verb to place (something on a surface)
+$verb to leave behind (something)
+$verb to let go
+$verb to release
+=放假:pàng-kèⁿ
+$verb to have a holiday, to take a break, to have a day off
+$noun holiday, break, day off
+=放去:pàng-khì
+$verb to release, to let go
+=放學:pàng-o̍h
+$verb to be dismissed from school
+=放尿:pàng-jō
+$verb to urinate, to pee
+=放屁:pàng-phùi
+$verb to fart
+=放屎:pàng-sái
+$verb to defecate
+$verb to poo
+=放工:pàng-kang
+$verb to get off work, to finish work, to leave work
+=放心:pàng-sim
+$verb to calm down
+=放驚飛，捏驚死:pàng kiaⁿ poe
+$phrase tēⁿ kiaⁿ sí
+$phrase insincere, unwilling
+=政府:chèng-hú
+$noun government
+=故事:kò͘-sū
+$noun story, tale
+=教:kà
+$verb to teach, to educate
+=敲:kha
+$verb to call (someone) by phone
+=敲電話:kha-tiān-ōa
+$verb to make a phone call
+=數:sùiⁿ/sǹg
+$verb to count
+=數起來:sǹg khí-lâi
+$phrase (expression) Looking at the greater picture, after all, as a whole
+=料:liāu
+$food meal
+$food (of food) Ingredients
+=料理:liāu-lí
+$verb to handle, to manage, to arrange
+=斬:chám
+$verb to amputate
+$verb to sever, to chop, to cut (foods together with bones or shells) into large and rough parts forcefully
+=新:sin
+$adj new
+=新加坡:sin-ngā-po
+$loc Singapore
+=新料:sin-liāu
+$food fresh ingredients
+=斷:tùi
+$adj snapped
+=方便:hong-piān
+$adj convenient, practical
+=旅館:lí-koán
+$noun hotel
+=日:ji̍t
+$time day, date
+=日子:ji̍t-chí
+$time day, date
+=日時:ji̍t-sî
+$time day time
+=日本:ji̍t-pún
+$loc Japan
+=日頭:ji̍t-thâu
+$noun sun
+=日頭旺旺:ji̍t-thâu ōng-ōng
+$idiom (idiom) Bright sun and clear sky
+=早:cha
+$adj early
+=早暝:cha-mê
+$time yesterday
+=早起:cha-khí
+$time morning
+=旺:ōng
+$noun prosperity
+$noun flourish
+$noun wealth
+=旺來:ōng-lâi
+$fruit pineapple
+=明:bêng
+$adj clear, transparent
+=明仔載:mî-a-chài/mâ-chài
+$time tomorrow
+=明年:mē-nî
+$time next year
+=明生:bêng-seng
+$noun star (person)
+=明白:bêng-pe̍ⁿh
+$verb to understand
+=易:êng
+$adj easy
+=是:sī
+$prepo [Used as "be" before nouns and pronouns to identify or describe the subject]
+=是嗎:sī-bô
+$auxi [At the end of the question to ask if the statement is true, kind of like "isn't it?"]
+=是才:sī-chài
+$advb actually, in fact, as a matter of fact
+=時鐘:sî-cheng
+$time clock
+=時間:sî-kaⁿn
+$time time (duration)
+=晏:òaⁿ
+$adj late in the day
+$adj late, near the end of a period of time
+=晏食:òaⁿ-chia̍h
+$verb to eat late
+=暈:hîn
+$adj dizzy, light-headed
+$adj stressed (from a non-delightful event)
+=暗:àm
+$adj dark
+$adj late in the day
+=暗夜:àm-mê
+$time night time
+=曬:phi
+$verb to dry in the sun
+=曾:chan
+$surname zeng, chan (surname)
+=曾:pat
+$verb to have ever (in the past)
+=曾祖母:chó͘-má
+$family great grandmother
+=會:ē
+$verb can
+$verb able to
+=會使:ē-sái
+$verb to be allowed to
+=會是恬:ē-sī-tiām
+$verb to stay put, to not be boisterous, to not be busybody
+=會曉:ē-hiáu
+$verb can do
+$verb to know how to do
+=會狗，予蜜蜂叮:ē káu
+$phrase hō͘ bi̍k-phang teng
+$phrase (idiom) To be suffering but unable to talk about it
+=會記:ē-kì
+$verb to remember
+=會閒:ē-hù
+$verb to have time (to meet some deadline)
+=月娘:goe̍h-niô
+$noun moon
+=有:ū
+$verb to have
+=有佇:ū-tī
+$verb to be present, to be here
+$opp 無佇
+=有位坐:ū-ūi-chē
+$verb to have empty seats to sit on
+=有位貯:ū-ūi-té
+$verb to have space available to store (something), to have sufficient space to store (something)
+=有信用:ū-sìn-iōng
+$verb to be honest, to be truthful, to be sincere, to be frank
+=有力:ū-la̍t
+$verb to be strong, to be powerful, to have lots of strength
+=有年無月:ū nî bô goe̍h
+$idiom (idiom) To not be clear, unclear
+=有影:ū-iáⁿ
+$verb to be true, to be real
+=有時:u-sî
+$time sometimes, occasionally, from time to time, once in a while
+=有用:ū-iòng
+$verb to be useful
+=有當時:ū-tang-sî
+$time sometimes, now and then, from time to time
+=有較細:ū-ka-sì
+$verb to be polite, to have manners
+=有銷:ū-siau
+$verb (of business) To have sales
+=有閒:ū-êng
+$verb to have free time
+=有風:ū-hong
+$verb to be lucky, to have good fortune
+=朋友:pêng-iú
+$noun friend
+=木瓜:bo̍k-koa
+$fruit papaya
+=未:bòe
+$auxi [At the end of the sentence to indicate if the action has or has not been done]
+=未熟:bòe-se̍k
+$adj not yet ripe
+=本:pún
+$class [classifier for books]
+=条:tiâu
+$class [classifier for lothing]
+=杯:poe
+$class [Classifier for cups or glass]
+=枕頭:chín-thâu
+$noun pillow
+=林:lîm
+$surname lim / Lin (surname)
+=果子:kóe-chí
+$fruit fruit
+=某:bó͘
+$family wife
+=柑:kam
+$fruit tangerine
+$fruit orange fruit
+=柑色:kam-sek
+$colour orange (colour)
+=柔:jûn
+$adj (of a food) Tender, flexible, soft
+=柚:iū
+$fruit pomelo
+=查:châⁿ
+$verb to check
+$verb to investigate
+=查埔:tā-pō͘
+$adj boy
+$adj male
+=查某:cha-bó͘
+$adj girl
+$adj female
+=柴:chhâ
+$noun firewood, brushwood
+$noun wood, log, timber
+=柴頭:chhâ-thâu
+$adj (of a person) Dull, ignorant, lifeless
+=桌:toh
+$noun table
+=桌上:toh-téng
+$noun on the table
+$noun table top
+=桌布:toh-pò͘
+$noun table napkin
+=桶:tháng
+$noun bucket
+=梳:se
+$verb to comb (hair, etc)
+=棉蘭:mî-lân
+$loc Medan (a major city in Indonesia)
+=椰:iâ
+$fruit coconut
+=椰水:iâ-chúi
+$drink coconut water
+=椰漿:iâ-chioⁿ
+$drink coconut milk
+=楔鐳:seh-lui
+$verb to bribe, to offer a bribe
+=樓:lâu
+$noun storey, floor
+=樓梯:làu-thui
+$noun stairs
+$noun ladders
+=樓頂:làu-téng
+$noun upstairs
+=樹叢:chhiū-châng
+$noun tree
+=橋:kiô
+$noun bridge
+=機:ki
+$noun phone
+=檨仔:suāi-á
+$fruit mango
+=櫥:tû
+$noun wardrobe, closet, cabinet
+=欄杆:lân-kan
+$noun railing, handrail, banister
+=欠:khiàm
+$verb to be in debt
+$verb to owe
+$explain
+我帳你三個。。。 I owe you three ...
+=款:khoán
+$noun attitude
+$noun type (of person)
+=歇暝:hiah-mê
+$verb to stay the night, to sleep over
+$etyTEO hiah4 mê5
+=歇鬆:siang-só
+$verb to relax, to have a break
+$verb to go on a holiday (or a vacation)
+=歌:koa
+$noun song
+=歡喜:hoaⁿ-hí
+$adj happy
+$adj glad
+$adj delightful
+=止:tè
+$verb to stop, to cease
+=正手:chhiàⁿ-chhiú
+$body right hand
+$noun right hand side
+=正經:chéng-keng
+$advb properly, appropriately, correctly
+=歹:pháiⁿ
+$adj evil, bad, wicked
+=歹勢:pháiⁿ-sí
+$adj naughty, mischievous
+=歹勢:pháiⁿ-sè
+$adj embarrased, ashamed
+$adj shy
+$adj [also as a saying] sorry, pardon me
+=歹命:pháiⁿ-miâ
+$adj have an unlucky fate, unlucky life
+$adj (of life) Bad, struggling
+=歹囝:pháiⁿ-kiáⁿ
+$noun (derogatory) Bad boy, naughty boy, brat
+$noun (derogatory) Hooligan, troublemaker, rascal, scoundrel
+=歹看:pháiⁿ-khòaⁿ
+$adj ugly, hideous
+=歹食:pháiⁿ-chia̍h
+$adj (of food) Distasteful, unappetising, unpalatable, not delicious
+=歹飲:pháiⁿ-lim
+$adj (of drinks) Distasteful, unappetising, unpalatable, not delicious
+=死:sí
+$verb to die
+$verb to unalive
+=死活:sí-oa̍h
+$noun life and death
+=毋:m̄
+$advb no
+$advb not
+$advb [used as negation]
+=毋对:m̄-tio̍h
+$adj incorrect
+=毋愛睬:mài-chhái
+$verb to ignore, to not pay attention to (someone), to neglect (someone)
+=毋曾:m̄-pat
+$verb to have never (in the past)
+=毋知:m̄-chai
+$verb to not know
+=毋識:m̄-bat
+$verb to not know (someone)
+=毋通:m̄-thang
+$advb (expression) it's bad if, do not
+=毒:tok
+$adj poisonous
+$adj toxic
+=比:pi
+$conj [used as comparison]
+=毛:mô͘
+$noun fur
+$noun hair
+=毛巾:mô͘-kin
+$noun towel
+=毛球:mô-kiû
+$noun badminton
+$noun shuttercock
+=毽子:keⁿn-chí
+$noun a traditional Chinese sport known as kenchi or jiàn zi.
+=氣:khì
+$noun air
+$noun gas
+=水:chúi
+$noun water
+=水山:chúi-soaⁿ
+$loc Pangkalan Brandan (A town northeast of Medan)
+$see 棉蘭
+=水房:chúi-pāng
+$noun toilet
+$noun bathroom
+=水紅色:chúi-âng-sek
+$colour pink
+=水罐:chúi-koan
+$noun water Bottle
+=水龍車:chúi-lêng-chhia
+$noun fire truck
+=汆鍋:sang-o
+$noun hotpot
+$noun steamboat
+=汗:kòa
+$noun sweat
+=汝:lú
+$pron you
+=汝人:lú-lâng
+$pron you (Plural)
+=江:káng
+$noun river
+=江珧柱:káng-liàu-chû
+$food conpoy (Dried scallops)
+=沁:sī
+$adj to sting (on the wound, sensitive area, etc)
+$etyJPN character borrowed from 沁みる
+=沖:chhiâng
+$verb to splash
+=沖水:chhiâng-chúi
+$verb to splash with water
+=沖油:chhiâng-iû
+$verb to splash with oil
+=沙:soa
+$noun sand
+=沙魚:soa-hû
+$animal shark
+=油:iû
+$noun oil
+=油炸粿:iû-chā-kóe
+$food youtiao (a type of Chinese long deep-fried dough pastry fritter, usually salty and savory, often eaten with congee or coffee)
+=油肭肭:iû-leh-leh
+$adj (of bowls, plates, food, etc) Greasy, oily
+=油菜:iū-chhài
+$food choy sum, bok choy, yu choy, chinese flowering cabbage
+=泡:phàu
+$verb to pour boiling water into (tea, instant soup, etc)
+=泡茶:phàu-têⁿ
+$verb to brew tea, to make tea
+=波害:pho-hāi
+$verb to accuse
+=注意:chù-i
+$verb to pay attention
+=泰國:tái-kok
+$loc Thailand
+=洗:sé
+$verb to wash
+=洗手:sé-chhiú
+$verb to wash hands
+=洗牙:sé-gê
+$verb to brush one's teeth
+=洗衣機:sé-saⁿ-ki
+$noun washing machine
+=洗身軀:sé-sìn-ku
+$verb to shower
+$verb to take a bath
+=洗鐳:sé-lui
+$verb to launder money
+=洪:âng
+$surname ang, hong (surname)
+=活:oa̍h
+$adj alive
+=流:lâu
+$verb to flow
+=流汗:làu-kòa
+$verb to sweat
+=流涎:lâu-nōa
+$body to drool
+=流眼油:làu-ba̍k-iû
+$verb to cry, to be in tears
+=流血:lâu-hoeh
+$verb to bleed
+=流鼻:lâu-phīⁿ
+$body runny nose
+=流鼻空血:lâu-phīⁿ-khang-hoeh
+$body nose bleed
+=海:hái
+$noun sea
+=海參:hái-som
+$animal sea cucumber
+=海帶:hái-tāi
+$food seaweed, kelp (Saccharina japonica)
+=海帶湯:hái-tāi-tng
+$food seafood soup
+=海湧:hái-éng
+$noun ocean waves
+=海鮮:hái-sian
+$food seafood
+=消息:siau-sit
+$verb to inform (someone), to let know
+=涎:nōa
+$body saliva
+=涼:liâng
+$adj cool, cold
+$see 冷
+$explain
+Slightly warmer than 冷
+=涼涼:liâng-liâng
+$adj slightly cold, chilly
+=淒慘:chhiⁿ-chhám
+$verb to struggle (in life), to fight for survival
+$adj miserable, toilsome, wretched
+=淡薄:tam-po̍h
+$adj few
+$adj little
+=深:chhim
+$adj deep
+$adj hard to understand, difficult, profound
+$opp 淺
+=淺:chhián
+$adj shallow
+$adj easy, simple
+$opp 深
+=淺拖:chhián-thoa
+$noun sandals, slippers
+=清明:cheng-bêng
+$time [Event] Qingming, pure brightness festival, tomb sweeping day, celebration for the dead (1st day of the 5th solar term of the traditional Chinese lunisolar calendar, or usually 4, 5, or 6 April on the Gregorian calendar)
+=清楚:chheng-chhó
+$adj clear, distinct, understandable
+=清草:chin-cháu
+$food grass jelly
+=游水:hiû-chúi
+$verb to swim
+=游水地:hiû-chúi-tī
+$noun swimming pool
+=湧:éng
+$noun waves (of water)
+=湯:tng
+$drink soup
+=準:chún
+$advb fluent, skilled at a certain skill (that involves some type of "flow")
+$explain
+講語準 fluent, the "flow" is ability to speak
+=準備:chún-pī
+$verb to get ready, to prepare
+=滷麵:ló͘-mī
+$food lo Mie noodles
+=滿:móa
+$adj (of liquid) Full, filled
+$adj overflow
+=漆:cha̍t
+$verb to paint
+$noun paint
+$etyIMA cat
+=漏:lāu
+$verb to leak
+=漏風:lāu-hong
+$verb (food) To become stale or soft
+=漿:ki̍t
+$adj (of soup, paste etc) thick
+=潮州粿:tiô-chiu-koe
+$food red peach cakes
+=澳洲:au-chiu
+$loc Australia
+=激心:kek-sim
+$adj worried
+$adj anxious
+$adj vexed
+=濕:tâm
+$adj wet
+=濕粿:tâm-kóe
+$food wet cakes, moist cakes (Traditional Indonesian cakes)
+=濟:chè
+$adj many
+$adj much
+=濟話屎:chè-ōa-sái
+$adj talkative, long-winded (slightly insulting)
+=濟話講:chè-ōa-kóng
+$adj talkative, long-winded
+=濟顧:chèⁿ-kō͘
+$verb to be careful
+=灇:châng
+$verb to shower, to bathe
+=灇水:châng-chúi
+$verb to shower
+$verb to take a bath
+=灇浴間:châng-e̍k-keng
+$noun bathroom
+=灇花水:châng-hoa-chúi
+$verb to bathe in flower water, to shower in flower water (Primarily used for blessing)
+=灇雨水:châng-hō͘-chúi
+$verb to shower in the rain, to bathe in the rain, to play in the rain
+=火:hóe
+$noun fire
+$noun light
+=火車:hóe-chhia
+$noun train
+=火車站:hóe-chhia-chām
+$noun train station
+=炒:chhá
+$verb to fry, to stir-fry
+=炒焼:chhá-sio
+$verb to roast
+=炒焼肉:chhá-sio-bah
+$food roasted pork
+=炒菜:chhá-chhài
+$food cook a meal
+=炒飯:chhá-puiⁿ/chhá-pn̄g
+$food fried rice
+=炒麵:chhá-mī
+$food fried noodles
+=烏色:o͘-sek
+$colour black
+=烏豆油:o͘-tāu-iû
+$food dark soy sauce
+=烏龜:o͘-ku
+$animal turtle
+$animal tortoise
+=烘:hang
+$adj warm
+=焗:ke̍k
+$verb to obstruct (by compressing or contracting something)
+$verb to suffocate
+=焗尿:ke̍k-jō
+$verb to hold in the pee
+=焗屎:ke̍k-sái
+$verb to hold in the poop
+=焗死:ke̍k-sí
+$verb to suffocate (someone) to death
+=無:bô
+$verb to not have
+$verb do not have
+=無代誌:bô tāi-chì
+$phrase (expression) No problem
+=無佇:bô-tī
+$verb to be lost, to be missing, to be gone
+$opp 有佇
+=無位坐:bô-ūi-chē
+$verb to not have empty seats to sit on
+=無位貯:bô-ūi-té
+$verb to not have space available to store (something), to lack sufficient space to store (something)
+=無信用:bô-sìn-iōng
+$verb to be dishonest, to be insincere, to be biased
+=無像:bô-siâng
+$verb to be different, to be unequal
+=無力:bô-la̍t
+$verb to be weak, to have insufficient strength
+=無可能:bô-khó͘-lêng
+$advb impossible, not possible, cannot happen
+=無味無素:bô-bī-bô-sò͘
+$phrase tasteless, flavourless
+=無味素:bô-bī-sò͘
+$verb to be odourless, to have no smell
+=無夠:bô-kàu
+$verb to not be enough
+=無大無小:bô-tōa bô-sè
+$phrase impolite, rude, disrespectful, insolent
+=無客:bô-kheh
+$verb to have no customers, (of business) To be in a bad/unfavourable situation
+=無工做:bô-kang-chò
+$verb to bored, to have nothing to do
+$etyIDN kurang kerjaan
+$explain
+Sometimes, it is also not used in the literal sense. It is used when someone has too much free time or is too bored that he/she does something silly.
+=無影:bô-iáⁿ
+$verb to be false, to be untrue, to be fake
+=無慣勢:bô-koàn-sì
+$verb to be not used to, (of an action) Not familiar
+=無插:bô-chhap
+$verb to not care (about something)
+=無正經:bô-chéng-keng
+$advb (To do something) at the wrong time or place, inappropriately, not properly
+=無法:bô-hoat
+$verb unable to, cannot, to have no way (to do something)
+=無注意:bô-chù-i
+$verb to not pay attention
+=無清楚:bô-chheng-chhó
+$verb to be unclear, to be vague, to be confusing
+=無熟:bô-se̍k
+$verb to be raw
+$verb to be unripe
+=無生意:bô-seng-lí
+$verb (of the business) to not do well
+=無用:bô-iòng
+$verb to be useless, to have no use
+=無聲:bô-sia
+$verb to be silent
+$verb to lose one's voice
+=無變:bô-piàn
+$verb to have no choice (left)
+=無賺:bô-chóan
+$verb to not make a profit, no profit
+=無較細:bô-ka-sì
+$verb to be impolite, to have improper manners
+=無銷:bô-siau
+$verb (of a business) To have little to no sales
+=無閒:bô-êng
+$verb to have no free time
+=無關係:bô-koan-hēⁿ
+$verb to have no relationship (between some things), to have no connection
+=無頂真:bô-téng-chin
+$verb to lack focus, to be careful
+=無頭無尾:bô-thâu-bô-bóe
+$idiom (idiom) A story with no linkage
+=無頭神:bô-thâu-sîn
+$verb to be forgetful, to be scatterbrained, to be absent-minded
+=無風:bô-hong
+$verb to be unlucky, to have bad fortune
+=無鮮:bô-chhiⁿ
+$verb (of seafood) To be stale, to not be fresh
+=煎:chian
+$verb to fry
+=煙:hun
+$noun smoke
+=煙機:hun-ki
+$noun cigarette
+=煠:sa̍h
+$verb to blanch, to boil (To cook by immersing in boiling water)
+=煩惱:huân-ló
+$verb to worry, to be anxious about
+=煮:chú
+$verb to cook
+=熄:sit
+$adj extinguished, put out
+$adj (of fire, light, etc) Go out, die out
+$adj turned off
+=熄火:sit-hóe
+$verb to turn off the lights or lamps
+$verb to extinguish the fire, to put out a fire,
+=熄電:sit-tiān
+$verb (of electricity) To blackout
+=熔:iô͘
+$verb to melt
+=熟:se̍k
+$adj ripe
+=熬:ngâu
+$verb to simmer, to stew (vegetables, etc.) in water
+=熱:joa̍h
+$adj hot (weather)
+=燈籠:teng-lông
+$noun chinese paper lantern
+=燒賣:sio-māi
+$food shumai
+$food a traditional steamed Chinese dumpling
+=燕窩:iàn-o
+$food edible bird's nest (can also be made as a drink)
+=燕鳥:iàn-chiáu
+$animal swallows (Hirundinidae genus) and Swifts (Apodidae family)
+=燙:tǹg
+$verb to scald, to hit (something) with hot or boiling water
+=爆炸:pàu-cha
+$verb to explode, to blow up, to detonate
+=爛:nōa
+$adj soft, mushy
+=爬:pê
+$verb to crawl
+=父:peⁿk
+$family father
+=爸爸:pa-pa
+$family father (colloquial)
+=爹:tia
+$family father, dad
+=爺爺:iêⁿ-iêⁿ
+$family grandfather (maternal), mother's father
+=爽:sóng
+$adj (of an action or place) Enjoyable
+$adj pleasurable
+$adj cheerful
+$adj delightful
+=牌:piau
+$noun brand, trademark
+=牙:gê
+$noun tooth, eeth
+=牙抿:gê-bín
+$noun toothbrush
+=牙膏:gê-ko
+$noun toothpaste
+=牙風:gê-hong
+$noun breath from the mouth
+=牛:gû
+$animal cow, ox
+=牛囝:gû-kiáⁿ
+$animal calf
+=牛奶:gû-leng
+$drink milk
+=牛性:gû-chhéng
+$adj emotional, temperament
+=牛油:gû-iû
+$food butter
+=牧師:bo̍k-su
+$noun priest, pastor, clergyman
+=物件:mi̍h-kiāⁿ
+$noun stuff, thing
+=牽:khan
+$verb to hold hands
+$verb to drive (car, truck, etc)
+=牽手:khan-chhiú
+$verb to hold hands
+=牽車:khan-chhia
+$verb to drive a car
+=牽車才:khan-chhia-chài
+$adj capable of driving a car
+=狗:káu
+$animal dog
+=狗则吠:káu tòe pūi
+$idiom (idiom) To follow someone endlessly
+=狗囝:káu-kiáⁿ
+$animal puppy
+=狗蟻:káu-hiā
+$animal ants
+=獅:sai
+$animal lion
+=王:ông
+$surname ong, ang (surname)
+$noun king
+=玩:lí
+$verb to play
+=玩歌:lí-koa
+$verb to play music
+=玻璃:po-lê
+$noun glass (material)
+=班:pan
+$noun class
+=球:kiû
+$noun ball
+=瓜子:kòa-chí
+$food sunflower seeds
+$etyIDN kuaci
+=甘:kam
+$surname kam, gan (surname)
+=甜:tiⁿ
+$adj sweet
+=甜尿:tiⁿ-jō
+$body diabetes
+=生:seⁿ
+$verb to give birth
+=生意:seng-lí
+$noun business
+=生意興隆:seng-lí heng-liông
+$phrase thriving and prosperous business
+=生日:seⁿ-ji̍t
+$noun birthday
+=生活有時起有時落:seⁿ-oa̍h ū-sî khí ū-sî lo̍h
+$idiom (idiom) Life has ups and downs, everyone experiences a natural mix of good times and bad times including successes and failures.
+=生痕:seⁿ-hûn
+$verb to leave a mark, to create a mark (on a surface), to have been scratched,
+=生目針:sèⁿ-ba̍k-chiam
+$body to have a stye
+=生菇:seⁿ-ko͘
+$verb (of food) To become moldy, to be mildewed
+=生虫:seⁿ-thâng
+$verb to be infested with worms
+=生費:so͘-hòe
+$noun life expenses
+=生跡:seⁿ-jâi
+$verb to stain (cloth, clothes, etc)
+=用:iòng
+$verb to use, to utilise
+=甲了:ka-liáu
+$adj all, whole, totally, complete, everything
+=留:làu
+$verb to leave behind some (food) for later, to save (food) for later
+$verb (of food) To last, to stay fresh (for a certain amount of time)
+=番仔:hoān-á
+$noun (slightly derogatory) Aborigines
+$noun indigenous folks
+$noun malay person
+$noun pribumi
+=番仔話:hoā-ná-ōa
+$lang Indonesian
+$lang Malay
+=畫:oāh
+$verb to draw, to paint
+=當今:tong-kim
+$time now, at present, current
+=當時:tang-sî
+$time sometimes, occasionally, from time to time, once in a while
+=病:pēⁿ
+$noun illness
+=痕:hûn
+$noun mark, trace
+=痛:thiàⁿ
+$adj hurt
+$adj painful
+=痟:siáu
+$adj crazy
+=痟婆:siáu-pô
+$noun (derogatory) Crazy woman, bitch
+=痟貪:siáu-tham
+$adj excessively greedy
+=痠:sng
+$adj ache, sore, numb
+=瘦:sán
+$adj slim, slender
+=發:hoat
+$verb (of plants) To grow, to sprout, to germinate
+$noun wealth, prosperity
+=發:kiàⁿ
+$verb to send
+=發燒:hoat-sio
+$noun fever
+=發粿:hoat-kóe
+$food chinese prosperity cakes, moho cakes (similar Indonesian traditional cake)
+=發貨:kiàⁿ-hòe
+$verb to send goods, to distribute goods
+=白糖糕:pak-thòng-ko
+$food white sugar cakes
+$etyYUE baak6tong4 gou1
+=白色:pe̍ⁿh-sek
+$colour white
+=白豆:pe̍ⁿh-tāu
+$food soybean
+=白飯:pe̍ⁿh-pūiⁿ/pe̍ⁿh-pn̄g
+$food white rice
+=百:pah
+$num hundred
+$explain
+一百 cēr pah
+=百千:pah-chheng
+$num hundred thousand
+=的:ê
+$conj [indicates possession]
+=皮:phôe
+$noun skin
+=皮膚:phôe-hu
+$noun skin
+=盎:ó͘n
+$noun hectogram, 0.1kg
+$etyIDN ons
+=盤:pôaⁿ
+$noun plate
+=目油:ba̍k-iû
+$noun tear, teardrop
+=目針:ba̍k-chiam
+$body stye
+=直:ti̍t
+$adj straight
+$adj (of a person) rigid thinking, overly logical
+=直直:ti̍t-ti̍t
+$adj straight
+=相信:siong-sìn
+$verb to trust, to believe (someone)
+=相戰:sio-chiàn
+$verb (of a nation) To go into war, to declare war
+=相拍:sio-phah
+$verb to fight each other
+=相挵:sio-lòng
+$verb to crash or collide into each other
+=相攬:sio-làm
+$verb to hug each other
+=相親:sio-chim
+$verb to kiss each other
+=相識:sio-pat
+$verb to get to know each other
+=省:séng
+$verb to save, to economise
+=看:khòaⁿ
+$verb to see
+=看戲:khòaⁿ-hì
+$verb to watch a movie
+=看著:khòaⁿ-tio̍h
+$verb to have seen (someone or something)
+=看通書:khòaⁿ-thong-su
+$verb (figurative) To overthink, to overanalyse, to overcalculate
+=看開:khòaⁿ-khui
+$verb to be sincere, to be heartfelt, to be genuine
+=看𣍐起:khòaⁿ-bē-khí
+$verb to underestimate (someone), to belittle, to disparage
+=真:chin
+$advb really, truly, very, quite
+=真:chiâ
+$adj true
+$adj real
+=真正:chin-chiàⁿ
+$advb genuinely, truly, really, very
+=真真:chīn-chīn
+$adj true
+$adj real
+=眠床:mîn-chhn̂g
+$noun bed
+=眼睛:ba̍k-chiu
+$body eyes
+=眼睛屎:ba̍k-chiu-sái
+$body eye wax
+=眼睛毛:ba̍k-chiu-mô͘
+$body eyelashes
+$body eyebrow
+=眼睛霧霧:ba̍k-chiu-bū-bū
+$body blurry vision
+=眼鏡:ba̍k-kiàⁿ
+$noun glasses
+=睬:chhái
+$verb to pay attention to (someone), to notice (someone)
+=知:chai
+$verb to know
+=短:té
+$adj short
+=短褲:té-khò͘
+$noun undergarment
+$noun underwear
+=石榴:siā-liû
+$fruit pomegranate
+=破:phòa
+$adj broken
+$adj punctured
+$adj teared
+=破病:phò͘-pēⁿ
+$verb to be sick
+=破病鷄:phò͘-pēⁿ-ke
+$noun a person who is often sick
+=硩:teⁿh
+$verb to press (button, switch, etc)
+$verb to sit on (on something)
+=硬:ngēⁿ
+$adj hard, firm, stiff, strong
+=硬硬:ngēⁿ-ngēⁿ
+$advb always, persist in, firmly, unyieldingly
+=碗:óa
+$noun bowl
+=磽:khiau
+$adj poor, impoverished, poverty-stricken
+$etyTEO kiao¹
+=礣砥:bá-tû
+$noun rock, stone
+$etyIMA batu
+=祖公:a-kong
+$family grandfather (paternal), father's father
+=祖媽:a-má
+$family grandmother (paternal), father's mother
+=神:sîn
+$noun god, deity
+=票:phiò
+$noun ticket
+$noun receipt
+=福:hok
+$noun luck
+=福建:hok-kián
+$noun hokkien
+=福建麵:hok-kián-mī
+$food hokkien noodles
+=福氣:hok-khì
+$noun good fortune
+=禮拜:lé-pài
+$time Sunday
+$time week
+$explain
+两禮拜 2 weeks
+=穿:chhēng
+$verb to wear
+=窄:eh
+$adj narrow, cramped
+=窗子:thang-á
+$noun window
+=站:khiā-kín
+$verb to be standing
+=站:khiā
+$verb to stand
+=站起來:khiā-khí-lâi
+$verb to stand up
+=竹:tek
+$noun bamboo
+=笑:chhiò
+$verb to smile
+$verb to laugh
+=笑面:chhiò-bīn
+$adj (of a person) Often smiles, likes to smile
+=第:tē
+$num [Affix before numerals to form ordinal numbers]
+$explain
+第一 first
+第二 second
+第三 third
+=等:tán
+$time later, in a while
+$verb to wait
+=等久久:
+$verb to wait very long or for a long time
+=等先:tán-seng
+$verb to wait for a while
+=筋:kin
+$body tendon
+$body nerves
+=筋無直:kin bô ti̍t
+$phrase (of a person) To have bad mood
+=箇來:kó-lâi
+$noun here, this place, this region, this location, this spot
+=算盤:sǹg-pôaⁿ
+$noun abacus (calculating frame)
+=箸:tū
+$noun chopsticks
+=節:chia
+$noun festival
+=簽:chhiam
+$verb to sign (a signature)
+=簽名:chhiam-miâ
+$verb to sign one's name, to autograph
+=籃:nâ
+$noun basket
+=籃球:nâ-kiû
+$noun basketball
+=米:bí
+$food rice (plant)
+=米粉:bí-hún
+$food vermicelli noodles
+=粉:hùn
+$noun powder
+=粉粿:hún-kóe
+$food mung bean starch cake, mung bean paste and its pastry product (Traditionally eaten during the Mid-Autumn Festival gathering)
+=粒:lia̍p
+$class [classifier for granules, grain, or pellets]
+=粗澀濟:chho-sia̍p-chè
+$adj very many, very much so
+=粗魯:chhō͘-ló͘
+$adj rough
+$adj rude (attitude)
+=粘:liâm
+$adj sticky
+$adj adhesive
+$adj glutinous
+$verb to stick, to adhere
+=粘粘:liâm-liâm
+$adj sticky
+$adj adhesive
+=粽:chàng
+$food pyramid-shaped dumpling made of glutinous rice wrapped in bamboo or reed leaves (usu. eaten during the Dragon Boat Festival)
+=精神:cheng-sîn
+$adj conscious
+$adj (psychology) Mind, mental state
+=粿:kóe
+$food cake
+=糊塗:hô͘-tô͘
+$adj bewildered, confused, muddled, muddle-headed
+=糕條:kóe-tiâu
+$food kwetiau noodles
+=糖:thn̂g
+$food sugar
+=糖水:thn̂g-chúi
+$drink sugar water
+=糜:môi
+$food porridge
+=糞斗:pùn-táu
+$noun dustpan
+=紅包:âng-pau
+$noun red pocket
+=紅棗:âng-chó
+$food red dates
+=紅毛:âng-mô
+$noun westeners, caucasians
+$explain
+Primarily used in Singapore
+=紅米:âng-bí
+$food red rice
+=紅色:âng-sek
+$colour red
+=紅角:âng-kak
+$noun diamond (poker cards)
+=紅豆:âng-tāu
+$food red beans
+=紅豆湯:âng-tāu-tng
+$food red bean soup
+=紅酒:âng-chiú
+$drink red wine
+=紅青火:âng-chheⁿ-hóe
+$noun traffic lights
+=紅麴/紅粬:âng-khak
+$food red yeast rice
+=紅龜粿:âng-ku-koe
+$food red tortoise cakes
+=紙:chóa
+$noun paper
+=紡:páng
+$verb to spin
+=紫菜:chí-chhài
+$food seaweed (general name for edible seaweed in the genera Porphyra and Pyropia)
+=紫菜湯:chí-chhài-tng
+$food seaweed soup
+=細漢:sè-hàn
+$advb during one's childhood
+$adj young, child
+=細漢囡仔:sè-hàn-gín-ná
+$noun little child
+=細菌:si̍k-chín
+$noun germs, bacteria
+=紲喙:soât-chhùi
+$adj irresistibly delicious, suiting one's taste
+=結婚:kek-hun
+$verb to marry, marriage
+=緊:ân
+$adj tight (adjective)
+$adj tightly, strongly (adverb)
+=緣投:iân-tâu
+$adj handsome
+=緩:lēng
+$adj loose, slack, untight
+=練:liān
+$verb to practice, to train, to drill
+=縛:pa̍k
+$verb to tie up, to knot
+=繼囝:kè-kiáⁿ
+$family stepchildren
+=繼媽:kè-mah
+$family stepmother, stepmum
+=繼爹:kè-tia
+$family stepfather, stepdad
+=罵:mèⁿ
+$verb to be angry
+$verb to scold
+=羅:lô
+$noun kilogram (Kg)
+=羅啲:lô-ti
+$food bread
+$etyIMA roti
+=羊:iâng
+$animal goat
+=美國:bí-kok
+$loc United States of America
+=美國話:bí-kok-ōa
+$lang American English
+=翁:ang
+$family husband
+=翕:hip
+$verb to take (a photo), to capture (a photo)
+=翕像機:hip-siōng-ki
+$noun camera
+=翕小影:hip-siáu-éng/hip-sió͘-éng
+$verb to take a photo
+=老:làu
+$adj old
+=老君:ló-kun/lú-kun
+$noun doctor
+$etyIMA dukun
+=老君厝:ló-kun-chhù/lú-kun-chhù
+$noun hospital
+=老師:làu-seʳ
+$noun teacher
+=老父:làu-peⁿk
+$family father
+=老猴:làu-kâu
+$animal monkey
+=老虎:làu-hó͘
+$animal tiger
+=老蛇:làu-chôa
+$noun liar, fibber, someone who likes to lie
+=考冊:khóⁿ-chheh
+$verb to sit an examination, to take test, to have an exam
+=耳仔:hīⁿ-á
+$body ear
+=耳仔屎:hīⁿ-a-sái
+$body ear wax
+=聲:sia
+$noun sound
+=聽:thiaⁿ
+$verb to listen
+$verb to hear
+=聽著:thiaⁿ-tio̍h
+$verb to have heard
+=聽話:thiaⁿ-ōa
+$verb to be obedient, to listen to one
+=聽講:thiaⁿ-kóng
+$verb to be told
+$verb to hear off
+=肉:bah
+$food meat
+=肉丸:bah-oan
+$food vegetable fritters, bakwan (Indonesian)
+=肉乾:bah-koaⁿ
+$food bakkwa, chinese pork jerky (Chinese salty-sweet dried meat product similar to jerky, usually made with pork)
+=肉包:bah-pau
+$food bao, baozi, bakpao (Indonesian)
+=肉拊:bah-hú
+$food pork floss
+=肉油:bah-iû
+$food rendered fat, meat oil from the fat
+$food pork, lard (referring to non-Halal meat components)
+=肉燥:bah-sò
+$food meatball, bakso (Indonesian)
+=肉粽:bah-chàng
+$food zongzi, zong
+$see 粽
+=肉繭:bah-kián
+$food meat roll, bak kien (Indonesian)
+=肉餅:bah-piáⁿ
+$food hopia, bakpia (Bean-filled moon cake-like pastry)
+=肉骨茶:bah-kut-têⁿ
+$food bak kut teh
+$food herbal pork rib soup
+=肉麵:bah-mī
+$food bakmie noodles
+=肚臍:tó͘-châi
+$body navel, belly button
+=肝:koaⁿ
+$body liver
+=肺:hùi
+$body lungs
+=胃:ūi
+$body stomach
+=胃冷:ūi-léng
+$body feverish feeling
+=胃痛:ūi-thiàⁿ
+$body gastritis, stomach inflammation
+=胖:pûi
+$adj fat
+=胡椒:hô͘-chio
+$food pepper, blackpepper
+=胡椒粉:hô͘-chio-hún
+$food pepper powder
+=腎臟:io-chí
+$body kidney
+=腦:náu
+$body brain
+=腰:io
+$body waist
+=腸:tn̂g
+$body intestines
+=腹内:pak-lâi
+$food edible Innards, internal organs (Intestines, Liver, Stomach, Kidney, Lungs)
+=腹内熱:pak-lâi-joa̍h
+$verb to feel unwell
+$etyIDN panas dalam
+=腹肚:pak-tó͘
+$body stomach
+=腹肚痛:pak-tó͘-thiàⁿ
+$body stomachache
+=膎汁:kê-chap
+$food ketchup, sauce
+=膣屄:chi-bai
+$vulgar vagina
+=膨:phòng
+$adj swollen, inflated
+$verb to swell, to inflate, to expand
+$verb (of noodles) To become soaky
+=膵:chhiok
+$body pancreas
+=膽:táⁿ
+$body gall bladder
+=膽固醇:tam-ku̍t-sûn
+$noun cholesterol
+=膽固醇高:tam-ku̍t-sûn kôan
+$phrase high cholesterol
+=臟痛藥:chí-thiàⁿ-io̍h
+$food paracetamol
+=臥:nòa
+$verb to lie down and rest
+=自私:chīr-sir
+$adj selfish
+=臭:chháu
+$verb to smell like
+=臭:chhàu
+$adj smelly
+$adj foul
+$adj stinking
+=臭乾:chháu-ta
+$verb (of food) To be burnt, to be overcooked
+=臭味:chhàu-bī
+$adj foul smell
+$adj stinky
+$adj smelly
+=臭尿辣:chháu-jō-hiām
+$verb to smell like urine, to have a urinous odour
+=臭汗酸:chhàu-kòa-sui/chhàu-kòa-sng
+$verb to stink from sweat
+=臭酸:chháu-sui
+$verb (of food) To spoil, to go bad
+=臺灣:tâi-oân
+$loc Taiwan
+=舀:ió͘
+$verb to portion out, to scoop, to ladle (liquids into another container)
+=舅公:kū-kong
+$family grandmother's brother
+=舅母:chiú-mū
+$family mother's brother's wife
+=舅舅:chiú-chiú
+$family mother's brother
+=興:heng
+$noun prosperity
+=興懵:hing-kông
+$adj confused, blur, dazed, not thinking straight
+=興旺發:heng ōng hoat
+$phrase be rich and prosper
+=舍:chi̍h
+$body tongue
+=舞弄獅:ba-rong-sai
+$noun lion dance, to perform a lion dance
+$etymology Compounded from Indonesian barong + Hokkien 獅
+=舢板:sam-pán
+$noun sampan (flat-bottomed Chinese wooden boat propelled by two oars)
+=船:chûn
+$noun boat
+$noun ship
+=艱苦:khàng-khó͘
+$adj hard, difficult, arduous, tough
+=色:sek
+$noun colour
+=花:hoa
+$noun flower
+=花水:hoa-chhúi
+$noun flowers in water (used primarily for blessings)
+=花無一百日紅:hoa bô cēʳ-pah-ji̍t âng
+$idiom (idiom) Even beautiful things
+$idiom people
+$idiom or situations can fade
+$idiom decline
+$idiom or come to an end, nothing beautiful lasts forever.
+=花螺:hoa-lê
+$animal tiger snail
+=芳:phang
+$adj fragrant
+$adj sweet smelling
+=芳味:phang-bī
+$adj fragrant
+$adj aromatic smell
+=芳水:phang-chúi
+$noun perfume
+=苛勞:ko͘-láu
+$adj cruel, brutal, atrocious, barbaric
+=若是:nā-sī
+$conj if, supposing, in the event of
+=苦:khó͘
+$adj bitter
+=英國:eng-kok
+$loc England
+=英國話:eng-kok-ōa
+$lang British English
+=茄色:kiô-sek
+$colour purple
+=茶:têⁿ
+$drink tea
+=茶杯:tê-poe
+$noun cups (in general)
+=茶湯:têⁿ-tong
+$drink tea (without sugar), plain tea, unsweetened tea
+=茶鈷:tê-kó͘
+$noun teapot
+=草:chho͘
+$adj rough (surface)
+=草:chháu
+$noun grass
+=荏:lám
+$adj weak and sickly, frail
+=莫:mái
+$advb [used as negation to show refusal or denial] Do not, must not
+=莫:mài
+$verb to not want
+$explain
+Contraction of 毋愛
+=莫煞:mài-soah
+$phrase [A sharp, annoyed exclamation used when someone keeps saying no]
+=菊花:kek-hoa
+$food chrysanthemum flower
+=菊花茶:kek-hoa-têⁿ
+$drink chrysanthemum tea
+=菜:chhài
+$food vegetable
+=菜頭:chhài-thâu
+$food carrot
+=菜館:chhài-koán
+$noun restaurant
+=菠薐:poe-lêng
+$food japanese spinach, horenso
+=華語:hôa-ì
+$lang Mandarin Chinese
+=萬:bān
+$num ten thousand
+$explain
+三萬 saⁿ bān 30000
+=落:lak
+$verb to fall off, to become loose
+$verb (adj.) Unstick
+=落:lo̍h
+$verb to go down, to descend
+$verb to fall, to drop
+=落來:lo̍h-lâi
+$verb to come down
+=落價:lo̍h-kèⁿ
+$verb to reduce the price, to make cheaper
+=落屎:làu-sái
+$body to have diarrhoea
+=落山:lo̍h-soaⁿ
+$verb to go down a mountain/highlands
+=落雨:lo̍͘h-hō͘
+$verb to rain
+=落雨點:lo̍͘h-hō͘-tiám
+$verb to drizzle
+=葉:ia̍p
+$surname yap (surname)
+=葉:hio̍h
+$noun leaf
+=著:tio̍h
+$advb [used after a verb to denote the action has been done]
+$verb to be affected by
+=著:to̍h
+$adj turned on, lighted, activated
+=著哽:tio̍h-kéⁿ
+$verb to choke (on food or fluid)
+=著嚇驚:tio̍h-chheⁿ-kiaⁿ
+$verb to be alarmed
+$verb to be surprised
+=著火:toh-hóe
+$verb to turn on the lights, (of electricity) To be on after a blackout
+=著電:toh-tiān
+$verb (of electricity) To come back on (after a blackout)
+=葡萄:phû-tô
+$fruit grape
+=葡萄酒:phû-tô-chiú
+$drink grape wine
+=葬:kám
+$verb to bury (a body specified by local tradition)
+=蒼蠅:hô-sîn
+$animal housefly
+=蔡:chhòa
+$surname chua (surname)
+=蔥:chhang
+$food scallion, green onion
+=蔥頭:chhang-thâu
+$food onion
+$food garlic
+=薄:po̍h
+$adj thin and soft (material)
+=薄餅:po̍h-piáⁿ
+$food popiah (Hokkien and Teochew-style spring roll)
+=薑:kioⁿ
+$food ginger
+=薟椒囝:hiām-chio-kiáⁿ
+$food cayenne pepper, chili
+=薪水:sin-lô
+$noun salary, wage
+=藍天:lâm-thi
+$noun clear sky
+=藍色:lâm-sek
+$colour blue
+=藥:io̍h
+$food medicine
+=藥店:io̍h-tiàm
+$noun pharmacy
+=藥菜店:io̍h-chhài-tiàm
+$noun a shop that sells traditional medicines and herbs
+=蘋果:phêng-kó͘
+$fruit apple
+=號:hò
+$time date
+$explain
+二號 the 2nd
+十五號 the 15th
+三十一號 the 31st
+=虫:thâng
+$animal worm
+=虼蚻:ka-choa̍h
+$animal cockroach
+=蚊:báng
+$animal mosquito
+=蚵:ô
+$animal oyster
+=蚶:ham
+$animal clam
+=蛇:chôa
+$animal snake
+=蜜糖:bi̍k-thn̂g
+$drink honey
+=蜜蜂:bi̍k-phang
+$animal honeybee
+=蝕本:si̍h-pún
+$verb to lose money, to lose one's capital
+=蝦:hêⁿ
+$animal prawn
+=蝦米:hê-bí
+$food small shrimp
+=蝦麵:hêⁿ-mī
+$food prawn noodles
+=螺:lê
+$animal snailfish, snails
+=蟳:chîm
+$animal crab
+=蠔油:hâu-iû
+$food oyster sauce
+=蠘:chhi̍h
+$animal flower crab
+=蠟燭:la̍h-chek
+$noun candle
+=血:hoeh
+$body blood
+=血高:hoeh-koan
+$adj (figurative) (of a person) Quick-tempered, short-tempered, irascible, easily get mad
+=血高:hoeh-koân
+$body hypertension, high blood pressure
+=行:kiâⁿ
+$verb to walk
+$verb (of something) to move forward
+=行來行去:kiâ-lâi kiâ-khì
+$phrase walk about
+=行行:kiáⁿ-kiáⁿ
+$verb to travel
+$verb to walk around
+=行路:kiâⁿ-lō͘
+$verb to walk
+=街路:kēⁿ-lō͘
+$noun street
+=街路邊:kēⁿ-lō͘-pi
+$noun street side
+=衫:saⁿ
+$noun shirt
+$noun t-shirt
+=衫褲:saⁿ-khò͘
+$noun clothes
+=衰:soe
+$verb to be unlucky, to have bad luck
+$adj unlucky
+=被:phē
+$noun bedding, quilt
+=被毯:phē-thoa
+$noun blanket
+=裙:kûn
+$noun dress
+=補:pó͘
+$verb to nourish
+=補身軀:pó͘-sìn-ku
+$verb to nourish the body
+=裝:tàu
+$verb to install (equipment)
+$verb to set up (devices)
+$verb to fit parts
+=複雜:hok-cha̍p
+$adj complex, complicated
+=褒:po͘
+$verb to praise, to honour, to commend (someone)
+=褪:tháu
+$verb to take off (clothes)
+=褲:khò͘
+$noun pants
+$noun trousers
+=襪:goe̍h
+$noun socks
+=西洋:a-mô͘i
+$noun western (culture), western World, the West
+=西瓜:si-koa
+$fruit watermelon
+=要紧:iàu-kín
+$adj important, significant, major
+=見笑:kiàn-siàu
+$verb to be ashamed, to be embarrassed, to be shy
+=規日:kui-ji̍t
+$time all day long, the whole day
+=親:chhin
+$adj close, intimate, dear
+=親:chim
+$verb to kiss
+=親情:chhin-chiâⁿ
+$family relative, family member
+=觀音:koan-im
+$noun (Buddhism) Guanyin
+=觀音竹:koan-im-tek
+$noun lucky bamboo (Dracaena sanderiana) (often associated with Feng Shui practices and is believed to bring positive energy, good luck, and prosperity)
+=解:gâi
+$adj effective, workinh
+=計較:kia̍t-kàu
+$verb to consider excessively, to overthink, to overcalculate
+=討:thó
+$verb to demand
+$verb to ask for
+$verb to beg for
+=討扣:thó-khàu
+$verb to ask for a discount
+=記者:kì-chiá
+$noun reporter, journalist
+=話:ōa
+$noun language, talk
+=詹:cham
+$surname chan, zhan (surname)
+=認:jìn
+$verb to recognise, to identify, to make out, to know
+=誠:chiâⁿ
+$advb indeed, truly, really, very
+=調羹:thâu-kiong
+$noun spoon
+=請:chhiáⁿ
+$verb to invite
+$verb to treat/pay for (someone)
+$verb to hire (someone) for a job
+=論去:lūn-khì
+$verb to leave (an argument) alone
+$verb to let (someone) be
+$verb to intentionally concede (an argument)
+=論去求財:lūn-khì kiû châi
+$idiom (idiom) To intentionally concede or let things go in order to attract luck or become successful
+=論盡:lun-chūn
+$verb to be clumsy, to be careless
+$etyYUE leon6 zeon6
+=講:kóng
+$verb to say, to speak, to talk
+=講共汝講:kóng-kā-lí-kóng
+$phrase to talk to you about (something)
+$phrase (expression) Anyway, wait a minute
+=講故:kóng-kò͘
+$verb to converse, to chat, to be part of a conversation
+=講話:kóng-ōa
+$verb to talk
+=講賊話:kóng-chhat-ōa
+$verb to say bad words, to curse (bad words)
+=講騙話:kóng-phiàn-ōa
+$verb to tell a lie
+=識:bat
+$verb to know (someone)
+=譚呆:tam-tai
+$adj (habitually) Lazy, sluggish, dazed, dull
+=警察:kéng-chhat
+$noun police
+=警察厝:kéng-chhat-chhù
+$noun police station
+=讀:tha̍k
+$verb to read
+=讀冊:tha̍k-chheⁿh
+$verb to read a book
+$verb to study
+=變:piàn
+$adj to have changed, to have become different
+=豆沙:tāu-sa
+$food bean paste
+=豆腐:tā-hù
+$food tofu
+=豆腐水:tā-hù-chúi
+$drink soya-bean milk
+=豆腐花:tāu-hù-hoa
+$food tofu skin
+=豆花:tāu-hoa
+$food dried tofu skin, yuba
+=豆芽:tāu-gê
+$food bean sprouts
+=豆醬:tau-chóⁿ
+$food tauco, taucu, tauchu (A type of fermented yellow soy bean paste)
+=豬:tu
+$animal pig
+=豬囝:tu-kiáⁿ
+$animal piglet
+=貓:niau
+$animal cat
+=財貨:kē-hóe
+$noun money and goods, property, belongings
+=貧惰:pîn-tōaⁿ
+$adj lazy, idle
+=貧惰骨:pîn-tōaⁿ-kut
+$noun lazy person
+=貨:hòe
+$noun goods, products, commodity
+=貪:tham
+$adj greedy
+=貪心:tham-sim
+$verb to be greedy
+=貯:té
+$verb to store, to keep
+$verb to store up, to build a stockpile
+=貴:kùi
+$adj expensive, costly
+=買:bé
+$verb to buy
+$verb to purchase
+=買物件:bé-mi̍h-kiāⁿ
+$verb to buy stuff, (To go) shopping
+=貼:tah
+$verb to stick on, to paste to (sticker, paper, etc)
+=賊話:chhat-ōa
+$noun filthy language, impolite language, bad words
+=賣:bē
+$verb to sell
+=賤:phi
+$adj inexpensive, cheap, low-priced
+=賺:choán
+$verb to make a profit
+=赢:iâ
+$verb to win
+=走:cháu
+$verb to run
+$verb (of a business) to flee
+=走來走去:cháu-lâi cháu-khì
+$phrase run about
+=走路:cháu-lō͘
+$verb (of an organisation) to divert from its normal operation
+=起:khí
+$verb to get up, to stand up
+$verb to go up, to move up, to rise, to ascend
+$verb to build, to construct, to erect (a building)
+=起來:khí-lâi
+$advb (after a verb) [indicate beginning and continuation of the action]
+$verb to get up, to get out of bed
+$verb to stand up, to rise to one's feet
+$verb to come to the top
+=起價:khí-kèⁿ
+$verb to increase the price, to make more expensive
+=起厝:khí-chhù
+$verb to build a house, to construct a house
+=起山:khí-soaⁿ
+$verb to go up/climb up a mountain/highlands
+=起死:khí-sí
+$adj upset, angry, worked up, emotionally affected
+=起沯:khí-châng
+$adj upset, angry, worked up, emotionally affected
+=起班:khí-pan
+$verb to be promoted to the grade
+=起痟:khí-siáu
+$verb to go mad, to go crazy
+=起童:khí-tâng
+$verb (religion) To be possessed by spiritual entities and start dancing and prophesying (of a spirit medium)
+=趣味:chhù-bī
+$adj cute, adorable
+=跋:poàk/poa̍h
+$verb to gamble, to bet
+=跋倒:poa̍h-tó
+$verb to fall
+=跋繳:poa̍h-kiáu
+$noun gamble
+=跋繳鬼:poa̍h-kiáu-kúi
+$noun gambling addict, a person who loves to gamble
+=跤:kha
+$body leg
+$body feet
+=跤指甲:kha-chéng-kah
+$body toenails
+=跤球:kha-kiû
+$noun football
+=跤痛:kha-thiàⁿ
+$body leg pain
+=跤跔間:kha-ku-keng
+$noun prison, jail
+=路:lō͘
+$noun road
+=跳:thiàu
+$verb to jump, to hop
+=跳舞:thiáu-bú
+$verb to dance
+=踏:ta̍h
+$verb to step, to step on
+$verb to ride (a bicycle)
+=踏風車:ta̍h-hong-chhia
+$verb to ride a bicycle
+=躉:bú
+$verb buy wholesale, buy all the items
+$verb panic-buying
+=身軀:sìn-ku
+$noun a person's body
+=身邊:sìn-pi
+$noun at one's side, the side next to one's body
+$noun (to have smth.) on one
+=車:chhia
+$noun car
+=車夫:chhia-hu
+$noun driver
+=軍隊:kun-tūi
+$noun army, troops, forces, soldiers
+=較:khah
+$advb more
+$advb even more
+=較去:khah-khì
+$adj further out
+=較拙:khah-choah
+$adj better than nothing, acceptable despite being poor, passable
+=載:chài
+$verb to transport someone (by vehicle)
+=輕:khin
+$adj light, of little weight
+=輸:su
+$verb to lose, to be defeated
+$verb (of an object's quality) to perform below standard
+=轆:lû
+$verb to run (something) down, to roll over (something)
+$verb to run a tool or pointed object with steady pressure on a surface (e.g. one's face)
+=轉:túi
+$verb to return home, to go home
+=轉來:túi-lâi
+$verb to return home, to come home
+=辣:hiām
+$adj spicy
+=辣椒:hiām-chio
+$food chili
+=近:kìn
+$adj close, near
+=追:tui
+$verb to chase after, to pursue (someone)
+=送:sàng
+$verb to deliver
+=送日:sàng-ji̍t
+$noun a traditional Chinese wedding engagement or betrothal rite (practiced by Chinese Indonesians involving the exchange of gifts)
+=逐:ta̍k
+$pron each, every, per
+=逐擺:ta̍k-pái
+$advb [Used before a verb to indicate the every instance of the action done] Every time, each time
+=逐逐:ta̍k-ta̍k
+$advb (of noun or adj) Each, every
+=逐逐日:ta̍k-ta̍k-ji̍t
+$time every day
+=這爿:cheʳ-peng
+$pron over here
+=通書:thong-su
+$noun almanac, ephemerism
+=通知:thong-ti
+$verb to notify, to notice, to inform
+=進風:ji̍p-hong
+$noun common cold
+$etyIDN masuk angin
+=運動:in-tong
+$verb to exercise (sports)
+=過:kōe
+$advb [Indicates an action has been done]
+$verb to pass
+$verb to cross
+$verb to go (over the limit)
+=過來:kōe-lâi
+$verb to come over
+=過時:kōe-sî
+$verb to pass the expiration date
+=過路:kōe-lō͘
+$verb to cross the road
+=遠:hùi
+$adj far, distant
+=遮:chia
+$advb overly, excessively, (of an adjective) Far too
+$explain
+More emphatic than 太
+=選:kéng
+$verb to choose
+=邀貨店:io-hòe-tiàm
+$noun small grocery store, mama shop, mom-and-pop store, neighbourhood store, toko kelontong (Indonesian)
+=邊仔:pi-á
+$noun side
+$noun edge
+=邱:khu
+$surname khoo (surname)
+=鄭:tēng
+$surname tee, theng (surname)
+=酒:chiú
+$drink alcoholic beverage
+$drink beer
+$drink wine
+=酱:chiô
+$food sauce
+=酸:sui
+$adj sour
+=醃:sīⁿ
+$verb to marinate, to pickle
+=醒:seh
+$adj clever, wise, sharp, flexible-minded
+=醒:chhéⁿ
+$verb to wake up
+$verb to get up
+=醬清:chiò-chheng
+$food (Light) soy sauce
+=重:tàng
+$adj heavy, weighty
+=金:kim
+$noun gold
+$noun money
+=金塊:kim-tè
+$noun gold ingot, gold bar
+=金店:kim-tiàm
+$noun jewellery Store, jeweller's, gold Store
+=金橘:kim-kuat
+$fruit kumquat
+=金紙:kim-chóa
+$noun money paper (which is according to Chinese tradition)
+=金鏈:kim-liàn
+$noun gold necklace
+=鉛筆:iân-pit
+$noun pencil
+=銀行:gîn-hâng
+$noun bank
+=銷:siau
+$noun business sales
+=錢/鐳:lui
+$noun money
+$etyIMA duit
+=鎖:só
+$verb to lock
+=鎖匙:só-sî
+$noun key
+=鎮地:tìn-tē
+$adj useless, taking up space (e.g. on the table, on land of property, etc)
+=鏈:liàn
+$noun necklace
+=鏡:kiàⁿ
+$noun mirror
+$noun glass
+=鐳息:lui-sek
+$noun interest (on an investment or a loan)
+=鐵:thih
+$noun iron
+$noun steel
+=鐵爐店:thih-lô-tiàm
+$noun hardware store
+=鐵門:thih-mûiⁿ/thih-mn̂g
+$noun iron door, steel gate
+=長:tn̂g
+$adj long
+=長名:tn̂g-miâ
+$adj (of a person) Long-lived, longevity, elderly, very aged
+=長名雨:tn̂g-miâ-hō͘
+$noun persistent rain, constant rain, prolonged rainfall
+=長大:téng-tōa
+$verb to grow up, to reach maturity
+=長形:tn̂g-hêng
+$noun long object (noun)
+=長氣:chhong-he
+$adj talkative, long-winded
+$etyYUE coeng4 hei3
+=門:mûiⁿ/mn̂g
+$noun door
+=閃:siám
+$verb to dodge, to evade
+$verb (slightly rude) To get out of the way
+=開:khai
+$verb to spend (money)
+=開:khui
+$verb to open
+=開喙:khui-chhùi
+$verb to speak more clearly or loudly (by opening the mouth more widely)
+=開店:khui-tiàm
+$verb to open up shop, to set up shop
+=開水:kún-chúi
+$noun boiled water
+$noun boiling water
+$noun drinkable water
+=開銷:khai-siau
+$verb to pay expenses
+=間:keng
+$class [Classifier for house, family]
+$noun chamber
+$noun room
+=関:koan
+$verb to close
+=閣有:koh-u
+$conj there still remain(s), there is or are, in addition
+=闔:khàm
+$verb to close, to shut (in folding, shutting smth)
+$explain
+闔門 khàm mûiⁿ
+=闔家:hap-ke
+$noun (honourific) Entire family, whole family
+=闔店:khàm-tiàm
+$verb to close up shop, to shut up shop
+=闔熄:khàm-sit
+$verb to turn off (the lights, etc)
+=關係:koan-hē
+$noun relationship (between some things), connection
+=阻:chah
+$verb to obstruct, to block, to impede, to hinder
+=阿叔:a-chek
+$pron [Used to call someone older than one] Mister
+=阿哥:a-ko
+$pron [Used to call someone the same age as one or slightly older] Sir, mister
+=阿妗:a-kīm
+$family mother's brother's wife
+=阿姆:a-ḿ
+$family father's elder brother's wife
+=阿姑:a-ko͘
+$family father's sister
+=阿姨:a-î
+$pron [Used to call someone older than one] Mrs
+$family mother's sister
+=阿嬸:a-chím
+$family father's younger brother's wife
+=阿怕:a-peⁿh
+$family father's elder brother
+=阿舅:a-kū
+$family mother's brother
+=陳:tân
+$surname tan / Tang (surname)
+=隔壁:keh-piah
+$noun next door
+=隨便:chin-chhái
+$verb to do as one pleases
+=雄:hiông
+$adj rapid, fast (in speed)
+=雜菜:chap-chhài
+$food capcai, mixed vegetables dish
+=雜貨店:chap-hòe-tiàm
+$noun grocery store, basic goods store, toko sembako (Indonesian)
+=雞:ke
+$animal chicken, rooster
+=雞卵糕:ke-nn̄g-ko
+$food bolu, kue bolu, bolu cakes
+=雞囝:ke-kiáⁿ
+$animal chick
+=雞肉飯:ke-bah-pn̄g
+$food chicken Rice
+=雞飯:ke-pūiⁿ
+$food chicken Rice
+=雨:hō͘
+$noun rain
+=雨傘:hō͘-sòaⁿ
+$noun umbrella
+=雨止:hō͘-tè
+$verb to stop raining
+=雨水:hō͘-chhúi
+$noun rainwater
+=雪文:sap-bûn
+$noun soap
+$etyIMA sabun
+$etyFRA savon
+=雲吞:oān-than
+$food wonton
+=雲吞麵:oān-than-mī
+$food wonton noodles
+=雷:lûi
+$surname lui, lei (surname)
+=電:tiān
+$noun electricity
+=電器店:tiān-khí-tiàm
+$noun shop that sells electrical appliances
+=電視:tiān-sé
+$noun television
+$noun tV
+=電話:tiān-ōa
+$noun telephone
+=霜:sng
+$noun ice
+=霜櫥:sng-tû
+$noun fridge, refrigerator
+=霜水:sng-chhúi
+$drink ice-chilled water, cold water
+=霜糕:sng-ko
+$food ice cream
+=霜風:siōng-hong
+$noun common cold
+=霧:ù
+$noun fog
+=霧:bū
+$adj blurry
+=霧霧:bū-bū
+$adj blurry
+=青色:chheⁿ-sek
+$colour green
+=青菜:chheⁿ-chhài
+$food vegetables, green vegetables
+=青面:chheⁿ-bīn
+$adj emotional, temperamental
+=靜:chèⁿ
+$adj empty (of a place)
+$adj deserted
+=非洲:hui-chiu
+$loc Africa
+=面:bīn
+$body face
+=面前:bīn-chêng
+$noun in front of the face, face front
+=面嘟嘟:bīn-tu-tu
+$noun dull face, unexcited face, flat and spiritless face
+=面嘟嘟:bīn-tū-tū
+$verb to make a poker face
+=鞋:ê
+$noun shoes
+=鞋抿:ê-bín
+$noun shoe brush
+=鞭炮:phong-phàu
+$noun fireworks
+=響:hiáng
+$verb to ring, to make a sound, to emit a sound
+=頂:téng
+$class [Used for vehicles]
+=頂真:téng-chin
+$adj careful, focused, serious, conscientious
+=項:hāng
+$class [Classifier for items, tasks, principles, clauses, and variety]
+=順路:sūn-lō͘
+$verb (of a destination) To be in the same path as the stop, along the same route
+=順順:sūn-sūn
+$adj (of a process) favourable, smooth, to go well
+$adj successful
+=順風:sūn-hong
+$phrase have a safe flight!
+=頇慢:ham-bān
+$adj (of a person) Slow, sluggish
+=領夾必:lêng-kap-pit
+$noun luggage, baggage
+=頭:thâu
+$body head
+=頭前:thâu-chêng
+$noun in front of, ahead, the front
+$noun outside the house (front side)
+=頭家:thâu-ke
+$noun boss
+$noun proprietor
+=頭暈:thâu-hîn
+$adj dizzy, light-headed
+$adj stressed (from a non-delightful event)
+=頭毛:thâu-mô͘
+$body hair
+=頭毛油:thâu-mô͘-iû
+$noun hair oil
+=頭痛:thâu-thiàⁿ
+$body headache
+=頷頸:ām-(o)-kún
+$body neck
+=願:giàn
+$verb to desire
+$verb to want
+=顧:kō͘
+$verb to care for, to take care, to look after, to protect
+=顧店:kō͘-tiàm
+$verb to man a shop/store, to be present in a shop/store
+=風:hong
+$noun wind
+=風扇:hong-sìⁿ
+$noun fan
+=風景:hong-kéng
+$noun view, scenery, sight, scene, landscape
+=風水:hong-súi
+$noun feng shui
+$explain
+An ancient Chinese system of designing buildings and space arrangement according to special rules about the flow of energy, aimed at achieving harmony with the environment
+=風車:hong-chhia
+$noun bicycle
+=飛:poe
+$verb to fly
+=飛去:poe-khì
+$verb to fly away
+=飛機:poe-ki
+$noun airplane
+=飛機場:poe-ki-tiô͘ⁿ
+$noun airport
+=食:chia̍h
+$food food
+$verb to eat
+=食中午:chia̍h-tiong-tàu
+$verb to eat lunch
+=食店:chia̍h-tiàm
+$noun eatery, diner
+=食暗暝:chia̍h-àm-mê
+$verb to eat dinner
+=食粽:chia̍h-chàng
+$time [Event] Dragon Boat Festival (5th day of the 5th month in the lunar calendar)
+=食肉粽:chia̍h-bah-chàng
+$verb to eat Zongzi (during Dragon Boat Festival)
+=食臭:chiah-chhò͘
+$verb to be jealous (of someone)
+=食葷:chia̍h-chho
+$verb to eat meat, to be a meat-eater, to not be vegan
+=食鐳:chia̍h-lui
+$verb to be fond of accepting bribes
+=食雞倚雞，食鴨倚鴨:chia̍h ke óa ke
+$phrase chia̍h ah óa ah
+$phrase to favor those who bring benefits
+=食點心:chia̍h-tiàm-sim
+$verb to eat breakfast
+=食齋:chia̍h-che
+$verb to be vegetarian, to be vegan
+=飯:pūiⁿ/pn̄g
+$food cooked rice
+=飯食較濟，話匱講:pūiⁿ chia̍h khah-chè
+$phrase ōa kiám kóng
+$phrase (idiom) To talk less
+$phrase say more, to reduce pointless talk, to cut the unnecessary talk, to stick to the point
+=飲:lim
+$verb to drink
+$verb drinks (noun)
+=飼:chhī
+$verb to feed
+$verb to raise (a child)
+$verb to adopt and raise a pet
+=飼了米:chhī liau bí
+$idiom (idiom) To raise (a child or generation) for nothing
+=飼雞變鳥:chhī ke piàn chiáu
+$idiom (idiom) Ungrateful, unappreciative
+=飽:pá
+$adj full (stomach)
+$opp 餓
+=餅:piáⁿ
+$food cookies, biscuits
+=餓:iau
+$adj hungry
+$opp 飽
+=香:hio͘
+$noun incense, joss stick
+=香港:hiang-káng
+$loc Hong Kong
+=香燭:hio͘-chek
+$noun incense, joss stick
+=香燭店:hio͘-chek-tiàm
+$noun incense shop/store, a shop that sells incense and other related religious items and offerings
+=香爐:hio͘-lô
+$noun incense burner, censer (A place to burn the incense/joss stick)
+=馬:béⁿ
+$animal horse
+=馬車:bèⁿ-ca̍k
+$noun cycle rickshaw, trishaw
+$etyIDN becak
+=騙話:phiàn-ōa
+$noun lie, untruth, falsehood
+=驚:kiaⁿ
+$verb to be scared
+$verb to be frightened
+=驚死:kiaⁿ-sí
+$verb to be afraid of dying
+=驚輸:kiaⁿ-su
+$verb to be afraid of losing
+=骨:kut
+$body bone
+=骨頭痛:kut-thâu-thiàⁿ
+$body body ache
+=骯髒:lah-sam
+$adj dirty, filthy
+=骹腿:kha-thûi
+$body ankle
+=高:koân
+$adj high
+$adj tall
+=高麗菜:ko-lê-chhài
+$food cabbage (literally Goryeo vegetable, Goryeo was a powerful Korean dynasty during 918 - 1392)
+=鬧熱:lāu-joa̍h
+$adj crowded, congested, bustling
+=鬼:kúi
+$noun ghost
+=魚:hû
+$animal fish
+=魚刺:hû-chhì
+$food fish bone
+=鮑魚:pau-hû
+$animal abalone
+=鮮:chhiⁿ
+$adj (of seafood) Fresh
+=鰇魚:jiû-hû
+$animal squid
+=鱉龜:pih-ku
+$animal sea turtle
+=鳢魚:lê-hû
+$animal snakehead Murrel
+=鳥:chiáu
+$animal bird
+=鳥囝:chiáu-kiáⁿ
+$animal chick, hatchling, nestling, little bird
+=鳥牙:chiáu-gê
+$adj smooth talker, silver tongue, polite, friendly, amiable
+=鳥鼠:niáu-chhú
+$animal mouse, rat
+=鴉片:a-phiàn
+$noun opium
+=鴨:ah
+$animal duck
+=鴨囝:ah-kiáⁿ
+$animal duckling
+=鹹:kiâm
+$adj salty
+=鹹澀:kiâm-siap
+$adj stingy
+=鹹菜:kiâm-chài
+$food pickled mustard greens (A type of salted vegetables)
+=鹽:iâm
+$food table salt
+=鹽水:iâm-chúi
+$drink saltwater
+$drink brine
+=麵:mī
+$food noodles
+=麵線:mī-sòaⁿ
+$food misua noodles
+=麻:bâ
+$adj numb, tingling
+$adj (figurative) Drunk
+$verb to be numb, to tingle
+=麻油:môa-iû
+$food sesame oil
+=麻煩:mâⁿ-hoân
+$adj troublesome
+$adj inconvenient
+=麻麻:bâ-bâ
+$verb tingling
+=黃:n̂g
+$surname ng, wee, ooi (surname)
+=黃色:ûi-sek
+$colour yellow
+=黑胡椒:o͘-hô͘-chio
+$food blackpepper
+=點:tiám
+$num decimal point (.)
+$class a little, a bit
+$class a dot
+=點心:tiàm-sim
+$noun breakfast
+=點聲:tiám-sia
+$time time (point of time)
+=點鐘:tiám-cheng
+$time hour
+$explain
+一点鐘 1 hour
+兩点鐘 2 hours
+三点鐘 3 hours
+=點香:tiám-hio͘
+$verb to light and place an incense/joss stick
+=鼎:tiáⁿ
+$noun wok
+=鼻空:phīⁿ-khang
+$body nose
+=鼻空屎:phīⁿ-khang-sái
+$body booger, hardened snot
+=鼻空毛:phīⁿ-khang-mô͘
+$body nostrils
+=龍:lêng
+$animal dragon
+=龍眼:lêng-kéng
+$fruit longan
+=𠢕:gâu
+$adj smart, clever, dexterous (adjective)
+$adj (only for certain actions) frequently, often (adverb)
+=𠢕呻:gâu-chhan
+$verb to often complain
+=𠢕呻𣍐死:gâu-chhan bē-sí
+$phrase constantly complaining
+=𠢕拖:gâu-thû
+$verb to procrastinate, to delay
+=𠢕𠢕:gâu-gâu
+$advb (of an action) Know how to, capable, skilled
+=𡳞鳥:lān-chiáu
+$vulgar penis
+=𢼌:pa
+$verb to slap
+=𢼌人:pa-lâng
+$verb to slap someone
+=𣍐:bē
+$verb cannot
+$verb unable to
+=𣍐䆀:bē-bái
+$adj not bad, pretty good
+=𣍐使:bē-sái
+$verb to not be allowed to
+=𣍐是恬:bē-sī-tiām
+$verb to be boisterous, to be busybody
+=𣍐曉:bē-hiáu
+$verb cannot do, to not know how to do
+=𣍐記:bē-kì
+$verb to forget
+=𣍐認:bē-jìn
+$verb unable to recognise, unable to identify
+=𣍐閒:bē-hù
+$verb to not have enough time
+$verb to be late
+=𤆤:tīm
+$verb to braise, to stew, to heat up by steeping in hot water
+=𤺪:siān
+$adj bored, finding something monotonous
+$adj weary, exhausted
+$adj becoming ill
+=𨑨迌:thit-thô
+$verb to play
+=𨶙脬:lān-pha
+$vulgar testicles
+=𩚨:khiū
+$adj (of food) Soft and pliable, chewy
+=𩚨𩚨:khiū-khiū
+$adj (of food) Soft and pliable, chewy
+=𬦰:pêⁿh
+$verb to climb
+=𬦰落:pêⁿh-lo̍h
+$verb to go down/climb down (stairs, ladders, mountains, etc)
+=𬦰起:pêⁿh-khí
+$verb to go up/climb up (stairs, ladders, mountains, etc)
+=𬦰起𬦰落:pêⁿh-khí pêⁿh-lo̍h
+$phrase to climb up and down (especially stairs)
+=一步擺:cēʳ-pō͘-pái
+$time for once, rarely
+$explain
+伊一步擺来 He rarely comes/For once, he comes
