@@ -51,7 +51,7 @@ $num seven (7)
 =七十:chhiap
 $num seventy (70)
 =七月半:chhit-goe̍h-pòaⁿ
-$time [Event] Hungry Ghost Festival (7th month in the lunar calendar)
+$event Hungry Ghost Festival (7th month in the lunar calendar)
 =丈人公:tiò͘-lâng-kong
 $family grandfather-in-law (wife's grandfather)
 =丈人婆:tiò͘-lâng-pô
@@ -341,7 +341,7 @@ $num two (2) (bef. noun/classifier)
 =八:peh
 $num eight (8)
 =八月半:peh-goe̍h-pòaⁿ
-$time [Event] Mooncake Festival (15th day of the 8th month in the lunar calendar)
+$event Mooncake Festival (15th day of the 8th month in the lunar calendar)
 =公司:kong-si
 $noun company
 $noun firm
@@ -497,7 +497,7 @@ $phrase to be equal, to be the exact same
 =十三個月出生:cha̍p-saⁿ ko goe̍h chhut-sî
 $idiom (sarcastic) to never want to be defeated, to never want to lose
 =十五暝:cha̍p-gō͘-mêⁿ
-$time [Event] Lantern Festival, cap Go Meh (A festival marking the end of the Chinese New Year period, celebrated on the 15th date of the 1st month in the lunar calendar)
+$event Lantern Festival, Cap Go Meh (a festival marking the end of the Chinese New Year period, celebrated on the 15th date of the 1st month in the lunar calendar)
 =十億:eⁿm
 $num billion
 $etyIDN miliar
@@ -643,7 +643,7 @@ $noun a person from Chinese origin or ethnicity
 =唐儂字:tê-nâng-jī
 $noun hanzi, chinese characters
 =唐儂節:tê-nâng-chia
-$time [Event] Chinese New Year (A 15-dsy festival starting on the 1st day of the 1st month in the Lunar Calendar)
+$event Chinese New Year (A 15-dsy festival starting on the 1st day of the 1st month in the Lunar Calendar)
 =唱:chhiòⁿ
 $verb to sing
 =唱歌:chhiòⁿ-koa
@@ -657,7 +657,7 @@ $verb to ask
 =啦:la
 $auxi [At the end of the sentence to indicate exclamation]
 =喂:óe
-$auxi [Used as interjection] Hi, hello
+$auxi [used as interjection] hi, hello
 $auxi [At the end of the sentence to express annoyance at a person]
 =喘:chhoán
 $adj tired
@@ -1545,7 +1545,7 @@ $fruit pineapple
 $adj clear, transparent
 =明仔載:mî-a-chài/mâ-chài
 $time tomorrow
-=明年:mē-nî
+=明年:mēⁿ-nî
 $time next year
 =明生:bêng-seng
 $noun star (person)
@@ -1554,7 +1554,7 @@ $verb to understand
 =易:êng
 $adj easy
 =是:sī
-$prepo [Used as "be" before nouns and pronouns to identify or describe the subject]
+$prepo [used as "be" before nouns and pronouns to identify or describe the subject]
 =是嗎:sī-bô
 $auxi [At the end of the question to ask if the statement is true, kind of like "isn't it?"]
 =是才:sī-chài
@@ -1735,9 +1735,7 @@ $verb to go on a holiday (or a vacation)
 =歌:koa
 $noun song
 =歡喜:hoaⁿ-hí
-$adj happy
-$adj glad
-$adj delightful
+$adj happy, glad, delightful
 =止:tè
 $verb to stop, to cease
 =正手:chhiàⁿ-chhiú
@@ -1933,7 +1931,7 @@ $opp 深
 =淺拖:chhián-thoa
 $noun sandals, slippers
 =清明:cheng-bêng
-$time [Event] Qingming, pure brightness festival, tomb sweeping day, celebration for the dead (1st day of the 5th solar term of the traditional Chinese lunisolar calendar, or usually 4, 5, or 6 April on the Gregorian calendar)
+$event Qingming, pure brightness festival, tomb sweeping day, celebration for the dead (1st day of the 5th solar term of the traditional Chinese lunisolar calendar, or usually 4, 5, or 6 April on the Gregorian calendar)
 =清楚:chheng-chhó
 $adj clear, distinct, understandable
 =清草:chin-cháu
@@ -1953,7 +1951,7 @@ $explain
 =準備:chún-pī
 $verb to get ready, to prepare
 =滷麵:ló͘-mī
-$food lo Mie noodles
+$food Lo Mie noodles
 =滿:móa
 $adj (of liquid) full, filled
 $adj overflow
@@ -2202,7 +2200,7 @@ $noun priest, pastor, clergyman
 $noun stuff, thing
 =牽:khan
 $verb to hold hands
-$verb to drive (car, truck, etc)
+$verb to drive (a car, truck, etc)
 =牽手:khan-chhiú
 $verb to hold hands
 =牽車:khan-chhia
@@ -2444,9 +2442,9 @@ $noun receipt
 =福:hok
 $noun luck
 =福建:hok-kián
-$noun hokkien
+$noun Hokkien
 =福建麵:hok-kián-mī
-$food hokkien noodles
+$food Hokkien noodles
 =福氣:hok-khì
 $noun good fortune
 =禮拜:lé-pài
@@ -3429,7 +3427,7 @@ $noun chamber
 $noun room
 =関:koan
 $verb to close
-=閣有:koh-u
+=閣有:koh-ū
 $conj there still remain(s), there is or are, in addition
 =闔:khàm
 $verb to close, to shut (in folding, shutting smth)
@@ -3629,7 +3627,7 @@ $noun eatery, diner
 =食暗暝:chia̍h-àm-mê
 $verb to eat dinner
 =食粽:chia̍h-chàng
-$time [Event] Dragon Boat Festival (5th day of the 5th month in the lunar calendar)
+$event Dragon Boat Festival (5th day of the 5th month in the lunar calendar)
 =食肉粽:chia̍h-bah-chàng
 $verb to eat Zongzi (during Dragon Boat Festival)
 =食臭:chia̍h-chhò͘

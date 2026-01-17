@@ -29,6 +29,7 @@ enum Category {
   language("\$lang", true),
   body("\$body", true),
   time("\$time", true),
+  event("\$event", true),
   vulgarity("\$vulgar", true),
   surname("\$surname", true),
 
@@ -97,9 +98,13 @@ class Entry {
       .map((e) => e.content.replaceAll(",", ";"))
       .join(", ");
 
-    final pojSearchUp = poj
+    final pojWordListIterable = poj
       .map((words) => words // [kōe-lō͘]
         .split(RegExp(r'[-\s]+')) // [kōe, lō͘]
+      );
+
+    final pojSearchUp = pojWordListIterable
+      .map((words) => words // [kōe-lō͘]
         .map((poj) => "${removeDiacritics(poj)}${getTone(poj)}").toList() // [koe7, loo7]
       ).toList(); // [[koe7, loo7]]
 
@@ -112,7 +117,7 @@ class Entry {
 
     final hanziSearchUp = hanzi.map((word) => word.split('').toList()).toList();
 
-    final allLists = [pojSearchUp, pojSearchUpToneless, hanziSearchUp];
+    final allLists = [pojSearchUp, pojSearchUpToneless, hanziSearchUp, pojWordListIterable.toList()];
 
     final chineseSearchUp = List.generate(hanzi[0].length, (int index) {
       final set = <String>{};

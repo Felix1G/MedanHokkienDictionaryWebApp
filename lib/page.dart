@@ -58,16 +58,22 @@ class _DictionaryPageState extends State<DictionaryPage> {
                   bef--;
                 }
 
-                if (bef - 1 >= 0 && "()[]{}".contains(keyword[bef - 1])) bef = 0;
+                while (bef - 1 >= 0 && !"()[]{}".contains(keyword[bef - 1])) {
+                  newScore += 4;
+                  bef--;
+                }
 
                 while (aft < keyword.length && !" ()".contains(keyword[aft])) {
                   newScore += 80;
                   aft++;
                 }
-                
-                if (aft < keyword.length && "()[]{}".contains(keyword[aft])) aft = 0;
 
-                newScore += (bef + (keyword.length - aft)) * 4 + entry.entry.definitionsDisplay.length;
+                while (aft < keyword.length && !" ()".contains(keyword[aft])) {
+                  newScore += 4;
+                  aft++;
+                }
+
+                newScore += entry.entry.definitionsDisplay.length;
                 score = minInt(newScore, score);
               }
 
@@ -100,16 +106,22 @@ class _DictionaryPageState extends State<DictionaryPage> {
                   bef--;
                 }
 
-                if (bef - 1 >= 0 && "()[]{}".contains(keyword[bef - 1])) bef = 0;
+                while (bef - 1 >= 0 && !")]}".contains(keyword[bef - 1])) {
+                  newScore += 8;
+                  bef--;
+                }
 
                 while (aft < keyword.length && !" ()".contains(keyword[aft])) {
                   newScore += 80;
                   aft++;
                 }
-                
-                if (aft < keyword.length && "()[]{}".contains(keyword[aft])) aft = 0;
 
-                newScore += (bef + (keyword.length - aft)) * 4 + entry.definitionsDisplay.length;
+                while (aft < keyword.length && !"([{".contains(keyword[aft])) {
+                  newScore += 4;
+                  aft++;
+                }
+
+                newScore += entry.definitionsDisplay.length;
                 score = minInt(newScore, score);
               }
 
@@ -190,12 +202,32 @@ class _DictionaryPageState extends State<DictionaryPage> {
 
             var searchUpIndex = 0;
             var fail = true;
+            var totalScore = 0;
             chineseSearchUpLoop:
             while (searchUpIndex <= entryLength - tokenLength) {
               var tokenIdx = 0;
               for (final token in tokens) {
-                // token does not match
-                if (!entry.chineseSearchUp.any((wordList) => wordList.any((word) => word.contains(token.content)))) break;
+                // check for match
+                final wordList = entry.chineseSearchUp[searchUpIndex + tokenIdx];
+                var wordFail = true;
+                var wordScore = 10000000;
+                for (final word in wordList) {
+                  if (word.contains(token.content)) {
+                    wordFail = false;
+
+                    // calculate score for each word
+                    if (token.isHanzi) {
+                      wordScore = 0;
+                    } else {
+                      final beginIdx = word.indexOf(token.content);
+                      wordScore = minInt(wordScore, beginIdx - 1 + (word.length - (token.content.length + beginIdx)));
+                    }
+                  }
+                }
+
+                if (wordFail) break; // no match
+
+                totalScore += wordScore; // add the score
 
                 tokenIdx++;
                 if (tokenIdx == tokenLength) { // the entire token list is exhausted, match found
@@ -213,7 +245,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
             }
 
             final entryData = EntryData(index: entryIndex);
-            entryData.score = 2 * searchUpIndex + (entryLength - (searchUpIndex + tokenLength));
+            entryData.score = totalScore + 4 * searchUpIndex + 2 * (entryLength - (searchUpIndex + tokenLength));
             dictEntries.add(entryData);
 
             entryIndex++;
