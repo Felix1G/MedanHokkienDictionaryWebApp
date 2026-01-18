@@ -17,7 +17,7 @@ class DictionaryPage extends StatefulWidget {
 
 class _DictionaryPageState extends State<DictionaryPage> {
   bool isEnglish = true;
-  bool showCenterText = true;
+  bool inputEmpty = true;
   final TextEditingController searchController = TextEditingController();
   String prevInput = "";
 
@@ -25,7 +25,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
   Timer? _debounce;
 
   void onChangedLang() {
-    String input = prevInput;
+    String input = searchController.text;
     prevInput = "";
     onChangedText(input, 10); // instantly recompute list
   }
@@ -43,6 +43,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
     int bef = strIdx - 1; // characters BEFore the input (index is less than strIdx)
     int aft = strIdx + input.length; // characters AFTer the input (index is more than strIdx)
 
+    // penalty on unnecessary prefixes
     while (bef >= 0 && !" ()[]{}".contains(keyword[bef])) {
       newScore += 200;
       bef--;
@@ -50,11 +51,13 @@ class _DictionaryPageState extends State<DictionaryPage> {
 
     bef--;
     
+    // penalty on extra words before
     while (bef >= 0 && !"()[]{}".contains(keyword[bef])) {
       newScore += 40;
       bef--;
     }
 
+    // penalty on unnecessary suffixes
     while (aft < keyword.length && !" ()[]{}".contains(keyword[aft])) {
       newScore += 80;
       aft++;
@@ -62,6 +65,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
     
     aft++;
     
+    // penalty on extra words after
     while (aft < keyword.length && !"()[]{}".contains(keyword[aft])) {
       newScore += 20;
       aft++;
@@ -73,6 +77,19 @@ class _DictionaryPageState extends State<DictionaryPage> {
   void onChangedText(String text, [int debounceTime = 300]) {
     // debouncing (prevents processing for every single input)
     if (_debounce?.isActive ?? false) _debounce!.cancel();
+
+    // check if text is empty, which instantly clears the search list
+    if (text.isEmpty) {
+      dictEntries.clear();
+
+      setState(() {
+        inputEmpty = true;
+      });
+
+      prevInput = "";
+      return;
+    }
+
     _debounce = Timer(Duration(milliseconds: debounceTime), () {
       String input = text.toLowerCase().trim(); // search is not case-sensitive
       
@@ -229,7 +246,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
       dictEntries.sort((a, b) => a.score.compareTo(b.score));
 
       setState(() {
-        showCenterText = input.isEmpty;
+        inputEmpty = input.isEmpty;
       });
 
       prevInput = input;
@@ -300,13 +317,15 @@ class _DictionaryPageState extends State<DictionaryPage> {
             )
           ),
 
-          showCenterText ?
+          dictEntries.isEmpty ?
             // CENTER TEXT
             Expanded(
               child: Center(
                 child: Container(
                   padding: EdgeInsets.all(20.0),
-                  child: Text('Welcome to the Medan Hokkien dictionary.\nCurrently, there are ${kEntries.length} entries.\n\nTap the icon on the top right to toggle between English and Chinese/POJ search.',
+                  child: Text(inputEmpty ?
+                    'Welcome to the Medan Hokkien dictionary.\nCurrently, there are ${kEntries.length} entries.\n\nTap the icon on the top right to toggle between English and Chinese/POJ search.' :
+                    'Sorry, no entry was found.',
                     style: GoogleFonts.notoSans().copyWith(
                       color: Colors.grey,
                       fontWeight: FontWeight.bold,
@@ -319,7 +338,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
             ) :
 
             // LIST OF ENTRIES
-            Expanded(child: ListView.builder(
+            Expanded(child: ListView.separated(
               itemCount: dictEntries.length,
               itemBuilder: (context, index) {
                 final entry = dictEntries[index].entry;
@@ -328,20 +347,21 @@ class _DictionaryPageState extends State<DictionaryPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Row(children: [
-                        // HANZI
-                        entry.hanziDisplay.isEmpty ? SizedBox() : ColoredText(
-                          text: entry.hanziDisplay,
-                          colors: entry.pojToneColours,
-                          style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))
-                        ),
+                      Wrap( // wraps the hanzi and poj text when they exceed the width of screen
+                        crossAxisAlignment: WrapCrossAlignment.center,
+                        spacing: entry.hanziDisplay.isEmpty ? 0 : 10,
+                        children: [
+                          // HANZI
+                          entry.hanziDisplay.isEmpty ? SizedBox() : ColoredText(
+                            text: entry.hanziDisplay,
+                            colors: entry.pojToneColours,
+                            style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))
+                          ),
 
-                        // PADDING DIVIDER
-                        entry.hanziDisplay.isEmpty ? SizedBox() : SizedBox(width: 10),
-
-                        // POJ
-                        Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
-                      ]),
+                          // POJ
+                          Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
+                        ]
+                      ),
 
                       SizedBox(height: 10.0),
 
@@ -350,7 +370,12 @@ class _DictionaryPageState extends State<DictionaryPage> {
                     ]
                   )
                 );
-              }
+              },
+              separatorBuilder: (context, index) => Divider(
+                color: const Color.fromARGB(255, 57, 72, 80), // customize color
+                thickness: 1,       // customize thickness
+                height: 0,          // spacing handled by padding
+              ),
             ))
         ],
       )
@@ -418,6 +443,15 @@ class TopSearchBanner extends StatelessWidget {
                 borderRadius: BorderRadius.circular(16),
                 borderSide: BorderSide(color: Colors.cyan),
               ),
+              suffixIcon: searchController.text.isEmpty
+                ? null
+                : IconButton(
+                    icon: Icon(Icons.clear, color: Colors.white),
+                    onPressed: () {
+                      searchController.clear();
+                      onChangedText("");
+                    },
+                  ),
             ),
           ),
         ),

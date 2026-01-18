@@ -97,7 +97,7 @@ class Entry {
   factory Entry(List<String> hanzi, List<String> poj, List<Definition> definitions) {
     final definitionsDisplay = definitions
       .where((e) => !e.categories.any((cat) => _nondescriptiveCategories.contains(cat)))
-      .map((e) => e.content.replaceAll(",", ";"))
+      .map((e) => definitionDisplayReplaceSemicolon(e.content))
       .join(", ");
 
     final pojWordListIterable = poj

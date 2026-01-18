@@ -33,6 +33,28 @@ bool isStrHanzi(String str) {
   return _kHanziRegex.hasMatch(str);
 }
 
+// replaces all ';' to ',' except ';' within (), [], or {}
+String definitionDisplayReplaceSemicolon(String input) {
+  final buffer = StringBuffer();
+  final stack = <String>[];
+
+  for (final char in input.characters) {
+    if ("([{".contains(char)) {
+      buffer.write(char);
+      stack.add(char);
+    } else if (")]}".contains(char)) {
+      buffer.write(char);
+      if (stack.isNotEmpty) stack.removeLast();
+    } else if (char == ';' && stack.isEmpty) {
+      buffer.write(',');
+    }   else {
+      buffer.write(char);
+    }
+  }
+
+  return buffer.toString();
+}
+
 // Tone mark detection (POJ standard)
 final Map<int, RegExp> toneMarks = {
   2: RegExp(r'[áéíóúńḿ]|[a-zA-Z]\u0301'),
