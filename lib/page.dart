@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:medan_hokkien_dictionary/entry.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
@@ -35,43 +36,67 @@ class _DictionaryPageState extends State<DictionaryPage> {
   // rack, crack, uncrackable (since rack is most exact)
   // => the higher the score, the less prioritised is the entry
   // => unmatched prefixes carry more penalty than suffixes
+  // => if the match is a tag, the penalty is fatal
   int getScoreEnglishInput(String keyword, String input) {
-    int strIdx = keyword.indexOf(input);
-    if (strIdx == -1) return -1;
+    final regex = RegExp(RegExp.escape(input));
+    final allIndices = regex.allMatches(keyword).map((m) => m.start).toList();
+    if (allIndices.isEmpty || allIndices.last == -1) return -1;
 
-    int newScore = 0;
-    int bef = strIdx - 1; // characters BEFore the input (index is less than strIdx)
-    int aft = strIdx + input.length; // characters AFTer the input (index is more than strIdx)
+    int score = 1000000000000;
 
-    // penalty on unnecessary prefixes
-    while (bef >= 0 && !" ()[]{}".contains(keyword[bef])) {
-      newScore += 200;
+    for (final strIdx in allIndices) {
+      int newScore = 0;
+      int bef = strIdx - 1; // characters BEFore the input (index is less than strIdx)
+      int aft = strIdx + input.length; // characters AFTer the input (index is more than strIdx)
+
+      // penalty on unnecessary prefixes
+      while (bef >= 0 && !" ()[]{}".contains(keyword[bef])) {
+        if (keyword[bef] == "#") newScore += 100000;
+        newScore += 500;
+        bef--;
+      }
+
       bef--;
-    }
+      
+      // penalty on extra words before
+      while (bef >= 0 && !"()[]{}".contains(keyword[bef])) {
+        // ignore tags
+        var idx = bef;
+        while (idx >= 0 && !"# ".contains(keyword[idx])) {
+          idx--;
+        }
+        if (idx >= 0 && keyword[idx] == "#") break;
 
-    bef--;
-    
-    // penalty on extra words before
-    while (bef >= 0 && !"()[]{}".contains(keyword[bef])) {
-      newScore += 40;
-      bef--;
-    }
+        newScore += 40;
+        bef--;
+      }
 
-    // penalty on unnecessary suffixes
-    while (aft < keyword.length && !" ()[]{}".contains(keyword[aft])) {
-      newScore += 80;
+      // penalty on unnecessary suffixes
+      while (aft < keyword.length && !" ()[]{}".contains(keyword[aft])) {
+        if (keyword[aft] == "#") newScore += 100000;
+        newScore += 200;
+        aft++;
+      }
+      
       aft++;
-    }
-    
-    aft++;
-    
-    // penalty on extra words after
-    while (aft < keyword.length && !"()[]{}".contains(keyword[aft])) {
-      newScore += 20;
-      aft++;
+      
+      // penalty on extra words after
+      while (aft < keyword.length && !"()[]{}".contains(keyword[aft])) {
+        // ignore tags
+        var idx = aft;
+        while (idx < keyword.length && !"# ".contains(keyword[idx])) {
+          idx++;
+        }
+        if (idx < keyword.length && keyword[idx] == "#") break;
+
+        newScore += 20;
+        aft++;
+      }
+
+      score = minInt(score, newScore);
     }
 
-    return newScore;
+    return score;
   }
 
   void onChangedText(String text, [int debounceTime = 300]) {
@@ -103,7 +128,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
             final entry = kEntries[index];
 
             // check for matched entries and assign a score
-            int score = 1000000000;
+            int score = 1000000000000;
             for (final keyword in entry.defSearchUp) {
               int newScore = getScoreEnglishInput(keyword, input);
               if (newScore == -1) continue;
@@ -112,7 +137,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
             }
 
             // entry has match (since score must change because of it)
-            if (score != 1000000000) {
+            if (score != 1000000000000) {
               final data = EntryData(index: index);
               data.score = score;
               dictEntries.add(data);
@@ -341,33 +366,46 @@ class _DictionaryPageState extends State<DictionaryPage> {
             Expanded(child: ListView.separated(
               itemCount: dictEntries.length,
               itemBuilder: (context, index) {
-                final entry = dictEntries[index].entry;
-                return Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 7.0),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Wrap( // wraps the hanzi and poj text when they exceed the width of screen
-                        crossAxisAlignment: WrapCrossAlignment.center,
-                        spacing: entry.hanziDisplay.isEmpty ? 0 : 10,
-                        children: [
-                          // HANZI
-                          entry.hanziDisplay.isEmpty ? SizedBox() : ColoredText(
-                            text: entry.hanziDisplay,
-                            colors: entry.pojToneColours,
-                            style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))
-                          ),
-
-                          // POJ
-                          Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
-                        ]
+                final entryData = dictEntries[index];
+                final entry = entryData.entry;
+                return InkWell(
+                  // redirect to entry page
+                  onTap: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (_) => EntryPage(entryData: entryData),
                       ),
+                    );
+                  },
+                  hoverColor: const Color.fromARGB(20, 239, 239, 239),
+                  mouseCursor: SystemMouseCursors.click,
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 7.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Wrap( // wraps the hanzi and poj text when they exceed the width of screen
+                          crossAxisAlignment: WrapCrossAlignment.center,
+                          spacing: entry.hanziDisplay.isEmpty ? 0 : 10,
+                          children: [
+                            // HANZI
+                            entry.hanziDisplay.isEmpty ? SizedBox() : ColoredText(
+                              text: entry.hanziDisplay,
+                              colors: entry.pojToneColours,
+                              style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))
+                            ),
 
-                      SizedBox(height: 10.0),
+                            // POJ
+                            Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
+                          ]
+                        ),
 
-                      // DEFINITION
-                      Text(entry.definitionsDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(17.5)))
-                    ]
+                        SizedBox(height: 10.0),
+
+                        // DEFINITION
+                        definitionDisplayText(entry.definitionsDisplay, normalSize: MediaQuery.textScalerOf(context).scale(17.5))
+                      ]
+                    )
                   )
                 );
               },

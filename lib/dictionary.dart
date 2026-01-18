@@ -6,64 +6,66 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:medan_hokkien_dictionary/util.dart';
 
 enum Category {
-  noun("\$noun"),
-  verb("\$verb"),
-  adjective("\$adj"),
-  adverb("\$advb"),
-  pronoun("\$pron"),
-  auxiliary("\$auxi"),
-  preposition("\$prepo"),
-  conjunction("\$conj"),
-  classifier("\$class"),
-  number("\$num"),
-  phrase("\$phrase"),
-  expression("\$express"),
-  idiom("\$idiom"),
+  noun("\$noun", "#NOUN"),
+  verb("\$verb", "#VERB"),
+  adjective("\$adj", "#ADJECTIVE"),
+  adverb("\$advb", "#ADVERB"),
+  pronoun("\$pron", "#PRONOUN"),
+  auxiliary("\$auxi", "#AUXILIARY"),
+  preposition("\$prepo", "#PREPOSITION"),
+  conjunction("\$conj", "#CONJUNCTION"),
+  classifier("\$class", "#CLASSIFIER"),
+  number("\$num", "#NUMBER"),
+  phrase("\$phrase", "#PHRASE"),
+  expression("\$express", "#EXPRESSION"),
+  idiom("\$idiom", "#IDIOM"),
 
-  food("\$food", true),
-  fruit("\$fruit", true),
-  drink("\$drink", true),
-  animal("\$animal", true),
-  colour("\$colour", true),
-  family("\$family", true),
-  location("\$loc", true),
-  language("\$lang", true),
-  body("\$body", true),
-  time("\$time", true),
-  event("\$event", true),
-  vulgarity("\$vulgar", true),
-  surname("\$surname", true),
-  figurative("\$figur", true),
+  food("\$food", "#FOOD", true),
+  fruit("\$fruit", "#FRUIT", true),
+  drink("\$drink", "#DRINKS", true),
+  animal("\$animal", "#ANIMAL", true),
+  colour("\$colour", "#COLOUR", true),
+  family("\$family", "#FAMILY", true),
+  location("\$loc", "#LOCATION", true),
+  language("\$lang", "#LANGUAGE", true),
+  body("\$body", "#BODY", true),
+  time("\$time", "#TIME", true),
+  event("\$event", "#EVENT", true),
+  vulgarity("\$vulgar", "#VULGARITY", true),
+  surname("\$surname", "#SURNAME", true),
+  figurative("\$figur", "#FIGURATIVE", true),
 
-  explanation("\$explain"),
+  explanation("\$explain", "#EXPLANATION"),
 
-  etymology("\$etymology"),
-  etyIDN("\$etyIDN"), // Indonesian
-  etyMSA("\$etyMSA"), // Malay
-  etyIMA("\$etyIMA"), // Indo/Malay
-  etyENG("\$etyENG"), // English
-  etyFRA("\$etyFRA"), // France
-  etyVNM("\$etyVNM"), // Vietnamese
-  etyYUE("\$etyYUE"), // Cantonese
-  etyTEO("\$etyTEO"), // Teochew
-  etyHAK("\$etyHAK"), // Hakka
-  etyCMN("\$etyCMN"), // Mandarin
-  etyJPN("\$etyJPN"), // Japanese
-  etySAN("\$etySAN"), // Sanskirt
+  etymology("\$etymology", "#ETYMOLOGY"),
+  etyIDN("\$etyIDN", ""), // Indonesian
+  etyMSA("\$etyMSA", ""), // Malay
+  etyIMA("\$etyIMA", ""), // Indo/Malay
+  etyENG("\$etyENG", ""), // English
+  etyFRA("\$etyFRA", ""), // France
+  etyVNM("\$etyVNM", ""), // Vietnamese
+  etyYUE("\$etyYUE", ""), // Cantonese
+  etyTEO("\$etyTEO", ""), // Teochew
+  etyHAK("\$etyHAK", ""), // Hakka
+  etyCMN("\$etyCMN", ""), // Mandarin
+  etyJPN("\$etyJPN", ""), // Japanese
+  etySAN("\$etySAN", ""), // Sanskirt
 
-  see("\$see"),
-  opposite("\$opp");
+  see("\$see", "#SEE"),
+  opposite("\$opp", "#OPPOSITE");
 
-  final String code;
+  final String code, name;
   final bool semantic;
-  const Category(this.code, [this.semantic = false]);
+  const Category(this.code, this.name, [this.semantic = false]);
 }
 
 class Definition {
   final List<Category> categories;
   final String content;
 
-  Definition({required this.categories, required this.content});
+  // sort categories by the Category order, to ease grouping definitions by categories
+  Definition({required List<Category> categories, required this.content}) :
+    categories = List<Category>.from(categories)..sort((a, b) => a.index.compareTo(b.index));
 
   @override
   String toString() {
@@ -95,10 +97,57 @@ class Entry {
   final List<Color> pojToneColours; // colour of hanzi from poj tone
 
   factory Entry(List<String> hanzi, List<String> poj, List<Definition> definitions) {
+    // group definitions by categories, but keep the category order
+    Category? parentCategory;
+    for (int idx = 0; idx < definitions.length; idx++) {
+      if (parentCategory != null) parentCategory = definitions[idx].categories.first; //set initial category
+
+      if (definitions[idx].categories.first != parentCategory) {
+        // find other definitions with the same category
+        var swapped = false;
+        for (int look = idx + 1; look < definitions.length; look++) {
+          if (definitions[look].categories.first == parentCategory) {
+            // swap definitions
+            final temp = definitions[idx];
+            definitions[idx] = definitions[look];
+            definitions[look] = temp;
+            swapped = true;
+            break;
+          }
+        }
+
+        // no more definitions of this category, so set new category
+        if (!swapped) {
+          parentCategory = definitions[idx].categories.first;
+        }
+      }
+    }
+
+    parentCategory = null;
     final definitionsDisplay = definitions
       .where((e) => !e.categories.any((cat) => _nondescriptiveCategories.contains(cat)))
-      .map((e) => definitionDisplayReplaceSemicolon(e.content))
-      .join(", ");
+      .map((e) {
+        // write parent category
+        final buffer = StringBuffer();
+        if (e.categories.first != parentCategory) {
+          parentCategory = e.categories.first;
+          buffer.write(parentCategory?.name);
+          buffer.write(" ");
+        }
+
+        // write semantic categories
+        var idx = 1;
+        while (idx < e.categories.length) {
+          buffer.write(e.categories[idx].name);
+          buffer.write(" ");
+          idx++;
+        }
+
+        // finish off with definition
+        buffer.write(definitionDisplayReplaceSemicolon(e.content));
+
+        return buffer.toString();
+      }).join(", ");
 
     final pojWordListIterable = poj
       .map((words) => words // [kōe-lō͘]

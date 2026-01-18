@@ -1,7 +1,15 @@
 This dictionary is licensed under CC BY 4.0. You must provide attribution when using it. See https://creativecommons.org/licenses/by/4.0/ for details.
 Author: Felix Kanardy Sujono
 Date: 1-18-2026
-Revision: 1
+Revision: 2
+
+Notes:
+1. Order of definitions will be the same.
+> example: [advb A, adj B] will remain as adverb first then adjective second.
+2. Definitions may be swapped to be grouped to the categories, but initial category order will be the same.
+> example: [advb A, adj B, advb C] => [advb A, advb C, adj B] B and C will be swapped to group adverbs into one category.
+3. Hashtag (#) must never be part of the definition.
+> Hashtag is used as category specifiers in definitionDisplay.
 
 =:chhèⁿ-tiâu
 $verb to be able to withstand, to be able to handle
@@ -152,10 +160,10 @@ $noun alarm clock
 $verb to be in a panic, to overreact
 $verb to complain, to protest
 =了:le
-$auxi [At the end of the sentence to express uncertainty, slight questioning]
+$auxi [at the end of the sentence to express uncertainty, slight questioning]
 =了:liáu
 $adj finished, emptied
-$auxi [At the end of the sentence to indicate completion of action]
+$auxi [at the end of the sentence to indicate completion of action]
 =了水:liáu-chúi
 $verb to waste water
 =予:hō͘
@@ -439,7 +447,7 @@ $verb to slaughter (an animal)
 =利:lāi
 $adj sharp
 =别:pa̍k
-$adj [Used to indicate the other or the rest]
+$adj [used to indicate the other or the rest]
 =别人:pa̍k-lâng
 $noun another person, the other person, the rests
 =别位:pa̍k-ūi
@@ -575,7 +583,7 @@ $verb (of insects) to sting, to bite
 =合艾:hap-chái
 $loc Hat Yai (A major city in Thailand)
 =吉靈子:kè-lêng-á
-$noun (Extremely derogatory) Indians
+$noun (extremely derogatory) Indians
 $etyMSA keling
 $etySAN kalinga (an Ancient kingdom in India)
 =吊車:tiáu-chhia
@@ -602,7 +610,7 @@ $verb to smoke (a cigarette)
 =吸風:sùk-hong
 $noun cupping Therapy
 =吹:choi
-$noun (slang) [Friendly term of address for a male] Bro, dude
+$noun (slang) [friendly term of address for a male] Bro, dude
 $etyHAK chhôi
 $etyIDN coy
 =吼:háu
@@ -610,7 +618,7 @@ $verb to cry
 =呆佬:tai-lô
 $adj stupid, foolish
 =呬:sî
-$auxi [At the end of sentence to express slight doubt or annoyance]
+$auxi [at the end of sentence to express slight doubt or annoyance]
 $etyIDN sih
 =味:bī
 $verb to smell
@@ -634,13 +642,13 @@ $noun café
 =咖啡色:ko-pi-sek
 $colour brown
 =咩:me
-$auxi [At the end of the sentence to express disbelief]
+$auxi [at the end of the sentence to express disbelief]
 =咬:kā
 $verb to bite, to snap at, to gnaw
 =咯:lo
-$auxi [At the end of the sentence to indicate obviousness]
+$auxi [at the end of the sentence to indicate obviousness]
 =哋:tēʳ
-$auxi [Placed before the verb to emphasise action with obviousness, similar to "of course", "definitely", or "surely"]
+$auxi [placed before the verb to emphasise action with obviousness, similar to "of course", "definitely", or "surely"]
 =哥哥:ko-ko
 $family elder brother
 =哪裡:tá-lo̍h
@@ -664,10 +672,10 @@ $auxi [sometimes when enumerating items]
 =問:mūiⁿ/mn̄g
 $verb to ask
 =啦:la
-$auxi [At the end of the sentence to indicate exclamation]
+$auxi [at the end of the sentence to indicate exclamation]
 =喂:óe
 $auxi [used as interjection] hi, hello
-$auxi [At the end of the sentence to express annoyance at a person]
+$auxi [at the end of the sentence to express annoyance at a person]
 =喘:chhoán
 $adj tired
 $adj exhausted
@@ -681,7 +689,7 @@ $body canker sore
 =喙適:chhùi-chit
 $adj palatable, suitable taste
 =嗎:bô
-$auxi [At the end of a "yes-no" question]
+$auxi [at the end of a "yes-no" question]
 =嘔:áu
 $verb to vomit
 =嘛:mā
@@ -749,7 +757,7 @@ $noun dust (in general)
 =土跤:thô͘-kha
 $noun floor
 =在:khí
-$prepo [Preposition to indicate position] at (a place)
+$prepo [preposition to indicate position] at (a place)
 =地:tē
 $noun land, field
 =地址:tē-chí
@@ -759,7 +767,7 @@ $verb to sit
 =坐車:chē-chhia
 $verb to go by car
 =坨:tè
-$class [Classifier for smaller portions or slices of food]
+$class [classifier for smaller portions or slices of food]
 =墓:bōng
 $noun grave, tomb
 =壁:piah
@@ -890,7 +898,7 @@ $family elder sister
 =姑婆:ko͘-pô
 $family grandfather's sister
 =姨姨:î-î
-$pron [Used to call someone the same age or slightly older] Miss, mrs
+$pron [used to call someone the same age or slightly older] Miss, mrs
 =姨婆:î-pô
 $family grandmother's sister
 =婆婆:pô͘-pô͘
@@ -1317,7 +1325,7 @@ $verb to wear someone out, to exhaust someone through continual trouble or strai
 $adj stubborn and unreasonable, obstinate
 =拜:pài
 $verb to pray
-$time [Indicates day of the week]
+$time [indicates day of the week]
 $explain
 拜一 Monday
 拜二 Tuesday
@@ -1456,7 +1464,7 @@ $verb to take, to bring (something)
 $verb to grab
 $verb to carry (by hand)
 =攑來:giâⁿ-lâi/gē
-$prepo [Preposition to indicate an action is done on an object, object 攑來 verb]
+$prepo [preposition to indicate an action is done on an object, object 攑來 verb]
 $explain
 gē is the short form from fast speech.
 =攕仔:chhiám-á
@@ -1565,7 +1573,7 @@ $adj easy
 =是:sī
 $prepo [used as "be" before nouns and pronouns to identify or describe the subject]
 =是嗎:sī-bô
-$auxi [At the end of the question to ask if the statement is true, kind of like "isn't it?"]
+$auxi [at the end of the question to ask if the statement is true, kind of like "isn't it?"]
 =是才:sī-chài
 $advb actually, in fact, as a matter of fact
 =時鐘:sî-cheng
@@ -1647,7 +1655,7 @@ $noun friend
 =木瓜:bo̍k-koa
 $fruit papaya
 =未:bòe
-$auxi [At the end of the sentence to indicate if the action has or has not been done]
+$auxi [at the end of the sentence to indicate if the action has or has not been done]
 =未熟:bòe-se̍k
 $adj not yet ripe
 =本:pún
@@ -1655,7 +1663,7 @@ $class [classifier for books]
 =条:tiâu
 $class [classifier for lothing]
 =杯:poe
-$class [Classifier for cups or glass]
+$class [classifier for cups or glass]
 =枕頭:chín-thâu
 $noun pillow
 =林:lîm
@@ -2481,7 +2489,7 @@ $verb to laugh
 =笑面:chhiò-bīn
 $adj (of a person) often smiles, likes to smile
 =第:tē
-$num [Affix before numerals to form ordinal numbers]
+$num [affix before numerals to form ordinal numbers]
 $explain
 第一 first
 第二 second
@@ -3059,7 +3067,7 @@ $verb to kiss
 =親情:chhin-chiâⁿ
 $family relative, family member
 =觀音:koan-im
-$noun (Buddhism) guanyin
+$noun (Buddhism) Guanyin
 =觀音竹:koan-im-tek
 $noun lucky bamboo (Dracaena sanderiana) (often associated with Feng Shui practices and is believed to bring positive energy, good luck, and prosperity)
 =解:gâi
@@ -3247,7 +3255,7 @@ $verb to ride a bicycle
 $verb buy wholesale, buy all the items
 $verb panic-buying
 =身軀:sìn-ku
-$noun a person's body
+$noun body, a person's body
 =身邊:sìn-pi
 $noun at one's side, the side next to one's body
 $noun (to have smth.) on one
@@ -3293,7 +3301,7 @@ $noun a traditional Chinese wedding engagement or betrothal rite (practiced by C
 =逐:ta̍k
 $pron each, every, per
 =逐擺:ta̍k-pái
-$advb [Used before a verb to indicate the every instance of the action done] Every time, each time
+$advb [used before a verb to indicate the every instance of the action done] Every time, each time
 =逐逐:ta̍k-ta̍k
 $advb (of noun or adj) each, every
 =逐逐日:ta̍k-ta̍k-ji̍t
@@ -3310,7 +3318,7 @@ $etyIDN masuk angin
 =運動:in-tong
 $verb to exercise (sports)
 =過:kōe
-$advb [Indicates an action has been done]
+$advb [indicates an action has been done]
 $verb to pass
 $verb to cross
 $verb to go (over the limit)
@@ -3431,7 +3439,7 @@ $noun drinkable water
 =開銷:khai-siau
 $verb to pay expenses
 =間:keng
-$class [Classifier for house, family]
+$class [classifier for house, family]
 $noun chamber
 $noun room
 =関:koan
@@ -3453,9 +3461,9 @@ $noun relationship (between some things), connection
 =阻:chah
 $verb to obstruct, to block, to impede, to hinder
 =阿叔:a-chek
-$pron [Used to call someone older than one] Mister
+$pron [used to call someone older than one] Mister
 =阿哥:a-ko
-$pron [Used to call someone the same age as one or slightly older] Sir, mister
+$pron [used to call someone the same age as one or slightly older] Sir, mister
 =阿妗:a-kīm
 $family mother's brother's wife
 =阿姆:a-ḿ
@@ -3463,7 +3471,7 @@ $family father's elder brother's wife
 =阿姑:a-ko͘
 $family father's sister
 =阿姨:a-î
-$pron [Used to call someone older than one] Mrs
+$pron [used to call someone older than one] Mrs
 $family mother's sister
 =阿嬸:a-chím
 $family father's younger brother's wife
@@ -3564,11 +3572,11 @@ $noun fireworks
 =響:hiáng
 $verb to ring, to make a sound, to emit a sound
 =頂:téng
-$class [Used for vehicles]
+$class [used for vehicles]
 =頂真:téng-chin
 $adj careful, focused, serious, conscientious
 =項:hāng
-$class [Classifier for items, tasks, principles, clauses, and variety]
+$class [classifier for items, tasks, principles, clauses, and variety]
 =順路:sūn-lō͘
 $verb (of a destination) to be in the same path as the stop, along the same route
 =順順:sūn-sūn
