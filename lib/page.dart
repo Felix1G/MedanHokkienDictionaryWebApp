@@ -342,7 +342,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
             )
           ),
 
-          dictEntries.isEmpty ?
+          if (dictEntries.isEmpty)
             // CENTER TEXT
             Expanded(
               child: Center(
@@ -360,54 +360,14 @@ class _DictionaryPageState extends State<DictionaryPage> {
                   ),
                 ),
               ),
-            ) :
-
+            )
+          else
             // LIST OF ENTRIES
             Expanded(child: ListView.separated(
               itemCount: dictEntries.length,
               itemBuilder: (context, index) {
                 final entryData = dictEntries[index];
-                final entry = entryData.entry;
-                return InkWell(
-                  // redirect to entry page
-                  onTap: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(
-                        builder: (_) => EntryPage(entryData: entryData),
-                      ),
-                    );
-                  },
-                  hoverColor: const Color.fromARGB(20, 239, 239, 239),
-                  mouseCursor: SystemMouseCursors.click,
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 7.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Wrap( // wraps the hanzi and poj text when they exceed the width of screen
-                          crossAxisAlignment: WrapCrossAlignment.center,
-                          spacing: entry.hanziDisplay.isEmpty ? 0 : 10,
-                          children: [
-                            // HANZI
-                            entry.hanziDisplay.isEmpty ? SizedBox() : ColoredText(
-                              text: entry.hanziDisplay,
-                              colors: entry.pojToneColours,
-                              style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))
-                            ),
-
-                            // POJ
-                            Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
-                          ]
-                        ),
-
-                        SizedBox(height: 10.0),
-
-                        // DEFINITION
-                        definitionDisplayText(entry.definitionsDisplay, normalSize: MediaQuery.textScalerOf(context).scale(17.5))
-                      ]
-                    )
-                  )
-                );
+                return respondingCondenseEntryWidget(context, entryData);
               },
               separatorBuilder: (context, index) => Divider(
                 color: const Color.fromARGB(255, 57, 72, 80), // customize color

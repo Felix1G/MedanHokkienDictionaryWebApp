@@ -14,14 +14,6 @@ const kEntriesAmount = 1733;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  
-  FlutterError.onError = (FlutterErrorDetails details) {
-    FlutterError.dumpErrorToConsole(details);
-    // Crash immediately in debug
-    if (kDebugMode) {
-      assert(false);
-    }
-  };
 
   runApp(const MyApp());
 }
@@ -114,7 +106,7 @@ class _LoadingPageState extends State<LoadingPage> {
     // mapping individual characters to entries
     var entryIndex = 0;
     for (final entry in kEntries) {
-      if (entry.hanzi[0].characters.length == 1) { // size of 1 = individual character
+      if (entry.hanzi.isNotEmpty && entry.hanzi[0].characters.length == 1) { // size of 1 = individual character
         kEntriesCharacter[entry.hanzi[0]] = entryIndex;
       }
       entryIndex++;

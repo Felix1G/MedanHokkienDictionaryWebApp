@@ -33,7 +33,7 @@ bool isStrHanzi(String str) {
   return _kHanziRegex.hasMatch(str);
 }
 
-// replaces all ';' to ',' except ';' within (), [], or {}
+// replaces all ',' to ';' except ',' within (), [], or {}
 String definitionDisplayReplaceSemicolon(String input) {
   final buffer = StringBuffer();
   final stack = <String>[];
@@ -45,8 +45,8 @@ String definitionDisplayReplaceSemicolon(String input) {
     } else if (")]}".contains(char)) {
       buffer.write(char);
       if (stack.isNotEmpty) stack.removeLast();
-    } else if (char == ';' && stack.isEmpty) {
-      buffer.write(',');
+    } else if (char == ',' && stack.isEmpty) {
+      buffer.write(';');
     }   else {
       buffer.write(char);
     }
@@ -152,18 +152,32 @@ class SearchToken {
 
 class ColoredText extends StatelessWidget {
   final String text;
-  final List<Color> colors;
+  final List<Color> colours;
   final TextStyle style;
+  final bool softWrap;
 
-  const ColoredText({super.key, required this.text, required this.colors, required this.style});
+  const ColoredText({super.key, required this.text, required this.colours, required this.style, this.softWrap = true,});
 
   @override
   Widget build(BuildContext context) {
-    return RichText(text: TextSpan(children: List.generate(text.characters.length, (index) {
-      return TextSpan(
-        text: text.characters.elementAt(index),
-        style: style.copyWith(color: colors[index % colors.length])
-      );
-    })));
+    return RichText(
+      text: TextSpan(
+        children: List.generate(text.characters.length, (index) {
+          return TextSpan(
+            text: text.characters.elementAt(index),
+            style: style.copyWith(color: colours[index % colours.length])
+          );
+        },
+      )),
+      softWrap: softWrap,
+      overflow: TextOverflow.visible,
+    );
   }
+}
+
+class Pair<F, S> {
+  final F first;
+  final S second;
+
+  Pair(this.first, this.second);
 }

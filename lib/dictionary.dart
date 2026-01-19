@@ -19,6 +19,7 @@ enum Category {
   phrase("\$phrase", "#PHRASE"),
   expression("\$express", "#EXPRESSION"),
   idiom("\$idiom", "#IDIOM"),
+  surname("\$surname", "#SURNAME"),
 
   food("\$food", "#FOOD", true),
   fruit("\$fruit", "#FRUIT", true),
@@ -32,7 +33,6 @@ enum Category {
   time("\$time", "#TIME", true),
   event("\$event", "#EVENT", true),
   vulgarity("\$vulgar", "#VULGARITY", true),
-  surname("\$surname", "#SURNAME", true),
   figurative("\$figur", "#FIGURATIVE", true),
 
   explanation("\$explain", "#EXPLANATION"),
@@ -264,8 +264,16 @@ Entry? parseEntry(List<String> textLines) {
   
   // slash ('/') divides hanzi or poj varieties
   final nameIndex = index; // saving this for debug info
-  List<String> hanzi = names[0].split("/");
-  List<String> poj = names[1].split("/");
+  List<String> hanzi = names[0]
+    .split("/") // slashes divide variations
+    .where((s) => s.trim().isNotEmpty) // remove empty strings
+    .toList();
+  List<String> poj = names[1]
+    .split("/")
+    .where((s) => s.trim().isNotEmpty)
+    .toList();
+
+  
 
   // acquire definition info
   List<Definition> definitions = List.empty(growable: true);
