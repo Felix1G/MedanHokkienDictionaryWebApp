@@ -338,5 +338,5 @@ Entry? parseEntry(List<String> textLines) {
 
 // path must start with "assets/"
 Future<String> loadDictionary() async {
-  return await rootBundle.loadString('assets/entries/dictionary.txt');
+  return await rootBundle.loadString('assets/entries/dictionary.txt', cache: false);
 }
