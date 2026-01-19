@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
 
 Widget definitionDisplayText(String text, {double normalSize = 16, double tagSizeScale = 0.7}) {
