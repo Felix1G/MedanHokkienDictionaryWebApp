@@ -45,6 +45,7 @@ class _LoadingPageState extends State<LoadingPage> {
 
   void getAllEntries() async {
     // split the dictionary text by lines
+    progressText = "Loading dictionary...";
     String dictionaryText = await loadDictionary();
     final dictionarySections = dictionaryText.split("\n");
     final sections = dictionarySections.length;
@@ -53,6 +54,7 @@ class _LoadingPageState extends State<LoadingPage> {
     List<String> buffer = List.empty(growable: true);
 
     // loop through each line
+    progressText = "Compiling dictionary...";
     var index = 0;
     while (index < sections) {
       final section = dictionarySections[index];
@@ -111,6 +113,7 @@ class _LoadingPageState extends State<LoadingPage> {
     progress += 1.0 / (kEntriesAmount + 1); //update progress bar
     
     // REDIRECT TO DICTIONARY PAGE
+    progressText = "Redirecting...";
     await Future.delayed(const Duration(milliseconds: 750));
 
     if (!mounted) return;
@@ -128,13 +131,10 @@ class _LoadingPageState extends State<LoadingPage> {
     GoogleFonts.getFont("Noto Sans SC");
     GoogleFonts.getFont("Noto Sans TC");
     
-    progressText = "Loading dictionary...";
+    progressText = "Initialising dictionary...";
     initDictionary();
     
-    progressText = "Compiling dictionary...";
     getAllEntries();
-    
-    progressText = "Loading fonts..."; // fonts may still continue to be loading here
   }
 
   @override
