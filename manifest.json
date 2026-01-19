@@ -1,6 +1,6 @@
 {
-    "name": "Medan Hokkien Dictionary",
-    "short_name": "Medan Hokkien",
+    "name": "medan_hokkien_dictionary",
+    "short_name": "medan_hokkien_dictionary",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
