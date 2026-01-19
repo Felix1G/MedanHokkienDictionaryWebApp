@@ -2,18 +2,20 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+const kBackgroundColor = Color.fromRGBO(35, 35, 35, 1.0);
+
 final ThemeData kAppTheme = ThemeData(
-  brightness: Brightness.light,
+  brightness: Brightness.dark,
   primarySwatch: Colors.red,
   primaryColor: Colors.red.shade500,
   colorScheme: ColorScheme.fromSeed(
     seedColor: Colors.red.shade500,
-    brightness: Brightness.light,
+    brightness: Brightness.dark,
   ),
-  scaffoldBackgroundColor: Color.fromRGBO(35, 35, 35, 1.0),
+  scaffoldBackgroundColor: kBackgroundColor,
   appBarTheme: const AppBarTheme(
     backgroundColor: Colors.red,
-    foregroundColor: Color.fromRGBO(35, 35, 35, 1.0),
+    foregroundColor: kBackgroundColor,
   )
 );
 

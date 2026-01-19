@@ -29,6 +29,14 @@ Widget definitionDisplayText(String text, {double normalSize = 16, double tagSiz
   ));
 }
 
+void redirectToEntryPage(BuildContext context, EntryData entryData) {
+  Navigator.of(context).push(
+    MaterialPageRoute(
+      builder: (_) => EntryPage(entryData: entryData),
+    ),
+  );
+}
+
 Widget condensedEntryWidget(BuildContext context, Entry entry) {
   return Padding(
     padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 7.0),
@@ -65,11 +73,7 @@ Widget respondingCondenseEntryWidget(BuildContext context, EntryData entryData) 
   return InkWell(
     // redirect to entry page
     onTap: () {
-      Navigator.of(context).push(
-        MaterialPageRoute(
-          builder: (_) => EntryPage(entryData: entryData),
-        ),
-      );
+      redirectToEntryPage(context, entryData);
     },
     splashColor: Colors.transparent, // Ink Well allows these two effects below easily, but splash is too distracting
     hoverColor: const Color.fromARGB(20, 239, 239, 239),
@@ -181,7 +185,48 @@ class _EntryPageState extends State<EntryPage> {
     for (int idx = 0; idx < definitions.length; idx++) {
       // check for the change of the main category
       final firstCategory = definitions[idx].categories.first;
-      if (firstCategory != parentCategory) {
+      if (firstCategory.redirect) {
+        if (parentCategory != null) {
+          dictWidgets.add(SizedBox(height: 20));
+        }
+
+        final redirectContent = definitions[idx].content;
+
+        dictWidgets.add(Row(children: [
+          Text.rich(definitionText(firstCategory.name, normalSize: dictFontSize, tagSizeScale: 1.0)),
+
+          MouseRegion(
+            cursor: SystemMouseCursors.click,
+            child: GestureDetector(
+              onTap: () {
+                final entryIdx = kEntries.indexWhere(
+                  (entry) => entry.hanzi.any((hanzi) => hanzi == redirectContent)
+                );
+
+                if (entryIdx == -1) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Entry does not exist.')),
+                  );
+                } else {
+                  redirectToEntryPage(context, EntryData(index: entryIdx));
+                }
+              },
+              child: Text(
+                redirectContent,
+                style: kCJKTextStyle.copyWith(
+                  fontSize: 1.2 * dictFontSize,
+                  color: Colors.cyan
+                ),
+              ),
+            ),
+          )
+        ]));
+
+        parentCategory = firstCategory;
+        continue;
+      }
+
+      if (firstCategory != parentCategory || firstCategory.redirect) {
         // only apply top padding for subsequent categories
         if (parentCategory != null) {
           dictWidgets.add(SizedBox(height: 20));
@@ -196,12 +241,15 @@ class _EntryPageState extends State<EntryPage> {
       final textWidgets = <Widget>[]; // texts separated by line under the same definition number
 
       // check for extra semantic categories
-      final catIterator = definitions[idx].categories.iterator;
-      catIterator.moveNext(); // iterator starts at index -1, this skips the first element
-      while (catIterator.moveNext()) {
-        // semantic category
-        textWidgets.add(Text.rich(definitionText("${catIterator.current.name} ", normalSize: dictFontSize, tagSizeScale: 1.0)));
+      if (!firstCategory.redirect) {
+        final catIterator = definitions[idx].categories.iterator;
+        catIterator.moveNext(); // iterator starts at index -1, this skips the first element
+        while (catIterator.moveNext()) {
+          // semantic category
+          textWidgets.add(Text.rich(definitionText("${catIterator.current.name} ", normalSize: dictFontSize, tagSizeScale: 1.0)));
+        }
       }
+
       // main definition content
       textWidgets.add(Text.rich(definitionText(definitions[idx].content, normalSize: dictFontSize, tagSizeScale: 1.0)));
 
@@ -268,6 +316,7 @@ class _EntryPageState extends State<EntryPage> {
     wordWidgets.sort((a, b) => a.first.compareTo(b.first));
 
     return Scaffold(
+      backgroundColor: kBackgroundColor,
       body: Column(
         children: [
           // TOP THIN DARKER RED LINE

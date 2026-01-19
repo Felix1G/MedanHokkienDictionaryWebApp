@@ -21,42 +21,44 @@ enum Category {
   idiom("\$idiom", "#IDIOM"),
   surname("\$surname", "#SURNAME"),
 
-  food("\$food", "#FOOD", true),
-  fruit("\$fruit", "#FRUIT", true),
-  drink("\$drink", "#DRINKS", true),
-  animal("\$animal", "#ANIMAL", true),
-  colour("\$colour", "#COLOUR", true),
-  family("\$family", "#FAMILY", true),
-  location("\$loc", "#LOCATION", true),
-  language("\$lang", "#LANGUAGE", true),
-  body("\$body", "#BODY", true),
-  time("\$time", "#TIME", true),
-  event("\$event", "#EVENT", true),
-  vulgarity("\$vulgar", "#VULGARITY", true),
-  figurative("\$figur", "#FIGURATIVE", true),
+  food("\$food", "#FOOD", semantic: true),
+  fruit("\$fruit", "#FRUIT", semantic: true),
+  drink("\$drink", "#DRINKS", semantic: true),
+  animal("\$animal", "#ANIMAL", semantic: true),
+  colour("\$colour", "#COLOUR", semantic: true),
+  family("\$family", "#FAMILY", semantic: true),
+  location("\$loc", "#LOCATION", semantic: true),
+  language("\$lang", "#LANGUAGE", semantic: true),
+  body("\$body", "#BODY", semantic: true),
+  time("\$time", "#TIME", semantic: true),
+  event("\$event", "#EVENT", semantic: true),
+  vulgarity("\$vulgar", "#VULGARITY", semantic: true),
+  figurative("\$figur", "#FIGURATIVE", semantic: true),
+  derogatory("\$derago", "#DEROGATORY", semantic: true),
 
   explanation("\$explain", "#EXPLANATION"),
 
   etymology("\$etymology", "#ETYMOLOGY"),
-  etyIDN("\$etyIDN", ""), // Indonesian
-  etyMSA("\$etyMSA", ""), // Malay
-  etyIMA("\$etyIMA", ""), // Indo/Malay
-  etyENG("\$etyENG", ""), // English
-  etyFRA("\$etyFRA", ""), // France
-  etyVNM("\$etyVNM", ""), // Vietnamese
-  etyYUE("\$etyYUE", ""), // Cantonese
-  etyTEO("\$etyTEO", ""), // Teochew
-  etyHAK("\$etyHAK", ""), // Hakka
-  etyCMN("\$etyCMN", ""), // Mandarin
-  etyJPN("\$etyJPN", ""), // Japanese
-  etySAN("\$etySAN", ""), // Sanskirt
+  etyIDN("\$etyIDN", "#ETYMOLOGY (Borrowed from Indonesian)"), // Indonesian
+  etyMSA("\$etyMSA", "#ETYMOLOGY (Borrowed from Malay)"), // Malay
+  etyIMA("\$etyIMA", "#ETYMOLOGY (Borrowed from Indonesian/Malay)"), // Indo/Malay
+  etyENG("\$etyENG", "#ETYMOLOGY (Borrowed from English)"), // English
+  etyFRA("\$etyFRA", "#ETYMOLOGY (Borrowed from French)"), // France
+  etyVNM("\$etyVNM", "#ETYMOLOGY (Borrowed from Vietnamese)"), // Vietnamese
+  etyYUE("\$etyYUE", "#ETYMOLOGY (Borrowed from Cantonese)"), // Cantonese
+  etyTEO("\$etyTEO", "#ETYMOLOGY (Borrowed from Teochew)"), // Teochew
+  etyHAK("\$etyHAK", "#ETYMOLOGY (Borrowed from Hakka)"), // Hakka
+  etyCMN("\$etyCMN", "#ETYMOLOGY (Borrowed from Mandarin)"), // Mandarin
+  etyJPN("\$etyJPN", "#ETYMOLOGY (Borrowed from Japanese)"), // Japanese
+  etySAN("\$etySAN", "#ETYMOLOGY (Borrowed from Sanskirt)"), // Sanskirt
 
-  see("\$see", "#SEE"),
-  opposite("\$opp", "#OPPOSITE");
+  see("\$see", "#See", redirect: true),
+  opposite("\$opp", "#Opposite", redirect: true);
 
   final String code, name;
   final bool semantic;
-  const Category(this.code, this.name, [this.semantic = false]);
+  final bool redirect;
+  const Category(this.code, this.name, {this.semantic = false, this.redirect = false});
 }
 
 class Definition {

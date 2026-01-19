@@ -10,11 +10,11 @@ import 'package:medan_hokkien_dictionary/util.dart';
 
 List<Entry> kEntries = List.empty(growable: true);
 HashMap<String, int> kEntriesCharacter = HashMap();
-const kEntriesAmount = 1733;
+const kEntriesAmount = 1730;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-
+  
   runApp(const MyApp());
 }
 
@@ -27,6 +27,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Medan Hokkien Dictionary',
       theme: kAppTheme,
+      builder: (context, child) {
+        return Container(
+          color: kBackgroundColor,
+          child: child,
+        );
+      },
       home: const LoadingPage(title: 'Loading Page'),
     );
   }
@@ -142,6 +148,7 @@ class _LoadingPageState extends State<LoadingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: kBackgroundColor,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

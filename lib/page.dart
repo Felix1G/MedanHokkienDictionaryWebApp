@@ -288,6 +288,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: kBackgroundColor,
       body: Column(
         children: [
           // TOP THIN DARKER RED LINE
