@@ -35,6 +35,7 @@ fn unique_chars(input: &str) -> String {
     result
 }
 
+// to execute the program, just run this function :)
 fn main() -> io::Result<()> {
     let input_fonts = ["fonts/font1.ttf", "fonts/font2.ttf", "fonts/font3.ttf", "fonts/font4.ttf"];
     let output_fonts = ["fonts/th-tshyn-1.ttf", "fonts/th-tshyn-2.ttf", "fonts/th-tshyn-3.ttf", "fonts/th-tshyn-4.ttf"];

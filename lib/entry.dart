@@ -1,11 +1,13 @@
 import 'dart:collection';
 
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
+import 'package:sliver_tools/sliver_tools.dart';
 
 TextSpan definitionText(String word, {double normalSize = 16, double tagSizeScale = 0.7}) {
   final isTag = word.startsWith('#');
@@ -143,6 +145,8 @@ class _EntryPageState extends State<EntryPage> {
   final EntryData entryData;
 
   int selectedPage = 0; // 0 = DICT, 1 = CHARS, 2 = WORDS
+  
+  final pageScrollController = ScrollController(initialScrollOffset: 0.0);
 
   _EntryPageState({ required this.entryData });
 
@@ -281,7 +285,7 @@ class _EntryPageState extends State<EntryPage> {
     }
 
     // CHARS subpage
-    final charWidgets = List.empty(growable: true);
+    final charWidgets = List<Widget>.empty(growable: true);
     if (entryData.entry.hanzi.isNotEmpty) {
       final chars = <String>{}; // get all unique individual characters
       for (final hanzi in entryData.entry.hanzi) {
@@ -292,10 +296,14 @@ class _EntryPageState extends State<EntryPage> {
 
       // compute the widgets for all characters
       for (final char in chars) {
-        final entryIdx = kEntriesCharacter[char];
+        final entries = kEntriesCharacter[char];
 
-        if (entryIdx != entryData.index && entryIdx != null) {
-          charWidgets.add(respondingCondenseEntryWidget(context, EntryData(index: entryIdx)));
+        if (entries == null) continue;
+
+        for (final entryIdx in entries) {
+          if (entryIdx != entryData.index && entryIdx != null) {
+            charWidgets.add(respondingCondenseEntryWidget(context, EntryData(index: entryIdx)));
+          }
         }
       }
     }
@@ -361,93 +369,156 @@ class _EntryPageState extends State<EntryPage> {
             ),
           ),
 
-          // background colour of top elements
-          Container(
-            width: double.infinity,
-            color: Color.fromRGBO(30, 30, 30, 1.0),
-            child: Column(children: [
-              // HANZI AND POJ
-              SizedBox(
-                width: double.infinity,
-                child: Column(children: [
-                  if (hanziWidgets.isNotEmpty) SizedBox(height: 30.0),
-                  if (hanziWidgets.isNotEmpty) Center(child: 
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                      child: Wrap(
-                        alignment: WrapAlignment.center,
-                        spacing: 4.0,
-                        runSpacing: 4.0,
-                        children: hanziWidgets,
-                      ),
-                    )
+          Expanded(child: ClipRRect(
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(5),
+              topRight: Radius.circular(5),
+              bottomLeft: Radius.zero,
+              bottomRight: Radius.zero),
+            child: NestedScrollView(
+              physics: selectedPage == 1 ? (charWidgets.isEmpty ? NeverScrollableScrollPhysics() : null) :
+                (selectedPage == 2 && wordWidgets.isEmpty ? NeverScrollableScrollPhysics() : null),
+              controller: pageScrollController,
+              floatHeaderSlivers: false,
+              headerSliverBuilder: (context, innerBoxIsScrolled) {
+                return [
+                  SliverOverlapAbsorber(
+                    handle: NestedScrollView.sliverOverlapAbsorberHandleFor(context),
+                    sliver: MultiSliver(
+                      children: [
+                        SliverToBoxAdapter(
+                          child: Container(
+                            width: double.infinity,
+                            color: Color.fromRGBO(30, 30, 30, 1.0),
+                            child: Column(
+                              children: [
+                                // HANZI
+                                if (hanziWidgets.isNotEmpty) SizedBox(height: 30),
+                                if (hanziWidgets.isNotEmpty)
+                                  Center(child: Padding(
+                                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                                    child: Wrap(
+                                      alignment: WrapAlignment.center,
+                                      spacing: 4,
+                                      runSpacing: 4,
+                                      children: hanziWidgets,
+                                    ),
+                                  )),
+
+                                SizedBox(height: 20),
+
+                                // POJ
+                                Center(child: Padding(
+                                  padding: const EdgeInsets.symmetric(horizontal: 16.0),
+                                  child: Wrap(
+                                    alignment: WrapAlignment.center,
+                                    spacing: 4,
+                                    runSpacing: 4,
+                                    children: pojWidgets,
+                                  ),
+                                )),
+
+                                SizedBox(height: 10),
+                              ],
+                            ),
+                          ),
+                        ),
+
+                        // NAVIGATION BUTTONS
+                        SliverPersistentHeader(
+                          pinned: true,
+                          floating: false,
+                          delegate: _EntryNavHeader(
+                            selectedPage: selectedPage,
+                            onSelect: (i) => setState(() {
+                              if (selectedPage != i) {
+                                pageScrollController.jumpTo(0.0); // always reset scroll after a button press
+                              }
+                              
+                              selectedPage = i;
+                            }),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
-                  SizedBox(height: 20.0),
-                  Center(child: 
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                      child: Wrap(
-                        alignment: WrapAlignment.center,
-                        spacing: 4.0,
-                        runSpacing: 4.0,
-                        children: pojWidgets,
-                      ),
-                    )
-                  )
-                ])
-              ),
-          
-              SizedBox(height: 10.0),
-
-              // NAVIGATION BUTTONS
-              Row(
-                children: [
-                  entryPageButton('DICT', selectedPage == 0, () {
-                    setState(() { selectedPage = 0; });
-                  }),
-                  if (charWidgets.isNotEmpty)
-                    entryPageButton('CHARS', selectedPage == 1, () {
-                      setState(() { selectedPage = 1; });
-                    }),
-                  if (wordWidgets.isNotEmpty)
-                    entryPageButton('WORDS', selectedPage == 2, () {
-                      setState(() { selectedPage = 2; });
-                    }),
-                ],
-              ),
-            ]
-          )),
-
-          // SUBPAGES
-          if (selectedPage == 0)
-            Expanded(child: SingleChildScrollView(child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
-              child: Column(
-                spacing: 5.0,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: dictWidgets
-              )
-            )))
-          else
-            Expanded(child: ListView.separated(
-              itemCount: (selectedPage == 1 ? charWidgets : wordWidgets).length,
-              itemBuilder: (context, index) {
-                if (selectedPage == 1) {
-                  return charWidgets[index];
-                } else {
-                  return wordWidgets[index].second;
-                }
+                ];
               },
-              separatorBuilder: (context, index) => Divider(
-                color: const Color.fromARGB(255, 57, 72, 80), // customize color
-                thickness: 1,       // customize thickness
-                height: 0,          // spacing handled by padding
+              body: Builder(
+                builder: (context) {
+                  return CustomScrollView(
+                    slivers: [
+                      // allows the scrolling to go below the pinned nav buttons (instead of going underneath it)
+                      SliverOverlapInjector(
+                        handle: NestedScrollView.sliverOverlapAbsorberHandleFor(context),
+                      ),
+
+                      // SUBPAGES
+                      SliverPadding(
+                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+                        sliver: SliverList(
+                          delegate: SliverChildBuilderDelegate(
+                            (context, index) {
+                              if (selectedPage == 0) return dictWidgets[index];
+
+                              final item = selectedPage == 1 ? charWidgets[index] : wordWidgets[index].second;
+                              final separator = index < (selectedPage == 1 ? charWidgets : wordWidgets).length - 1 ? // ignore divider for last elem
+                                Divider(
+                                  color: const Color.fromARGB(255, 57, 72, 80),
+                                  thickness: 1,
+                                  height: 0,
+                                ) : SizedBox();
+                              return Column(
+                                mainAxisAlignment: MainAxisAlignment.start,
+                                children: [
+                                  SizedBox(width: double.infinity, child: item), // sized box to force the width of the widget to maximum
+                                  separator
+                                ],
+                              );
+                            },
+                            childCount: selectedPage == 0 ? dictWidgets.length : (selectedPage == 1 ? charWidgets.length : wordWidgets.length),
+                          )
+                        ),
+                      ),
+                    ],
+                  );
+                },
               ),
             ))
+          ),
         ],
       ),
     );
   }
+}
+
+class _EntryNavHeader extends SliverPersistentHeaderDelegate {
+  final int selectedPage;
+  final ValueChanged<int> onSelect;
+
+  _EntryNavHeader({required this.selectedPage, required this.onSelect});
+
+  @override
+  double get minExtent => 60;
+  @override
+  double get maxExtent => 60;
+
+  @override
+  Widget build(context, shrinkOffset, overlapsContent) {
+    return Container(
+      color: const Color.fromRGBO(30, 30, 30, 1.0),
+      child: Row(
+        children: [
+          entryPageButton('DICT', selectedPage == 0, () => onSelect(0)),
+          entryPageButton('CHARS', selectedPage == 1, () => onSelect(1)),
+          entryPageButton('WORDS', selectedPage == 2, () => onSelect(2)),
+        ],
+      ),
+    );
+  }
+
+  @override
+  bool shouldRebuild(covariant _EntryNavHeader old) => old.selectedPage != selectedPage;
 }
 
 class EntryCopyableText extends StatelessWidget {

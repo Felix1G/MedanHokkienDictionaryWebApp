@@ -183,10 +183,15 @@ class _DictionaryPageState extends State<DictionaryPage> {
             var index = 1;
             while (index < tokens.length) {
               if (!tokens[index].isHanzi && tokens[index - 1].isHanzi) { // check for [hanzi, POJ] arrangement
-                int? entryIndex = kEntriesCharacter[tokens[index-1].content];
-                if (entryIndex != null) { // entry for character exists
+                final entries = kEntriesCharacter[tokens[index-1].content];
+                if (entries != null) { // entry for character exists
                   final poj = tokens[index].content;
-                  if (kEntries[entryIndex].chineseSearchUp.any((wordList) => wordList.any((word) => poj == word))) { // check for POJ match
+                  // check for POJ match
+                  if (entries.any(
+                      (entryIndex) => kEntries[entryIndex].chineseSearchUp.any(
+                        (wordList) => wordList.any((word) => poj == word)
+                      )
+                    )) {
                     tokens.removeAt(index); // remove the unnecessary POJ
                     continue;
                   }
@@ -223,7 +228,22 @@ class _DictionaryPageState extends State<DictionaryPage> {
                 var wordFail = true;
                 var wordScore = 10000000;
                 for (final word in wordList) { // go through each hanzi/poj
-                  if (stringContainsByRunes(word, token.content)) { // check for match
+                  // POJ with tone ending are handled differently (e.g. a3 may miss pai3)
+                  bool containNumber = !isStrHanzi(word) && !isStrHanzi(token.content) &&
+                    word.contains(kAnyNumberRegex) && token.content.contains(kAnyNumberRegex);
+                  var allowByNum = false;
+                  if (containNumber) {
+                    final wordList = splitAlphabetNumber(word);
+                    final wordPOJ = wordList.first;
+                    final wordTone = wordList[1];
+                    final contentList = splitAlphabetNumber(token.content);
+                    final contentPOJ = contentList.first;
+                    final contentTone = contentList[1];
+                    
+                    allowByNum = contentTone == wordTone && wordPOJ.contains(contentPOJ); // should only contain ASCII chars, no need runes
+                  }
+
+                  if (allowByNum || (!containNumber && stringContainsByRunes(word, token.content))) { // check for match
                     wordFail = false;
 
                     // calculate score for each word

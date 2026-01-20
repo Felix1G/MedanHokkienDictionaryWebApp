@@ -30,6 +30,7 @@ enum Category {
   location("\$loc", "#LOCATION", semantic: true),
   language("\$lang", "#LANGUAGE", semantic: true),
   body("\$body", "#BODY", semantic: true),
+  disease("\$disease", "#DISEASE", semantic: true),
   time("\$time", "#TIME", semantic: true),
   event("\$event", "#EVENT", semantic: true),
   vulgarity("\$vulgar", "#VULGARITY", semantic: true),
@@ -51,6 +52,7 @@ enum Category {
   etyCMN("\$etyCMN", "#ETYMOLOGY (Borrowed from Mandarin)"), // Mandarin
   etyJPN("\$etyJPN", "#ETYMOLOGY (Borrowed from Japanese)"), // Japanese
   etySAN("\$etySAN", "#ETYMOLOGY (Borrowed from Sanskirt)"), // Sanskirt
+  etyTAM("\$etyTAM", "#ETYMOLOGY (Borrowed from Tamil)"), // Tamil
 
   see("\$see", "#See", redirect: true),
   opposite("\$opp", "#Opposite", redirect: true);
@@ -164,7 +166,7 @@ class Entry {
     final pojSearchUpToneless = pojSearchUp
       .map((words) => words
         .map((word) => word
-          .replaceAll(RegExp(r'[0-9]'), '')
+          .replaceAll(kAnyNumberRegex, '')
         ).toList()
       ).toList();
 

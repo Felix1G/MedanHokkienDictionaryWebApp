@@ -3,13 +3,13 @@ import 'dart:collection';
 import 'package:flutter/foundation.dart' hide Category;
 import 'package:flutter/material.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
-import 'package:medan_hokkien_dictionary/page.dart';
+import 'package:medan_hokkien_dictionary/page.dart' deferred as heavy;
 import 'package:medan_hokkien_dictionary/style.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
 
 List<Entry> kEntries = List.empty(growable: true);
-HashMap<String, int> kEntriesCharacter = HashMap();
-const kEntriesAmount = 1730;
+HashMap<String, List<int>> kEntriesCharacter = HashMap();
+const kEntriesAmount = 1746;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -112,7 +112,12 @@ class _LoadingPageState extends State<LoadingPage> {
     var entryIndex = 0;
     for (final entry in kEntries) {
       if (entry.hanzi.isNotEmpty && entry.hanzi[0].characters.length == 1) { // size of 1 = individual character
-        kEntriesCharacter[entry.hanzi[0]] = entryIndex;
+        final hanziKey = entry.hanzi[0];
+        if (kEntriesCharacter.containsKey(hanziKey)) {
+          kEntriesCharacter[hanziKey]?.add(entryIndex);
+        } else {
+          kEntriesCharacter[hanziKey] = [entryIndex];
+        }
       }
       entryIndex++;
     }
@@ -123,10 +128,12 @@ class _LoadingPageState extends State<LoadingPage> {
     setState(() => progressText = "Redirecting...");
     await Future.delayed(const Duration(milliseconds: 750));
 
+    await heavy.loadLibrary();
+
     if (!mounted) return;
 
     Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (_) => const DictionaryPage(title: 'Dictionary Page')),
+      MaterialPageRoute(builder: (_) => heavy.DictionaryPage(title: 'Dictionary Page')),
     );
   }
 

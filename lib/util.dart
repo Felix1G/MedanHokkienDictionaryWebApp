@@ -4,6 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
 
+final kAnyNumberRegex = RegExp(r'[0-9]');
+final _kSplitAlphabetNum = RegExp(r'([a-zA-Z.]+)|(\d+)');
+
+List<String> splitAlphabetNumber(String input) {
+  return _kSplitAlphabetNum.allMatches(input).map((match) => match.group(0)!).toList();
+}
+
 String charAtUni(String text, int index) {
   return String.fromCharCode(text.runes.elementAt(index));
 }
