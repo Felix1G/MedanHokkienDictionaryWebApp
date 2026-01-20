@@ -2,7 +2,6 @@ import 'dart:collection';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
@@ -12,7 +11,7 @@ TextSpan definitionText(String word, {double normalSize = 16, double tagSizeScal
   final isTag = word.startsWith('#');
   return TextSpan(
         text: isTag ? '${word.substring(1)} ' : '$word ',
-        style: (isTag ? TextStyle(fontFamily: 'ThickFont') : GoogleFonts.notoSans()).copyWith(
+        style: (isTag ? TextStyle(fontFamily: 'ThickFont') : kCJKTextStyle).copyWith(
           fontSize: isTag ? tagSizeScale * normalSize : normalSize,
           fontWeight: isTag ? FontWeight.w900 : FontWeight.w200,
           letterSpacing: isTag ? 1.5 : null,
@@ -307,7 +306,7 @@ class _EntryPageState extends State<EntryPage> {
       var entryIdx = 0;
       for (final checkEntry in kEntries) {
         // check if any new entry contains characters of this entry
-        if (entryIdx != entryData.index && checkEntry.hanzi.any((str) => entryData.entry.hanzi.any((strThis) => str.contains(strThis)))) {
+        if (entryIdx != entryData.index && checkEntry.hanzi.any((str) => entryData.entry.hanzi.any((strThis) => stringContainsByRunes(str, strThis)))) {
           wordWidgets.add(Pair(checkEntry.hanzi.first.length, respondingCondenseEntryWidget(context, EntryData(index: entryIdx))));
         }
         entryIdx++;

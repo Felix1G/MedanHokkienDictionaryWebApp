@@ -1,4 +1,5 @@
 // ignore_for_file: curly_braces_in_flow_control_structures
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
@@ -121,6 +122,21 @@ String removeDiacritics(String poj) {
   });
 
   return result;
+}
+
+// essentially calling a.contains(b) with support for unicode characters especially CJK extensions
+bool stringContainsByRunes(String a, String b) {
+  final aRunes = a.runes.toList();
+  final bRunes = b.runes.toList();
+
+  if (bRunes.length > aRunes.length) return false;
+
+  for (int i = 0; i <= aRunes.length - bRunes.length; i++) {
+    if (listEquals(aRunes.sublist(i, i + bRunes.length), bRunes)) {
+      return true;
+    }
+  }
+  return false;
 }
 
 const List<Color> kToneColours = [

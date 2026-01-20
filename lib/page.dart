@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:medan_hokkien_dictionary/entry.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
@@ -224,7 +223,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
                 var wordFail = true;
                 var wordScore = 10000000;
                 for (final word in wordList) { // go through each hanzi/poj
-                  if (word.contains(token.content)) { // check for match
+                  if (stringContainsByRunes(word, token.content)) { // check for match
                     wordFail = false;
 
                     // calculate score for each word
@@ -352,7 +351,7 @@ class _DictionaryPageState extends State<DictionaryPage> {
                   child: Text(inputEmpty ?
                     'Welcome to the Medan Hokkien dictionary.\nCurrently, there are ${kEntries.length} entries.\n\nTap the icon on the top right to toggle between English and Chinese/POJ search.' :
                     'Sorry, no entry was found.',
-                    style: GoogleFonts.notoSans().copyWith(
+                    style: TextStyle(fontFamily: 'DefaultFont').copyWith(
                       color: Colors.grey,
                       fontWeight: FontWeight.bold,
                       fontSize: 18.0
@@ -417,18 +416,16 @@ class TopSearchBanner extends StatelessWidget {
           child: TextField(
             key: ValueKey(isEnglish),
             controller: searchController,
-            style: TextStyle(
+            style: kCJKTextStyle.copyWith(
               color: Colors.white,
-              fontFamily: GoogleFonts.notoSans().fontFamily!,
+              fontFamily: 'DefaultFont',
               fontWeight: FontWeight.bold,
               fontSize: minDouble(0.1 * MediaQuery.of(context).size.width, 13) // Search bar text font size
             ),
             onChanged: onChangedText,
             decoration: InputDecoration(
               hintText: isEnglish ? "Search in English..." : "Search in Chinese or POJ...",
-              hintStyle: const TextStyle(
-                color: Colors.white,
-              ),
+              hintStyle: const TextStyle(color: Colors.white),
               prefixIcon: const Icon(Icons.search),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(16),
@@ -486,6 +483,7 @@ class ToggleLangIcon extends StatelessWidget {
             isEnglish ? 'E' : 'C',
             style: const TextStyle(
               color: Colors.red,
+              fontFamily: 'DefaultFont',
               fontSize: 15,
               fontWeight: FontWeight.bold,
             ),

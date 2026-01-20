@@ -2,7 +2,6 @@ import 'dart:collection';
 
 import 'package:flutter/foundation.dart' hide Category;
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:medan_hokkien_dictionary/dictionary.dart';
 import 'package:medan_hokkien_dictionary/page.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
@@ -134,10 +133,6 @@ class _LoadingPageState extends State<LoadingPage> {
   @override
   void initState() {
     super.initState();
-
-    // load the first fonts
-    GoogleFonts.getFont("Noto Sans SC");
-    GoogleFonts.getFont("Noto Sans TC");
     
     setState(() => progressText = "Initialising dictionary...");
     initDictionary();

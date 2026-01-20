@@ -168,7 +168,7 @@ class Entry {
         ).toList()
       ).toList();
 
-    final hanziSearchUp = hanzi.map((word) => word.split('').toList()).toList();
+    final hanziSearchUp = hanzi.map((word) => word.characters.toList()).toList();
 
     // putting into list to avoid code repetition at the loop below
     final allLists = [pojSearchUp, pojSearchUpToneless, hanziSearchUp, pojWordListIterable.toList()];
