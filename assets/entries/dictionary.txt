@@ -1839,6 +1839,8 @@ $see 棉蘭
 =水房:chúi-pāng
 $noun toilet
 $noun bathroom
+=水紅:chúi-âng
+$noun $colour pink
 =水紅色:chúi-âng-sek
 $noun $colour pink
 =水罐:chúi-koan
@@ -1965,6 +1967,8 @@ $noun sandals, slippers
 $noun $event Qingming, pure brightness festival, tomb sweeping day, celebration for the dead
 $explain
 1st day of the 5th solar term of the traditional Chinese lunisolar calendar, or usually 4, 5, or 6 April on the Gregorian calendar.
+=清:chheng
+$adj (of liquid) clear, unmixed
 =清楚:chheng-chhó
 $adj clear, distinct, understandable
 =清草:chin-cháu
@@ -2047,6 +2051,8 @@ $noun $food cook a meal
 $noun $food fried rice
 =炒麵:chhá-mī
 $noun $food fried noodles
+=烏:o͘
+$noun $colour black
 =烏色:o͘-sek
 $noun $colour black
 =烏豆油:o͘-tāu-iû
@@ -2189,7 +2195,7 @@ $noun $food shumai (a traditional steamed Chinese dumpling)
 $noun $food edible bird's nest (can also be made as a drink)
 =燕鳥:iàn-chiáu
 $noun $animal swallows (Hirundinidae genus) and Swifts (Apodidae family)
-=燙:tǹg
+=燙:thǹg
 $verb to scald, to hit (something) with hot or boiling water
 =爆炸:pàu-cha
 $verb to explode, to blow up, to detonate
@@ -2364,6 +2370,8 @@ $noun $disease fever
 $noun $food Chinese prosperity cakes, Moho cakes (similar Indonesian traditional cake)
 =發貨:kiàⁿ-hòe
 $verb to send goods, to distribute goods
+=白:pe̍ⁿh
+$noun $colour white
 =白糖糕:pak-thòng-ko
 $noun $food white sugar cakes
 $etyYUE baak6tong4 gou1
@@ -2598,6 +2606,8 @@ $noun $drink sugar water
 $noun $food porridge
 =糞斗:pùn-táu
 $noun dustpan
+=紅:âng
+$noun $colour red
 =紅包:âng-pau
 $noun red pocket
 =紅棗:âng-chó
@@ -2879,6 +2889,8 @@ $adj bitter
 $noun $loc England
 =英國話:eng-kok-ōa
 $noun $lang British English
+=茄:kiô
+$noun $colour purple
 =茄色:kiô-sek
 $noun $colour purple
 =茶:têⁿ
@@ -2918,7 +2930,7 @@ $noun $food japanese spinach, horenso
 =華語:hôa-ì
 $noun $lang Mandarin Chinese
 =萬:bān
-$num ten thousand
+$num ten thousand (10000)
 $explain
 三萬 saⁿ bān 30000
 =落:lak
@@ -2982,6 +2994,8 @@ $noun $food ginger
 $noun $food cayenne pepper, chili
 =薪水:sin-lô
 $noun salary, wage
+=藍:lâm
+$noun $colour blue
 =藍天:lâm-thi
 $noun clear sky
 =藍色:lâm-sek
@@ -3060,6 +3074,8 @@ $noun shirt
 $noun T-shirt
 =衫褲:saⁿ-khò͘
 $noun clothes
+=熨衫:ut-saⁿ
+$verb to iron (for pressing clothes)
 =衰:soe
 $verb to be unlucky, to have bad luck
 $adj unlucky
@@ -3530,9 +3546,9 @@ $noun next door
 $verb to do as one pleases
 =雄:hiông
 $adj rapid, fast (in speed)
-=雜菜:chap-chhài
+=雜菜:cha̍p-chhài
 $noun $food capcai, mixed vegetables dish
-=雜貨店:chap-hòe-tiàm
+=雜貨店:cha̍p-hòe-tiàm
 $noun grocery store, basic goods store, toko sembako (Indonesian)
 =雞:ke
 $noun $animal chicken, rooster
@@ -3587,6 +3603,8 @@ $noun fog
 $adj blurry
 =霧霧:bū-bū
 $adj blurry
+=青:chheⁿ
+$noun $colour green
 =青色:chheⁿ-sek
 $noun $colour green
 =青菜:chheⁿ-chhài
@@ -3831,6 +3849,8 @@ $adj troublesome, inconvenient
 $verb tingling
 =黃:n̂g
 $surname Ng, Wee, Ooi
+=黃:ûi
+$noun $colour yellow
 =黃色:ûi-sek
 $noun $colour yellow
 =黑胡椒:o͘-hô͘-chio
@@ -3976,6 +3996,10 @@ $noun box, case (generally small, with a lid)
 $class [classifier for boxes or cases]
 =色水:sek-chúi
 $noun colour, hue
+=色人:sek-lâng
+$noun people of colour (non-white people)
+=色人種:sek-lâng-chéng
+$noun people of colour (non-white people)
 =汽水:khì-chúi
 $noun $drink aerated water, soft drink, soda water
 $noun $drink sodapop, carbonated drinks
