@@ -14,6 +14,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>medan_hokkien_dictionary</title>
   <link rel="manifest" href="manifest.json">
   <style>
@@ -39,6 +40,14 @@
       font-size: 3em;
       font-weight: 900;
       text-align: center;
+      margin: 0;
+    }
+
+    #htitleEnglish {
+      font-size: 1.5em;
+      font-weight: 900;
+      text-align: center;
+      letter-spacing: 5px;
       margin-bottom: 0.2em;
     }
 
@@ -130,11 +139,18 @@
     #flutter {
       display: none;
     }
+
+    #loadingText {
+      display: none;
+    }
   </style>
 </head>
 <body>
+  <h1 id="loadingText"> Loading Dictionary Page... </h1>
+
   <div id="landing">
     <h1 id="htitle">棉蘭福建詞典</h1>
+    <h1 id="htitleEnglish">Medan Hokkien Dictionary</h1>
     <h2 id="hsubtitle">By Felix K. Sujono</h2>
 
     <div class="divbuttons">
@@ -153,7 +169,7 @@ This dictionary hopes to preserve Medan Hokkien digitally while making it access
     </p>
 
     <p class="pdesc note">
-Note: This project is made for fun. I try to ensure the entries are as accurate as possible to the actual vocabulary we use in Medan Hokkien. However, I am not a professional linguist or dictionary writer, so please do not consider this dictionary as serious academic material.
+Disclaimer: This is a hobby project. I try my best to ensure accuracy, but this dictionary is not intended as a formal academic source. Many entries are referenced from Wiktionary, while others are my own contributions based on input from others. You are welcome to use this dictionary as a reference if you'd like.
     </p>
     
     <hr>
@@ -190,6 +206,7 @@ Do you any suggestions? You can tell me! Leave an email at <a href="mailto:fksma
     visitDictBtn.addEventListener("click", () => {
       document.getElementById('landing').style.display = 'none';
       document.getElementById('flutter').style.display = 'block';
+      document.getElementById('loadingText').style.display = 'block';
 
       loadScript('flutter.js');
       loadScript('flutter_bootstrap.js');
