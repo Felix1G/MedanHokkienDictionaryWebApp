@@ -37,6 +37,7 @@ enum Category {
   vulgarity("\$vulgar", "#VULGARITY", semantic: true),
   figurative("\$figur", "#FIGURATIVE", semantic: true),
   derogatory("\$derago", "#DEROGATORY", semantic: true),
+  honourific("\$honor", "#HONOURIFIC", semantic: true),
 
   explanation("\$explain", "#EXPLANATION"),
 

@@ -9,7 +9,7 @@ import 'package:medan_hokkien_dictionary/util.dart';
 
 List<Entry> kEntries = List.empty(growable: true);
 HashMap<String, List<int>> kEntriesCharacter = HashMap();
-const kEntriesAmount = 1777;
+const kEntriesAmount = 1798;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -128,6 +128,14 @@ class _LoadingPageState extends State<LoadingPage> {
         }
       }
       entryIndex++;
+    }
+
+    if (kDebugMode) {
+      for (final entryL in kEntriesCharacter.entries) {
+        if (entryL.value.length > 1) {
+          debugPrint("More than one entries for the character '${entryL.key}'.");
+        }
+      }
     }
 
     progress += 1.0 / (kEntriesAmount + 1); //update progress bar
