@@ -3,6 +3,7 @@ import 'dart:collection';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:medan_hokkien_dictionary/entry.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
 
@@ -237,6 +238,20 @@ ${definitions.map((d) => '    $d').join('\n')}
 )
 ''';
   }
+}
+
+class EntryWidgets {
+  final Widget condensedWidget;
+
+  factory EntryWidgets(BuildContext context, EntryData entryData) {
+    return EntryWidgets._internal(
+      condensedWidget: condensedEntryWidget(context, entryData.entry)
+    );
+  }
+  
+  const EntryWidgets._internal({
+    required this.condensedWidget,
+  });
 }
 
 int obtainHanziPOJHash(Entry entry) {

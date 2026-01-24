@@ -39,9 +39,10 @@ void redirectToEntryPage(BuildContext context, EntryData entryData) {
 }
 
 Widget condensedEntryWidget(BuildContext context, Entry entry) {
+  final scale = MediaQuery.textScalerOf(context);
   return Padding(
     padding: const EdgeInsets.symmetric(vertical: 16.0, horizontal: 7.0),
-    child: Column(
+    child: RepaintBoundary(child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Wrap( // wraps the hanzi and poj text when they exceed the width of screen
@@ -53,33 +54,31 @@ Widget condensedEntryWidget(BuildContext context, Entry entry) {
               ColoredText(
                 text: entry.hanziDisplay,
                 colours: entry.pojToneColours,
-                style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(30.0))
+                style: kCJKTextStyle.copyWith(fontSize: scale.scale(30.0))
               ),
 
             // POJ
-            Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: MediaQuery.textScalerOf(context).scale(20.0)))
+            Text(entry.pojDisplay, style: kCJKTextStyle.copyWith(fontSize: scale.scale(20.0)))
           ]
         ),
 
         const SizedBox(height: 10.0),
 
         // DEFINITION
-        definitionDisplayText(entry.definitionsDisplay, normalSize: MediaQuery.textScalerOf(context).scale(17.5))
+        definitionDisplayText(entry.definitionsDisplay, normalSize: scale.scale(17.5))
       ]
-    )
+    ))
   );
 }
 
 Widget respondingCondenseEntryWidget(BuildContext context, EntryData entryData) {
   return InkWell(
     // redirect to entry page
-    onTap: () {
-      redirectToEntryPage(context, entryData);
-    },
+    onTap: () => redirectToEntryPage(context, entryData),
     splashColor: Colors.transparent, // Ink Well allows these two effects below easily, but splash is too distracting
     hoverColor: const Color.fromARGB(20, 239, 239, 239),
     mouseCursor: SystemMouseCursors.click,
-    child: condensedEntryWidget(context, entryData.entry)
+    child: entryData.entryWidgets.condensedWidget // cached, which is called by the function above (condensedEntryWidget)
   );
 }
 

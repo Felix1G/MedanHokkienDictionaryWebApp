@@ -32,22 +32,22 @@ final ThemeData kAppTheme = ThemeData(
   )
 );
 
-final kDefaultTextStyle = TextStyle(
+final kDefaultTextStyle = const TextStyle(
   fontFamily: 'DefaultFont'
 );
 
-final kCJKTextStyle = TextStyle(
+final kCJKTextStyle = const TextStyle(
   fontFamily: 'DefaultFont'
 ).copyWith(
   fontFamilyFallback: ['CJKFont1', 'CJKFont2', 'CJKFont3', 'CJKFont4'],
   color: Colors.white
 );
 
-final kUITextStyle = TextStyle(
+final kUITextStyle = const TextStyle(
   fontFamily: 'NunitoFont'
 );
 
-final kCategoryTextStyle = TextStyle(
+final kCategoryTextStyle = const TextStyle(
   fontFamily: 'ThickFont'
 );
 

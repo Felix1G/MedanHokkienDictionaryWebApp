@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:medan_hokkien_dictionary/entry.dart';
+import 'package:medan_hokkien_dictionary/fulllist.dart';
 import 'package:medan_hokkien_dictionary/main.dart';
 import 'package:medan_hokkien_dictionary/style.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
@@ -402,61 +403,88 @@ class _DictionaryPageState extends State<DictionaryPage> {
                   curve: Curves.ease,
                   child: _isAdvancedOpen ? Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 4),
-                    child: Row(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        Text("Open Entry #", style: kDefaultTextStyle.copyWith(color: Colors.white)),
+                        Row(
+                          children: [
+                            Text("Open Entry #", style: kDefaultTextStyle.copyWith(color: Colors.white)),
 
-                        // SEARCH BAR
-                        SizedBox(
-                          width: 100.0,
-                          height: 30.0,
-                          child: TextField(
-                            controller: _entryNumTextController,
-                            keyboardType: TextInputType.number,
-                            inputFormatters: [
-                              FilteringTextInputFormatter.digitsOnly, // allow only numbers
-                              LengthLimitingTextInputFormatter(4), //up to 4 digit numbers
-                            ],
-                            decoration: InputDecoration(
-                              hintText: 'Entry ID',
-                              hintStyle: kUITextStyle.copyWith(fontSize: 13.0),
-                              border: const OutlineInputBorder(),
+                            // SEARCH BAR
+                            SizedBox(
+                              width: 100.0,
+                              height: 30.0,
+                              child: TextField(
+                                controller: _entryNumTextController,
+                                keyboardType: TextInputType.number,
+                                inputFormatters: [
+                                  FilteringTextInputFormatter.digitsOnly, // allow only numbers
+                                  LengthLimitingTextInputFormatter(4), //up to 4 digit numbers
+                                ],
+                                decoration: InputDecoration(
+                                  hintText: 'Entry ID',
+                                  hintStyle: kUITextStyle.copyWith(fontSize: 13.0),
+                                  border: const OutlineInputBorder(),
+                                ),
+                              )
                             ),
-                          )
+
+                            const SizedBox(width: 12),
+
+                            // SEARCH BUTTON
+                            TextButton(
+                              onPressed: () {
+                                int? entryIndex = int.tryParse(_entryNumTextController.text);
+                                if (entryIndex != null) {
+                                  entryIndex--; // entry number index shown in the app is 1-indexed
+                                  if (entryIndex < kEntries.length && entryIndex >= 0) {
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
+                                        builder: (_) => EntryPage(entryData: EntryData(index: entryIndex!)),
+                                      ),
+                                    );
+                                  } else {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      const SnackBar(content: Text('Sorry, no entry was found.')),
+                                    );
+                                  }
+                                }
+                              },
+                              style: TextButton.styleFrom(
+                                shadowColor: Colors.transparent,
+                                backgroundColor: const Color.fromARGB(255, 153, 41, 33)
+                              ),
+                              child: Text('Search', style: kUITextStyle.copyWith(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold
+                              )),
+                            ),
+                          ],
                         ),
 
-                        const SizedBox(width: 12),
+                        const SizedBox(height: 10.0),
 
-                        // SEARCH BUTTON
+                        // ALL ENTRIES PAGE
                         TextButton(
                           onPressed: () {
-                            int? entryIndex = int.tryParse(_entryNumTextController.text);
-                            if (entryIndex != null) {
-                              entryIndex--; // entry number index shown in the app is 1-indexed
-                              if (entryIndex < kEntries.length && entryIndex >= 0) {
-                                Navigator.of(context).push(
-                                  MaterialPageRoute(
-                                    builder: (_) => EntryPage(entryData: EntryData(index: entryIndex!)),
-                                  ),
-                                );
-                              } else {
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  const SnackBar(content: Text('Sorry, no entry was found.')),
-                                );
-                              }
-                            }
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (_) => FullListPage(),
+                              ),
+                            );
                           },
                           style: TextButton.styleFrom(
                             shadowColor: Colors.transparent,
                             backgroundColor: const Color.fromARGB(255, 153, 41, 33)
                           ),
-                          child: Text('Search', style: kUITextStyle.copyWith(
+                          child: Text('View All Entries', style: kUITextStyle.copyWith(
                             color: Colors.white,
                             fontWeight: FontWeight.bold
                           )),
                         ),
-                      ],
-                    )  
+                      ]
+                    )
                   ) : const SizedBox.shrink()
                 )
               ],

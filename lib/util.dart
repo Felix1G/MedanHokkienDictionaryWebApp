@@ -156,6 +156,7 @@ class EntryData {
   final int index;
   int score = 0;
   Entry get entry => kEntries[index];
+  EntryWidgets get entryWidgets => kEntriesWidget[index];
 
   EntryData({required this.index});  
 }

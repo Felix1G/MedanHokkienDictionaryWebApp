@@ -8,8 +8,9 @@ import 'package:medan_hokkien_dictionary/style.dart';
 import 'package:medan_hokkien_dictionary/util.dart';
 
 List<Entry> kEntries = List.empty(growable: true);
+List<EntryWidgets> kEntriesWidget = List.empty(growable: true);
 HashMap<String, List<int>> kEntriesCharacter = HashMap();
-const kEntriesAmount = 1944;
+const kEntriesAmount = 1950;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -119,19 +120,22 @@ class _LoadingPageState extends State<LoadingPage> {
     // mapping individual characters to entries
     var entryIndex = 0;
     for (final entry in kEntries) {
-      if (entry.hanzi.isNotEmpty && entry.hanzi[0].characters.length == 1) { // size of 1 = individual character
-        final hanziKey = entry.hanzi[0];
-        if (kEntriesCharacter.containsKey(hanziKey)) {
-          kEntriesCharacter[hanziKey]?.add(entryIndex);
-        } else {
-          kEntriesCharacter[hanziKey] = [entryIndex];
+      if (entry.hanzi.isNotEmpty) {
+        for (final hanzi in entry.hanzi) {
+          if (hanzi.characters.length == 1) { // size of 1 = individual character
+            if (kEntriesCharacter.containsKey(hanzi)) {
+              kEntriesCharacter[hanzi]?.add(entryIndex);
+            } else {
+              kEntriesCharacter[hanzi] = [entryIndex];
+            }
+          }
         }
       }
       entryIndex++;
     }
 
     if (kDebugMode) {
-      final polyphonics = "一倒分吹彎種曾葉變開黃霧臭下莫才落"; // these characters are allowed to have their polyphonics (多音字) e.g. surname
+      final polyphonics = "一倒分吹彎種曾葉變開黃霧臭下莫才落相"; // these characters are allowed to have their polyphonics (多音字) e.g. surname
       final polyphonicsList = List.empty(growable: true);
       for (final char in polyphonics.characters) {
         polyphonicsList.add(char);
@@ -154,6 +158,17 @@ class _LoadingPageState extends State<LoadingPage> {
 
     if (!mounted) return;
 
+    setState(() {
+      for (int idx = 0; idx < kEntries.length; idx++) {
+        kEntriesWidget.add(EntryWidgets(context, EntryData(index: idx)));
+      }
+
+      Navigator.of(context).pushReplacement(
+        MaterialPageRoute(builder: (_) => heavy.DictionaryPage(title: 'Dictionary Page')),
+      );
+    });
+
+    //kEntriesWidget.add(EntryWidgets(entry, context));
     Navigator.of(context).pushReplacement(
       MaterialPageRoute(builder: (_) => heavy.DictionaryPage(title: 'Dictionary Page')),
     );
