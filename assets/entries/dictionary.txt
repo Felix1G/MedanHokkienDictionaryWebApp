@@ -131,8 +131,6 @@ $noun underneath
 $noun below
 $noun under
 $noun underneath
-=無要緊:bô-iàu-kín/biàu-kín
-$express not a problem, it's fine, never mind about that
 =世界:sì-kài
 $adj trending, getting popular, getting famous
 =世界:sè-kài
@@ -356,6 +354,8 @@ $verb to break, to puncture, to tear
 $verb to turn on, to light, to activate
 =做骯髒:chò-lah-sam
 $verb to dirty, to make something filthy
+=做摧:chò-chhùi
+$verb to destroy, to demolish, to tear down
 =停喘:thêng-chhoán
 $verb to rest
 $verb to have a break
@@ -600,6 +600,10 @@ $adj brutal
 $adj pushed to the limit
 =半點鐘:pòaⁿ-tiám-cheng
 $noun $time 30 minutes, half an hour
+=半桶屎:pòaⁿ-tháng-sái
+$idiom mediocre (in general)
+=半羅:pòaⁿ-lô
+$noun half a kilogram (0.5kg)
 =卍字:bān-jī
 $noun swastika pattern
 =印尼:in-nī
@@ -671,6 +675,8 @@ Kalinga is an ancient kingdom in India.
 $noun a person with dark skin, a Black person
 $explain
 This word is used descriptively without hostile intent. However, it can be perceived as racist or offensive outside the dialectal context.
+=烏暗暈:o͘-àm-hîn
+$idiom being in a difficult situation
 =吊車:tiàu-chhia
 $noun cable car, gondola, ropeway
 =名:miâ
@@ -794,6 +800,8 @@ $adj thirsty
 $noun $body canker sore
 =喙適:chhùi-chit
 $adj palatable, suitable taste
+=喙含金:chhùi-kâm-kim
+$idiom to keep silent, to stay silent
 =嗎:bô
 $auxi [at the end of a "yes-no" question]
 =嘔:áu
@@ -851,8 +859,12 @@ $noun hotel
 $noun pajamas, the shirt for sleeping
 =困醒:khùn-chhéⁿ/khòn-chhéⁿ
 $verb to wake up, to get up
+=國:kok
+$noun country
 =國家:kok-ke
 $noun country
+=國歌:kok-koa
+$noun national anthem
 =圓:îⁿ
 $adj circular, round, spherical
 $noun $food tangyuan or tanguan
@@ -956,6 +968,8 @@ $verb (of a child or teenager) to grow up, to mature
 $adj (of a child or teenager) grown-up, mature
 =大主大意:tōa-chú tōa-ì
 $idiom taking an action without authorization
+=大老牛:tōa-làu-gû
+$idiom (of a person) grown-up but still acting immature
 =天:thiⁿ
 $noun sky
 =天低低:thiⁿ kēⁿ-kēⁿ
@@ -1251,7 +1265,7 @@ $noun job (position)
 $noun employee
 $noun worker
 $noun servant
-=工廠:kang-chhióng
+=工廠:kang-chhióng/kang-tiôⁿ
 $noun factory, plant, mill
 =巴刹:pa-sat
 $noun market
@@ -1270,8 +1284,12 @@ $verb to wish
 $verb to hope
 =師父:su-hū
 $noun master, teacher, shifu
+=常:siông
+$advb frequently, often, usually
 =常常:siông-siông
 $advb often, frequently (in general)
+=常風:siông-hong
+$noun common cold
 =年:nî
 $noun $time year
 =幻夢:hoak-bāng
@@ -1335,6 +1353,8 @@ $adj curved, arched, bent, crooked
 $adj curved, arched, bent, crooked
 =彎:oan
 $verb to turn (left or right)
+=爿:peng
+$noun side
 =彼爿:hit-peng/hé-peng/ié-peng
 $pron over there
 =彼個:hé-le/héʳ-le
@@ -1469,7 +1489,7 @@ $pron us
 $phrase exclamation of shock, walao
 =戲:hì
 $noun movie, film
-=戲台:hì-tài
+=戲臺:hì-tâi
 $noun cinema
 $noun theatre
 =房:pāng
@@ -1711,9 +1731,12 @@ $verb $vulgar to heed, to pay attention to (usually in the negative)
 $express Do not care about (someone), Do not respond to (someone)
 =插:chhah
 $verb to stick into, to insert, to poke, to pierce
+$verb to plug in (electric appliances)
 =插入:chhah-ji̍p
 $verb to insert, to stick in
 $verb (of a car) to pull in
+=插頭:chhah-thâu
+$noun plug (of electrical devices)
 =揕:tìm
 $verb to throw, to toss, to hurl, to fling
 =換:ōa
@@ -2149,8 +2172,11 @@ $noun bark (of a tree)
 =橋:kiô
 $noun bridge
 =機:ki
+$noun machine, appliance
 $noun phone, handphone
 $see 手電
+=機會:ki-hōe
+$noun opportunity, chance
 =檨仔:suāi-á
 $noun $fruit mango
 $explain
@@ -2170,6 +2196,7 @@ $noun necessities, needs
 =款:khoán
 $noun attitude
 $noun type (of person)
+$noun variety, type
 =歇暝:hiah-mêⁿ
 $verb to stay the night, to sleep over
 $etyTEO hiah4 mê5
@@ -2315,9 +2342,9 @@ $verb to pay attention
 =泰國:thái-kok
 $noun $loc Thailand
 =泰國話:thái-kok-ōa
-$noun $lang Thai kanguage
+$noun $lang Thai language
 =泰國文:thái-kok-bûn
-$noun $lang Thai kanguage
+$noun $lang Thai language
 =泰國人:thái-kok-lâng
 $noun Thai person
 =洗:sé
@@ -2481,6 +2508,7 @@ $verb to shower in the rain, to bathe in the rain, to play in the rain
 =火:hóe
 $noun fire
 $noun light
+$noun lamp
 =火燒:hóe-sio
 $verb to go on fire, to be ablaze, to be burning
 =火車:hóe-chhia
@@ -2518,6 +2546,10 @@ $noun $food dark soy sauce
 =烏龜:o͘-ku
 $noun $animal turtle
 $noun $animal tortoise
+=烏暗天:o͘-àm-thiⁿ
+$noun cloudy weather
+=烏陰:o͘-im
+$adj (weather) gloomy, overcast, cloudy
 =烘:hang
 $adj warm
 =焗:ke̍k
@@ -2608,7 +2640,7 @@ $verb to have no free time, busy
 $verb to have no relationship (between some things), to have no connection
 =無頂真:bô-téng-chin
 $verb to lack focus, to be careful
-=無頭無尾:bô-thâu-bô-bóe
+=無頭無尾:bô thâu bô bóe
 $idiom a story with no linkage
 =無頭神:bô-thâu-sîn
 $verb to be forgetful, to be scatterbrained, to be absent-minded
@@ -2618,6 +2650,14 @@ $verb to be unlucky, to have bad fortune
 $verb (of seafood) to be stale, to not be fresh
 =無膽:bô-táⁿ
 $adj fearful, scared, nervous
+=無魚蝦翉好:bô hû hêⁿ pún hó
+$idiom choosing an alternative when something is not available
+=無要緊:bô-iàu-kín/biàu-kín
+$express not a problem, it's fine, never mind about that
+=無路用:bô-lō͘-iòng
+$idiom (of a person) useless
+=無康頭:bô-khang-thâu
+$idiom (of a person) offering a favour that annoys the one being asked for
 =煎:chian
 $verb to fry, to deep-fry
 =煎雞:chian-ke
@@ -2660,6 +2700,8 @@ $adj ripe, ripened
 $verb to simmer, to stew (vegetables, etc.) in water
 =熱:joa̍h
 $adj hot (weather)
+=熱天:joa̍h-thiⁿ
+$noun sunny weather
 =燈籠:teng-lông
 $noun Chinese paper lantern
 =燒賣:sio-māi
@@ -2688,8 +2730,12 @@ $noun $family father, dad
 $noun $family grandfather (maternal), mother's father
 =爽:sóng
 $adj (of an action or place) enjoyable, pleasurable, cheerful, delightful
-=牌:phiau
+=標:phiau
 $noun brand, trademark
+=牌:pâi
+$noun board, plate
+$noun sign, signboard, placard, tablet
+$noun (of a card game, mahjong, dominoes, etc.) playing cards
 =牙:gê
 $noun tooth, teeth
 =牙抿:gê-bín
@@ -3004,6 +3050,7 @@ $adj (of length) short
 $noun undergarment, underwear
 =石:chio̍h
 $noun rock, stone
+$see 硞
 =石榴:siā-liû
 $noun $fruit pomegranate
 =破:phòa
@@ -3238,8 +3285,6 @@ $noun kilogram (Kg)
 =羅啲:lô-ti
 $noun $food bread
 $etyIMA roti
-=半羅:pòaⁿ-lô
-$noun half a kilogram (0.5kg)
 =羊:iôⁿ
 $noun $animal goat, lamb
 =美國:bí-kok
@@ -3383,6 +3428,8 @@ $verb (of noodles) to become soaky
 $noun $body pancreas
 =膽:táⁿ
 $noun $figur bravery, courage, guts
+=膽生石:táⁿ seⁿ chio̍h
+$idiom (of a person) brave
 =膽:tám
 $noun $body gall bladder
 =膽固醇:tám-ku̍t-sûn
@@ -3541,6 +3588,8 @@ $verb (religion) to be possessed by spiritual entities and start dancing and pro
 $verb to rain heavily
 =落雨點:lo̍͘h-hō͘-tiám
 $verb to drizzle
+=落霜:lo̍h-sng
+$verb to snow
 =葉:ia̍p
 $surname Yap
 =葉:hio̍h
@@ -3914,6 +3963,8 @@ $noun there, over there, that spot
 $express Over there!
 =起紅:khí-âng
 $verb to resume wearing red clothing after the end of a mourning period according to Chinese tradition
+=起風:khí-hong
+$verb to become windy
 =趣味:chhù-bī
 $adj cute, adorable
 =跋:poa̍h
@@ -3946,6 +3997,8 @@ $noun $body leg
 $noun $body toenail
 =路:lō͘
 $noun road
+=路牌:lō͘-pâi
+$noun road sign, billboard
 =跳:thiàu
 $verb to jump, to hop
 =跳舞:thiàu-bú
@@ -4030,7 +4083,7 @@ $noun delivery drivers, delivery poeple, a person who delivers food
 $pron each, every, per
 =逐擺:ta̍k-pái
 $advb each, every
-$advb [used before a verb to indicate the every instance of the action done] Every time, each time
+$advb [used before a verb to indicate the every instance of the action done] every time, each time
 $see 逐逐
 =逐逐:ta̍k-ta̍k
 $advb (of noun or adjective) each, every
@@ -4214,6 +4267,8 @@ $explain
 $verb to close up shop, to shut up shop
 =崁熄:khàm-sit
 $verb to turn off (the lights, etc)
+=崁一爿目睭:khàm chēʳ-peng ba̍k-chiu
+$idiom to close one's eye, to not acknowledge (something), to assume something had never happened and letting it go
 =闔:ha̍p
 $noun all of, whole of, entire (family)
 $see 闔家
@@ -4224,9 +4279,9 @@ $noun relationship (between some things), connection
 =阻:chah
 $verb to obstruct, to block, to impede, to hinder
 =阿叔:a-chek
-$pron [used to address someone older than one] mister
+$pron [used to address someone older than one] Mr, Mister
 =阿哥:a-ko
-$pron [used to address someone the same age as one or slightly older] sir, mister
+$pron [used to address someone the same age as one or slightly older] Sir, Mister
 =阿妗:a-kīm
 $noun $family mother's brother's wife
 =阿姆:a-ḿ
@@ -4266,6 +4321,8 @@ $noun $animal chick
 $noun $food chicken rice
 =雞飯:ke-pūiⁿ/ke-pn̄g
 $noun $food chicken rice
+=雞共鴨:ke kah ah
+$idiom to have a language barrier, unable to understand each other due to language differences
 =雨:hō͘
 $noun rain, drizzle
 $noun a downward fall of water droplets (in general)
@@ -4291,8 +4348,12 @@ $surname Lui, Lei
 $noun electricity
 =電機:tiān-ki
 $noun electric appliances
+=電火:tiān-hóe
+$noun electric lamp
 =電器店:tiān-khí-tiàm
 $noun shop that sells electrical appliances
+=電水爐:tiān-chúi-lô͘
+$noun kettle
 =電視:tiān-sé
 $noun television
 $noun TV
@@ -4305,6 +4366,7 @@ $noun phone number, telephone number
 =硞:khok
 $noun rock, stone
 $noun the sound of knocking something hard (such as when a stone is struck)
+$see 石
 =霜:sng
 $noun ice
 =霜硞:sng-khok
@@ -4315,8 +4377,6 @@ $noun fridge, refrigerator
 $noun $drink ice-chilled water, cold water
 =霜膏:sng-ko
 $noun $food ice cream
-=常風:siông-hong
-$noun common cold
 =霧:ù
 $noun fog
 =霧:bū
@@ -4428,8 +4488,8 @@ $noun caregiver (for children)
 =風:hong
 $noun wind, breeze
 $noun mood (of a person)
-=風扇:hong-sìⁿ/hong-sih
-$noun fan
+=風扇:hong-sìⁿ
+$noun fan (electric)
 =風景:hong-kéng
 $noun view, scenery, sight, scene, landscape
 =風水:hong-súi
@@ -4481,9 +4541,17 @@ $verb to eat breakfast
 $verb to be vegetarian, to be vegan
 =食好料:chia̍h-hó-liāu
 $verb to eat delicious food, to savor a meal
+=食苦:chia̍h-khó͘
+$verb (literally) to eat something bitter
+$verb to struggle
+$verb to bite the bullet, to do something difficult that one has put off or has been hesitating over
 =食圓:chia̍h-îⁿ
 $verb to eat tangyuan or tanguan
 $see 圓
+=食力:chia̍h-la̍t
+$adj terrible, disastrous, in deep trouble
+=食𣍐乾:chia̍h-bē-ta
+$idiom jealous
 =飯:pūiⁿ/pn̄g
 $noun $food cooked rice
 =飯食較濟，話減講:pūiⁿ chia̍h khah-chè, ōa kiám kóng
@@ -4637,6 +4705,10 @@ $noun $food sesame oil
 $adj troublesome, inconvenient
 =麻麻:bâ-bâ
 $verb tingling
+=麻糬:môa-chî
+$noun $food mochi, muah chee
+$explain
+A type of rice cake made from glutinous rice
 =黃:n̂g
 $surname Ng, Wee, Ooi
 =黃:ûi
@@ -4745,6 +4817,7 @@ $explain
 伊一步擺来 He rarely comes/For once, he comes
 =功夫:kang-hu
 $noun $time time (to do something)
+$noun skill, expertise
 $noun (especially in martial arts) skill, art, workmanship
 $noun Chinese martial arts (kung fu)
 =早年頭:chá-nî-thâu
@@ -4847,7 +4920,7 @@ $noun $event Chinese New Year
 $noun $time midnight
 =今暝:kin-mêⁿ
 $noun $time tonight, this evening
-=最近:chòe-kìn
+=最近:chòe-kìn/chùi-kìn
 $advb recently, lately, of late
 $noun in the near future, soon
 =聰明:chhong-bêng
@@ -4945,7 +5018,9 @@ $noun something regarded as principal, doctrinal or classical
 =經理:keng-lí
 $noun manager, handler, director
 =經驗:keng-giām
-$noun experience
+$noun experience (as in something one undergoes through)
+=經濟:keng-chè
+$noun $finance economy
 =念經:liām-keng
 $verb (Buddhism) to chant or recite sutras
 $verb $figur to keep harping on, to speak or sing in a repetitive and monotone manner
@@ -5111,7 +5186,46 @@ $advb entirely, completely
 $see 甲了
 =但是:tān-sī
 $conj but
+$explain
+Medan speakers use 'tapi' more often, which is from Indonesian.
 =哇:óa
 $express wow, dear me
 =哎呀:ai-ia
-$express aiya; alas; ah; oh; ugh; ouch (expressing surprise, annoyance, pain, frustration, sarcasm, etc.)
+$express aiya, alas, ah, oh, ugh, ouch (expressing surprise, annoyance, pain, frustration, sarcasm, etc.)
+=翉:pún
+$advb also, too, as well
+$explain
+This character is not standard and is chosen purely for phonetic matching.
+$etyIMA pun
+=含:kâm
+$verb to hold or put in the mouth (e.g. candies, etc)
+=東:tang
+$noun east, east direction
+=西:sai
+$noun west, west direction
+=嫌東嫌西:hiâm tang hiâm sai
+$idiom picky, choosy
+=試:chhì
+$verb to test, to try
+=窒:that
+$verb to stop up, to obstruct, to block up
+=窒車:that-chhia
+$verb to be jammed with traffic, to be congested, to have a traffic jam
+=條件:tiâu-kiāⁿ
+$noun rules, regulation 
+=文:bûn
+$noun language
+=社會:siā-hōe
+$noun society, community
+=爐:lô͘
+$noun fireplace, stove, oven, furnace
+=所以:só͘-í
+$conj therefore, so, consequently
+$explain
+Most Medan speakers rather use 'jadi' which is from Indonesian.
+=各個國家有各個國家的國歌:kok-kâi kok-ke ū kok-kâi kok-ke ê kok-koa
+$phrase Every nation has its own national anthem
+$explain
+This is a famous Chinese tounge twister.
+$see 國家
+$see 國歌
