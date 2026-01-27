@@ -36,15 +36,15 @@ $adj fragrant, flower-smelling
 $advb [placed after a verb to indicate the action as present continuous tense i.e. the action is being done]
 =:chhau
 $noun tips, suggestions
-=:thà-má
+=:thā-má
 $advb just now
 =:te-tiàm
 $advb always, often
-=:pau-chhô
+=:páu-chhô
 $verb (To eat) whatever, anything
 =:khiⁿ-khá
 $advb (to eat) light food, something light
-=:tò͘-mat
+=:tò͘-mat/tò͘-ma̍t
 $noun $food tomato
 $etyIDN tomat
 =:pu-ki-mak
@@ -1696,6 +1696,8 @@ $explain
 𤆬伊轉 To bring him/her home
 =𤆬路:chhōa-lō͘
 $verb to guide through a path or road
+=𤆬人滷:chhōa-lâng-ló͘
+$verb to make people hate someone
 =按呢:án-neⁿ
 $advb very, rather, quite
 $advb extremely
@@ -2773,7 +2775,7 @@ $noun $animal swallows (Hirundinidae genus) and swifts (Apodidae family)
 $noun $animal swallows (Hirundinidae genus) and swifts (Apodidae family)
 =燙:thǹg
 $verb to scald, to hit (something) with hot or boiling water
-=爆炸:pàu-cha
+=爆炸:pàu-chà
 $verb to explode, to blow up, to detonate
 =爛:nōa
 $adj soft, mushy
@@ -2875,6 +2877,7 @@ $verb to play, to amuse oneself freely
 $noun glass (material)
 =班:pan
 $noun class
+$class group (of people)
 =球:kiû
 $noun ball
 =籽:chí
@@ -3489,6 +3492,8 @@ $verb to swell, to inflate, to expand
 $verb (of noodles) to become soaky
 =膨鼠:phong-chhú
 $noun $animal squirrel
+=膨毛鼠:phong-mô͘-chhú
+$noun $animal squirrel
 =杜排:tu-pái
 $noun $animal squirrel
 $etyIDN tupai
@@ -3519,7 +3524,7 @@ $verb (of food) to be burnt, to be overcooked
 $adj foul smell
 $adj stinky
 $adj smelly
-=臭尿薟:chhàu-jō-hiām
+=臭尿薟:chhàu-jō-hiam
 $verb to smell like urine, to have a urinous odour
 =臭汗酸:chhàu-kōaⁿ-sui/chhàu-kōaⁿ-sng
 $verb to stink from sweat
@@ -3699,7 +3704,7 @@ $adj thin and soft (material)
 $noun $food popiah (Hokkien and Teochew-style spring roll)
 =薑:kio͘
 $noun $food ginger
-=薟椒囝:hiām-chio-kiáⁿ
+=薟椒囝:hiam-chio-kiáⁿ
 $noun $food cayenne pepper, chili
 =薪水:sin-lô
 $noun salary, wage
@@ -4133,10 +4138,10 @@ $verb to polish (a surface)
 $verb to return home, to go home
 =轉來:túi-lâi
 $verb to return home, to come home
-=薟:hiām
+=薟:hiam
 $adj spicy
 $adj pungent
-=薟椒:hiām-chio
+=薟椒:hiam-chio
 $noun $food chili
 =近:kìn
 $adj close, near
@@ -4265,6 +4270,9 @@ $noun business sales
 =鐳:lui
 $noun money
 $etyIMA duit
+=鐳面:lui-bīn
+$noun (literally) money face
+$adj greedy for money
 =鎖:só
 $verb to lock
 =鎖匙:só-sî
@@ -5307,3 +5315,21 @@ $verb to kneel, to prostrate
 $adj generous, beneficent
 =倇:oan
 $prepo at, in, to be located on, to (a place)
+=鼠:chhú
+$noun $animal rat, mouse, rodent, any member of the superfamily Muroidea
+$noun Rat (first Chinese zodiac)
+=振動:tín-tāng
+$verb to move, to shake
+$adj $figur withstand, holding out against
+=𣍐振動:bē tín-tāng
+$adj unable to withstand, unable to hold out against
+=可能:khó͘-lêng
+$adj possible, probable, likely
+=句:kù
+$noun sentence, phrase
+$class sentence(s)
+=一句話:chēʳ-kù ōa
+$noun a word, language (as in someone's words)
+$explain
+予我一句話 Give me a word
+$see 予
